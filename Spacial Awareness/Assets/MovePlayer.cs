@@ -33,6 +33,12 @@ public class MovePlayer : MonoBehaviour
         //bool isRunning = hasHorizontalInput || hasVerticalInput;
         //anim.SetBool("IsRunning", isRunning);
 
+        if (hasInput)
+        {
+            body.AddForce(new Vector3(0f, 20f, 0f));
+        }
+
+
 
         Vector3 desiredForward = Vector3.RotateTowards(transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
         m_Rotation = Quaternion.LookRotation(desiredForward);
