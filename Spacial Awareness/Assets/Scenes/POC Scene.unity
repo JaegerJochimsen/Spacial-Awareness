@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 20
+  m_CameraDistance: 22
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
@@ -540,6 +540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RG_Terrain-Mesh-07
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 486a1262f9b832045bfdfaa7d6114710, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 486a1262f9b832045bfdfaa7d6114710, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -601,6 +605,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3bf57d1d7cdc2ef4f85f29c73d3e7fec, type: 3}
       propertyPath: m_Name
       value: RG_Terrain-Mesh-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3bf57d1d7cdc2ef4f85f29c73d3e7fec, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3bf57d1d7cdc2ef4f85f29c73d3e7fec, type: 3}
       propertyPath: m_RootOrder
@@ -1374,7 +1382,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 2
   m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &422381605
@@ -1389,8 +1397,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25890cd8965867f42a4fe2e586ece369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnSpeed: 10
-  speed: 10
+  turnSpeed: 15
+  speed: 15
+  groundCheck: {fileID: 1063517886}
+  groundDistance: 0.5
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 8
+  isGrounded: 1
 --- !u!1 &451405488 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 127644, guid: 4486733afe3d4bf4f9d01e5536082d74, type: 3}
@@ -1501,6 +1515,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: adbb845018a19c84ab980437a3da2ef0, type: 3}
       propertyPath: m_Name
       value: RG_Terrain-Mesh-04
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: adbb845018a19c84ab980437a3da2ef0, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: adbb845018a19c84ab980437a3da2ef0, type: 3}
       propertyPath: m_RootOrder
@@ -1838,6 +1856,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: db1552bf73af6294bac4422e73042b2f, type: 3}
       propertyPath: m_Name
       value: RG_Terrain-Mesh-01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: db1552bf73af6294bac4422e73042b2f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: db1552bf73af6294bac4422e73042b2f, type: 3}
       propertyPath: m_RootOrder
@@ -2203,8 +2225,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.14, z: -20}
+  m_LocalRotation: {x: 0.2164396, y: 0, z: 0, w: 0.97629607}
+  m_LocalPosition: {x: 0, y: 12.437602, z: -19.93877}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2254,6 +2276,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 546dac8082f13bc40b63cca499c08ae8, type: 3}
       propertyPath: m_Name
       value: RG_Terrain-Mesh-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 546dac8082f13bc40b63cca499c08ae8, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 546dac8082f13bc40b63cca499c08ae8, type: 3}
       propertyPath: m_RootOrder
@@ -2549,6 +2575,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 479122, guid: e332ab09906f0274a89a35ab12ba3b1a, type: 3}
   m_PrefabInstance: {fileID: 936974708}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1063517885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1063517886}
+  m_Layer: 0
+  m_Name: groundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1063517886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063517885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.0024, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 422381600}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1101792708 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 176930, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
@@ -2602,6 +2658,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 60dac4541678ff54a9690e314df2a72d, type: 3}
       propertyPath: m_Name
       value: RG_Terrain-Mesh-02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 60dac4541678ff54a9690e314df2a72d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 60dac4541678ff54a9690e314df2a72d, type: 3}
       propertyPath: m_RootOrder
@@ -2703,6 +2763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RG_Terrain-Mesh-12
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f9b075983bc7d44408ad92adf939d065, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f9b075983bc7d44408ad92adf939d065, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2765,6 +2829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RG_Terrain-Mesh-05
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e60878c343be266469e6570212f2faa5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e60878c343be266469e6570212f2faa5, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2826,6 +2894,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 286ee0a49be317f48a7adb4eba633bcb, type: 3}
       propertyPath: m_Name
       value: RG_Terrain-Mesh-09
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 286ee0a49be317f48a7adb4eba633bcb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 286ee0a49be317f48a7adb4eba633bcb, type: 3}
       propertyPath: m_RootOrder
@@ -2956,14 +3028,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375594988}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.14, z: -20}
+  m_LocalRotation: {x: 0.2164396, y: 0, z: 0, w: 0.97629607}
+  m_LocalPosition: {x: 0, y: 12.437602, z: -19.93877}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 85715495}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 25, y: 0, z: 0}
 --- !u!1 &1380215719 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 286ee0a49be317f48a7adb4eba633bcb, type: 3}
@@ -3368,6 +3440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RG_Terrain-Mesh-08
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 721552ed1838a6d4b85a2e7372560f33, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 721552ed1838a6d4b85a2e7372560f33, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3486,6 +3562,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 7ffdb0373582d034c84b5878d320c352, type: 3}
       propertyPath: m_Name
       value: RG_Terrain-Mesh-03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7ffdb0373582d034c84b5878d320c352, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7ffdb0373582d034c84b5878d320c352, type: 3}
       propertyPath: m_RootOrder
@@ -3648,7 +3728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1898906288}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Landscape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3805,6 +3885,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: df58f0cba6506cc40ab54389761aa495, type: 3}
       propertyPath: m_Name
       value: RG_Terrain-Mesh-06
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: df58f0cba6506cc40ab54389761aa495, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: df58f0cba6506cc40ab54389761aa495, type: 3}
       propertyPath: m_RootOrder
