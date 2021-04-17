@@ -35,7 +35,7 @@ public class MovePlayer : MonoBehaviour
 
         if (hasInput)
         {
-            body.AddForce(new Vector3(0f, 20f, 0f));
+            body.AddForce(new Vector3(0f, 17f, 0f));
         }
 
 
