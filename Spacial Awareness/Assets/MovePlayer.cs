@@ -36,7 +36,17 @@ public class MovePlayer : MonoBehaviour
         if (hasInput)
         {
             body.AddForce(new Vector3(0f, 17f, 0f));
+
+            // Just for rudementry testing
+            body.AddForce(new Vector3(0f, 1f, 0f), ForceMode.Impulse);
+
         }
+
+        /* if (Keyboard.current.spaceKey.wasPressedThisFrame) {
+
+             Vector3 movement = new Vector3(0.0f, 10.0f, 0.0f);
+             rb.AddForce(movement * speed, ForceMode.Impulse);
+         } */
 
 
 
