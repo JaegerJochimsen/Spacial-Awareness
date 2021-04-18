@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -199,9 +199,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2035646914}
     m_Modifications:
+    - target: {fileID: 125422, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 126106, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 176930, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
       propertyPath: m_Name
       value: Glowing Rock Blue 5 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 176930, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 456950, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
       propertyPath: m_RootOrder
@@ -283,6 +295,10 @@ PrefabInstance:
     - target: {fileID: 185610, guid: df547bf229800194aa6279cf8a2430f6, type: 3}
       propertyPath: m_Name
       value: Rock 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 185610, guid: df547bf229800194aa6279cf8a2430f6, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 416672, guid: df547bf229800194aa6279cf8a2430f6, type: 3}
       propertyPath: m_RootOrder
@@ -529,6 +545,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d20a43965a442f344b45eba4c87cd7ae, type: 3}
+--- !u!1 &129210017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 126106, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+  m_PrefabInstance: {fileID: 374920946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &129210021
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129210017}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 434146824aba7af4a93aa4ed05dc65a0, type: 3}
 --- !u!1001 &136037423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -715,6 +750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock 12 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 172060, guid: 5bdf56d7f1d650446a4e3db0ff35e203, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 459786, guid: 5bdf56d7f1d650446a4e3db0ff35e203, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -811,6 +850,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: -1
   m_Mesh: {fileID: 4300002, guid: db1552bf73af6294bac4422e73042b2f, type: 3}
+--- !u!1 &234382123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 125422, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+  m_PrefabInstance: {fileID: 374920946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &234382127
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234382123}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 434146824aba7af4a93aa4ed05dc65a0, type: 3}
 --- !u!1 &241471418
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,6 +922,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: -1
   m_Mesh: {fileID: 4300002, guid: 3bf57d1d7cdc2ef4f85f29c73d3e7fec, type: 3}
+--- !u!1 &279231584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 125422, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+  m_PrefabInstance: {fileID: 60693210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &279231588
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279231584}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 434146824aba7af4a93aa4ed05dc65a0, type: 3}
 --- !u!4 &291815681 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 424066, guid: 98492fd4b0ce10b4a8aaa35fa7f6a489, type: 3}
@@ -881,7 +958,7 @@ GameObject:
   - component: {fileID: 299786027}
   - component: {fileID: 299786026}
   - component: {fileID: 299786025}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Landing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,6 +1077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glowing Rock Blue 1
       objectReference: {fileID: 0}
+    - target: {fileID: 136630, guid: 98492fd4b0ce10b4a8aaa35fa7f6a489, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 424066, guid: 98492fd4b0ce10b4a8aaa35fa7f6a489, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1057,6 +1138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glowing Rock Blue 6
       objectReference: {fileID: 0}
+    - target: {fileID: 147164, guid: 55d2170943c24424fb8400963479a14f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 437002, guid: 55d2170943c24424fb8400963479a14f, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -1113,6 +1198,10 @@ PrefabInstance:
     - target: {fileID: 169128, guid: a71826ab0be7d274e8a701fc1fae2cde, type: 3}
       propertyPath: m_Name
       value: Rock 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 169128, guid: a71826ab0be7d274e8a701fc1fae2cde, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 430984, guid: a71826ab0be7d274e8a701fc1fae2cde, type: 3}
       propertyPath: m_RootOrder
@@ -1179,9 +1268,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2035646914}
     m_Modifications:
+    - target: {fileID: 125422, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 126106, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 176930, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
       propertyPath: m_Name
       value: Glowing Rock Blue 5 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 176930, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 456950, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
       propertyPath: m_RootOrder
@@ -1240,6 +1341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock 12 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 172060, guid: 5bdf56d7f1d650446a4e3db0ff35e203, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 459786, guid: 5bdf56d7f1d650446a4e3db0ff35e203, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -1296,6 +1401,10 @@ PrefabInstance:
     - target: {fileID: 127644, guid: 4486733afe3d4bf4f9d01e5536082d74, type: 3}
       propertyPath: m_Name
       value: Glowing Rock Blue 3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 127644, guid: 4486733afe3d4bf4f9d01e5536082d74, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 427906, guid: 4486733afe3d4bf4f9d01e5536082d74, type: 3}
       propertyPath: m_RootOrder
@@ -1429,7 +1538,9 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 8
+  isGrounded: 1
   JetParticles: {fileID: 1469912142}
+  flying: 0
 --- !u!1 &451405488 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 127644, guid: 4486733afe3d4bf4f9d01e5536082d74, type: 3}
@@ -1578,6 +1689,10 @@ PrefabInstance:
     - target: {fileID: 172060, guid: 5bdf56d7f1d650446a4e3db0ff35e203, type: 3}
       propertyPath: m_Name
       value: Rock 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 172060, guid: 5bdf56d7f1d650446a4e3db0ff35e203, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 459786, guid: 5bdf56d7f1d650446a4e3db0ff35e203, type: 3}
       propertyPath: m_RootOrder
@@ -1855,9 +1970,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2035646914}
     m_Modifications:
+    - target: {fileID: 125422, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 126106, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 176930, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
       propertyPath: m_Name
       value: Glowing Rock Blue 5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 176930, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 456950, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
       propertyPath: m_RootOrder
@@ -2195,6 +2322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glowing Rock Blue 3
       objectReference: {fileID: 0}
+    - target: {fileID: 127644, guid: 4486733afe3d4bf4f9d01e5536082d74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 427906, guid: 4486733afe3d4bf4f9d01e5536082d74, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -2322,6 +2453,10 @@ PrefabInstance:
     - target: {fileID: 104182, guid: e332ab09906f0274a89a35ab12ba3b1a, type: 3}
       propertyPath: m_Name
       value: Rock 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 104182, guid: e332ab09906f0274a89a35ab12ba3b1a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 479122, guid: e332ab09906f0274a89a35ab12ba3b1a, type: 3}
       propertyPath: m_RootOrder
@@ -2810,6 +2945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Planet
       objectReference: {fileID: 0}
+    - target: {fileID: 142688, guid: b08a3b728fb90754c951ad226c63bd30, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 489984, guid: b08a3b728fb90754c951ad226c63bd30, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -2988,20 +3127,6 @@ Transform:
   m_PrefabInstance: {fileID: 1967768200}
   m_PrefabAsset: {fileID: 0}
 --- !u!64 &1101792710
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101792708}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!64 &1101792711
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3615,6 +3740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock 7
       objectReference: {fileID: 0}
+    - target: {fileID: 169128, guid: a71826ab0be7d274e8a701fc1fae2cde, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 430984, guid: a71826ab0be7d274e8a701fc1fae2cde, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3671,6 +3800,10 @@ PrefabInstance:
     - target: {fileID: 104480, guid: 6fc4272394cb0c04eaf8f49754445e7b, type: 3}
       propertyPath: m_Name
       value: DogHouse (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104480, guid: 6fc4272394cb0c04eaf8f49754445e7b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 405972, guid: 6fc4272394cb0c04eaf8f49754445e7b, type: 3}
       propertyPath: m_RootOrder
@@ -3730,6 +3863,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc4272394cb0c04eaf8f49754445e7b, type: 3}
+--- !u!1 &1467907198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 125422, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+  m_PrefabInstance: {fileID: 1967768200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1467907202
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467907198}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 434146824aba7af4a93aa4ed05dc65a0, type: 3}
 --- !u!1 &1469912140 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000012118400646, guid: 3123da49cb81147489b444f2749aba47, type: 3}
@@ -8518,6 +8670,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DogHouse (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 104480, guid: 6fc4272394cb0c04eaf8f49754445e7b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 405972, guid: 6fc4272394cb0c04eaf8f49754445e7b, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -8724,6 +8880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock 9
       objectReference: {fileID: 0}
+    - target: {fileID: 111800, guid: 38c5866056ba81a4dab05ad3ee9b7bd1, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 448204, guid: 38c5866056ba81a4dab05ad3ee9b7bd1, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -8801,6 +8961,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: bdb5ce1923103354986dfb635da261f8, type: 3}
+--- !u!1 &1644517169 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 125422, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+  m_PrefabInstance: {fileID: 651862198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1644517173
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644517169}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 434146824aba7af4a93aa4ed05dc65a0, type: 3}
 --- !u!1 &1652276171 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2066896392038628118, guid: 45288819fde2143449a96207b14db0bb, type: 3}
@@ -8825,6 +9004,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1692250978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 126106, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+  m_PrefabInstance: {fileID: 651862198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1692250982
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692250978}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 434146824aba7af4a93aa4ed05dc65a0, type: 3}
 --- !u!1001 &1710236184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8891,6 +9089,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 721552ed1838a6d4b85a2e7372560f33, type: 3}
   m_PrefabInstance: {fileID: 1710236184}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1735328986 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 126106, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+  m_PrefabInstance: {fileID: 1967768200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1735328990
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735328986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 434146824aba7af4a93aa4ed05dc65a0, type: 3}
 --- !u!1001 &1754652746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8901,6 +9118,10 @@ PrefabInstance:
     - target: {fileID: 150586, guid: 3f78c2fb6bcbd9a4181e8bf0f559176c, type: 3}
       propertyPath: m_Name
       value: Rock 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 150586, guid: 3f78c2fb6bcbd9a4181e8bf0f559176c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485688, guid: 3f78c2fb6bcbd9a4181e8bf0f559176c, type: 3}
       propertyPath: m_RootOrder
@@ -9339,9 +9560,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2035646914}
     m_Modifications:
+    - target: {fileID: 125422, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 126106, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 176930, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
       propertyPath: m_Name
       value: Glowing Rock Blue 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 176930, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 456950, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
       propertyPath: m_RootOrder
@@ -9399,6 +9632,10 @@ PrefabInstance:
     - target: {fileID: 135572, guid: 4f9eb78926c668f4cb77ae240ebc4e7b, type: 3}
       propertyPath: m_Name
       value: Rock 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 135572, guid: 4f9eb78926c668f4cb77ae240ebc4e7b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 488672, guid: 4f9eb78926c668f4cb77ae240ebc4e7b, type: 3}
       propertyPath: m_RootOrder
@@ -9521,7 +9758,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2035646914}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9571,6 +9808,10 @@ PrefabInstance:
     - target: {fileID: 104480, guid: 6fc4272394cb0c04eaf8f49754445e7b, type: 3}
       propertyPath: m_Name
       value: DogHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 104480, guid: 6fc4272394cb0c04eaf8f49754445e7b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 405972, guid: 6fc4272394cb0c04eaf8f49754445e7b, type: 3}
       propertyPath: m_RootOrder
@@ -9763,6 +10004,25 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &2078344593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 126106, guid: 61a15fe4f1078e34a80b55cd40d951a2, type: 3}
+  m_PrefabInstance: {fileID: 60693210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2078344597
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078344593}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 434146824aba7af4a93aa4ed05dc65a0, type: 3}
 --- !u!1 &2135901352
 GameObject:
   m_ObjectHideFlags: 0
