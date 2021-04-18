@@ -27,6 +27,10 @@ public class MovePlayer : MonoBehaviour
     bool isGrounded = true;
     float inAirPenalty;
 
+    // JetPack
+    public ParticleSystem JetParticles;
+    bool particleSystemPlayed = false;
+
     private Rigidbody body;
 
     // Start is called before the first frame update
@@ -35,10 +39,13 @@ public class MovePlayer : MonoBehaviour
         // Health start
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
-        
+
         body = GetComponent<Rigidbody>();
         anim = gameObject.GetComponentInChildren<Animator>();
         body.centerOfMass = new Vector3(0f, 0.1f, 0f);
+
+        // Jetpack
+        JetParticles = GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -68,12 +75,12 @@ public class MovePlayer : MonoBehaviour
             IsRunning = true;
 
         }
-        else 
+        else
         {
             // prevents strange rotation due to ground texture
             body.constraints = RigidbodyConstraints.FreezeRotation;
             // deactivate running anim
-            IsRunning = false; 
+            IsRunning = false;
         }
 
         // jump if press space and we have something to jump from
@@ -81,6 +88,13 @@ public class MovePlayer : MonoBehaviour
         if (Input.GetKeyDown("space") && isGrounded)
         {
             Jump();
+        }
+        // We are in the air, so use JetPack
+        else if (Input.GetKeyDown("space"))
+        {
+            // TODO: Decide on an amount of damage to take
+            TakeDamage(.5f);
+            JetPack();
         }
 
         anim.SetBool("IsRunning", IsRunning);
@@ -97,7 +111,7 @@ public class MovePlayer : MonoBehaviour
         {
             Debug.Log("Player must die now");
         }
-        
+
     }
 
     void Jump()
@@ -111,5 +125,31 @@ public class MovePlayer : MonoBehaviour
         currentHealth -= damage;
 
         healthBar.SetHealth((int)currentHealth);
+    }
+
+    void JetPack()
+    {
+        Vector3 movement = new Vector3(0.0f, 4f, 0.0f);
+        body.AddForce(movement * speed, ForceMode.Impulse);
+
+        // var dup_particle = Instantiate(JetParticles, JetParticles.transform.position, Quaternion.identity) as ParticleSystem;
+        // dup_particle.Play();
+        // Destroy(dup_particle, 1);
+
+        if (!particleSystemPlayed)
+        {
+            JetParticles.Play();
+            particleSystemPlayed = true;
+        } 
+        else
+        {
+            particleSystemPlayed = false;
+
+            JetParticles.Stop();
+        }
+        // How to turn off
+
+        //yield WaitForSeconds(5);
+        //JetParticles.Stop();
     }
 }
