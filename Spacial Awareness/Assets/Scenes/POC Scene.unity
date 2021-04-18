@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: f4c2b3ae31feca540b7c9d7f2ebc5085, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1500,6 +1500,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &422381603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422381599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50eba1ec04795754ba20000bde32cec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 100
+  healthBar: {fileID: 2070963090}
+  healthDecayCoef: 1
 --- !u!54 &422381604
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9712,6 +9728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bb096dffd3ecca4e97fbac18f8b36c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  restartDelay: 1
 --- !u!4 &1991319806
 Transform:
   m_ObjectHideFlags: 0
