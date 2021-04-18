@@ -97,10 +97,13 @@ public class MovePlayer : MonoBehaviour
         float health = healthBar.getHealth();
         if (health < 1f)
         {
-            Debug.Log("Player must die now");
+            // Call the EndGame method to end the game when health is out
+            FindObjectOfType<GameManager>().EndGame();   
         }
+        // TODO add a check for if the player fell off the map and call EndGame
 
     }
+
 
     /* MoveAndLook():
      * :description: transform keyboard input (stored in m_Movement) into rotation and movement vectors. Applies movement and rotaion
