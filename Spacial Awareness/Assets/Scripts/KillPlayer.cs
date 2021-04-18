@@ -11,10 +11,10 @@ public class KillPlayer : MonoBehaviour
     public HealthBar healthBar;
     public float healthDecayCoef;
     // End health Variables
-    private float timeStart = 0;
+    //private float timeStart = 0;
 
     // Used to kill the player if he falls off the world
-    MovePlayer player = GameObject.Find("Stylized Astronaut").GetComponent<MovePlayer>();
+    //MovePlayer player = GameObject.Find("Stylized Astronaut").GetComponent<MovePlayer>();
 
     // Start is called before the first frame update
     void Start()
@@ -37,11 +37,14 @@ public class KillPlayer : MonoBehaviour
             // Call the EndGame method to end the game when health is out
             FindObjectOfType<GameManager>().EndGame();
         }
+
+        // We don't need this code because the player can't fall off the map
+
         // Check for if the player fell off the map and call EndGame if he has
-        if (player.body.position.y < -1f)
-        {
-            FindObjectOfType<GameManager>().EndGame();
-        }
+        //if (player.body.position.y < -1f)
+        //{
+          //  FindObjectOfType<GameManager>().EndGame();
+        //}
     }
 
         /* TakeDamage():

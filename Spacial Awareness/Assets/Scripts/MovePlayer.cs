@@ -27,7 +27,7 @@ public class MovePlayer : MonoBehaviour
 
     // JetPack variables
     public ParticleSystem JetParticles;
-    bool particleSystemPlayed = false;
+    //bool particleSystemPlayed = false;
     public bool flying = false;
     // End JetPack variables
 
