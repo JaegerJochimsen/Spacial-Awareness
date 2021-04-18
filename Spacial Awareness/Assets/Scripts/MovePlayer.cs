@@ -31,7 +31,7 @@ public class MovePlayer : MonoBehaviour
     public bool flying = false;
     // End JetPack variables
 
-    private Rigidbody body;
+    public Rigidbody body;
 
     // Start is called before the first frame update
     void Start()
