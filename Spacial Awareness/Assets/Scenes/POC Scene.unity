@@ -1515,7 +1515,7 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 100
   healthBar: {fileID: 2070963090}
-  healthDecayCoef: 1
+  healthDecayCoef: 10
 --- !u!54 &422381604
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1544,10 +1544,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25890cd8965867f42a4fe2e586ece369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 100
-  healthBar: {fileID: 2070963090}
-  healthDecayCoef: 10
   turnSpeed: 15
   speed: 15
   groundCheck: {fileID: 1063517886}
@@ -1557,6 +1553,7 @@ MonoBehaviour:
   isGrounded: 1
   JetParticles: {fileID: 1469912142}
   flying: 0
+  body: {fileID: 0}
 --- !u!1 &451405488 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 127644, guid: 4486733afe3d4bf4f9d01e5536082d74, type: 3}
