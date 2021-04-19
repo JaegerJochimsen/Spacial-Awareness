@@ -231,25 +231,6 @@ public class MovePlayer : MonoBehaviour
             body.AddForce(fly * speed, ForceMode.Force);
             JetParticles.Play();
         }
-        // var dup_particle = Instantiate(JetParticles, JetParticles.transform.position, Quaternion.identity) as ParticleSystem;
-        // dup_particle.Play();
-        // Destroy(dup_particle, 1);
-
-  //      if (!particleSystemPlayed)
-    //    {
-      //      JetParticles.Play();
-        //    particleSystemPlayed = true;
-//        } 
-  //      else
-    //    {
-      //      particleSystemPlayed = false;
-
-        //    JetParticles.Stop();
-       // }
-        // How to turn off
-
-        //yield WaitForSeconds(5);
-        //JetParticles.Stop();
     }
 }
  
