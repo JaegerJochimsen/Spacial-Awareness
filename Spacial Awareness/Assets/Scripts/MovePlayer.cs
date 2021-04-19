@@ -14,7 +14,9 @@ public class MovePlayer : MonoBehaviour
 
     // Animation variables
     private Animator anim;
-    bool IsRunning = false;
+    public bool IsRunning = false;
+    public bool IsJumping = false;
+    public bool IsLanding = false;
     // End animation variables
 
     // Ground-check variables
@@ -28,7 +30,7 @@ public class MovePlayer : MonoBehaviour
     // JetPack variables
     public ParticleSystem JetParticles;
     //bool particleSystemPlayed = false;
-    public bool flying = false;
+    bool flying = false;
     // End JetPack variables
 
     public Rigidbody body;
@@ -49,7 +51,8 @@ public class MovePlayer : MonoBehaviour
     {
         // check to see if our player is on the ground or a ground equivalent
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
+        anim.SetBool("IsGrounded", isGrounded);
+     
         // determine if we need to reduce movement dexterity due to being in the air
         // set penalty value accordingly
         SetInAirPenalty();
@@ -160,7 +163,7 @@ public class MovePlayer : MonoBehaviour
     }
 
     /* SetRunningAnimBool():
-     * :description: set IsRunning bool used to trigger running animation.
+     * :description: set animation bool used to trigger running animations.
      * :param: n/a
      * :dependency: hasInput: if we have input then we are running/moving and should trigger the animation. Set in HandleMovementInput().
      * 
@@ -169,8 +172,9 @@ public class MovePlayer : MonoBehaviour
      */
     void SetRunningAnimBool()
     {
+
         // only animate/hover if we are moving
-        if (hasInput)
+        if (hasInput && isGrounded)
         {
             // used for animation
             IsRunning = true;
@@ -183,6 +187,8 @@ public class MovePlayer : MonoBehaviour
         }
         anim.SetBool("IsRunning", IsRunning);
     }
+
+
 
     /* Jump():
      * :description: apply jump force to character.
@@ -217,11 +223,12 @@ public class MovePlayer : MonoBehaviour
             // TODO: Decide on an amount of damage to take
             FindObjectOfType<KillPlayer>().TakeDamage(0.5f);
             flying = true;
-            //JetPack();
+            anim.SetBool("IsFlying", flying);
         }
         else if (Input.GetKeyUp("space"))
         {
             flying = false;
+            anim.SetBool("IsFlying", flying);
             JetParticles.Stop();
         }
 
