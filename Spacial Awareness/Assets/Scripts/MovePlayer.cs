@@ -36,6 +36,12 @@ public class MovePlayer : MonoBehaviour
     public GameObject ForceField;
     public float forceFieldStrength;
     public bool shielding = false;
+    MeshRenderer render;
+    Color color;
+    public float fullAlpha = 103f;
+    public float minAlpha = 0f;
+    public float t = 0f;
+    public float fadeSpeed = 1f;
     // End Shield variables
 
     public Rigidbody body;
@@ -46,6 +52,10 @@ public class MovePlayer : MonoBehaviour
 
         body = GetComponent<Rigidbody>();
         anim = gameObject.GetComponentInChildren<Animator>();
+
+        // Forcefield
+        render = ForceField.GetComponent<MeshRenderer>();
+        color = render.material.color;
 
         // Jetpack
         JetParticles = GetComponentInChildren<ParticleSystem>();
@@ -81,7 +91,33 @@ public class MovePlayer : MonoBehaviour
         // toggle shield on/off 
         if(Input.GetKeyDown("left shift"))
         {
-            Shield();
+            shielding ^= true;
+            //Shield();
+        }
+
+        if (shielding)
+        {
+            if (render.material.color.a < 103f)
+            {
+                color.a += Time.deltaTime * fadeSpeed;
+                render.material.color = color;
+            }
+            if(Mathf.Approximately(render.material.color.a, 103f))
+            {
+                ForceField.SetActive(true);
+            }
+        }
+        if(!shielding)
+        {
+            if(render.material.color.a > 0f)
+            {
+                color.a -= Time.deltaTime * fadeSpeed;
+                render.material.color = color;
+            }
+            if (Mathf.Approximately(render.material.color.a, 0f))
+            {
+                ForceField.SetActive(false);
+            }
         }
 
 
