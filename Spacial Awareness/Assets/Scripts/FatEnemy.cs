@@ -44,9 +44,14 @@ public class FatEnemy : MonoBehaviour
     // Call the interface for doing damage to the player from KillPlayer.cs 
     void Attack(Vector3 knockback_dir)
     {
-
+        MovePlayer playerBod = player.GetComponent<MovePlayer>();
         KillPlayer health = player.GetComponent<KillPlayer>();
-        health.TakeDamage(1f);
+
+        // if we are shielding then negate damage
+        if (!playerBod.shielding)
+        {
+            health.TakeDamage(1f);
+        }
 
         // -1 is so Player goes away from enemy instead of towards
         playerBody.AddForce(knockback_dir * 3 * -1, ForceMode.Impulse);

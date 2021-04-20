@@ -70,12 +70,18 @@ public class EnemyAI : MonoBehaviour
     // Call the interface for doing damage to the player from KillPlayer.cs 
     void Attack(Vector3 knockback_dir)
     {
-
+        MovePlayer playerBod = player.GetComponent<MovePlayer>();
         KillPlayer health = player.GetComponent<KillPlayer>();
-        health.TakeDamage(damage);
 
+        // if the player has a shield active then negate O2 damage
+        if (!playerBod.shielding)
+        {
+            health.TakeDamage(damage);
+        }
         // -1 is so Player goes away from enemy instead of towards
         player.GetComponent<Rigidbody>().AddForce(knockback_dir * 3 * -1, ForceMode.Impulse);
+
+
 
         // TODO: Add text to the screen
     }

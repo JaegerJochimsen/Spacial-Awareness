@@ -29,9 +29,14 @@ public class MovePlayer : MonoBehaviour
 
     // JetPack variables
     public ParticleSystem JetParticles;
-    //bool particleSystemPlayed = false;
     bool flying = false;
     // End JetPack variables
+
+    // Shield variables
+    public GameObject ForceField;
+    public float forceFieldStrength;
+    public bool shielding = false;
+    // End Shield variables
 
     public Rigidbody body;
 
@@ -73,6 +78,13 @@ public class MovePlayer : MonoBehaviour
             Jump();
         }
 
+        // toggle shield on/off 
+        if(Input.GetKeyDown("left shift"))
+        {
+            Shield();
+        }
+
+
         // handle logic for using jetpack and apply force + play particle effects
         // TODO: possibly remove commented particle code ==> since this is Sam's jurisdiction I've left it commented out
         // it is up to Sam which of the changes I made we keep and how the final implementation works out
@@ -82,6 +94,24 @@ public class MovePlayer : MonoBehaviour
         MoveAndLook();
     }
 
+    /* Shield():
+     * :description: activate/deactivate bubble shield that will prevent incoming damage from enemies; knockback from being attacked still applies.
+     *               Sets (shielding) boolean that is used in enemy AI script to deal damage in Attack() function.
+     *               
+     * :param: n/a
+     * :dependency: n/a
+     * 
+     * :calls: n/a
+     * :called by: Update();
+     */
+    void Shield()
+    {
+        // TODO: add energy/O2 cost
+        // alternate between on and off
+        shielding ^= true;
+        // this just activates/deactivates the GameObject
+        ForceField.SetActive(shielding);
+    }
 
     /* MoveAndLook():
      * :description: transform keyboard input (stored in m_Movement) into rotation and movement vectors. Applies movement and rotaion
@@ -220,8 +250,6 @@ public class MovePlayer : MonoBehaviour
         // We are in the air, so use JetPack
         if (Input.GetKeyDown("space") && !isGrounded)
         {
-            // TODO: Decide on an amount of damage to take
-            FindObjectOfType<KillPlayer>().TakeDamage(0.5f);
             flying = true;
             anim.SetBool("IsFlying", flying);
         }
@@ -234,6 +262,8 @@ public class MovePlayer : MonoBehaviour
 
         if (flying)
         {
+            // TODO: Decide on an amount of damage to take
+            FindObjectOfType<KillPlayer>().TakeDamage(0.1f);
             Vector3 fly = new Vector3(0.0f, 3.5f, 0.0f);
             body.AddForce(fly * speed, ForceMode.Force);
             JetParticles.Play();
