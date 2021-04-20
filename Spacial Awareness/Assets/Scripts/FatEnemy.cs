@@ -25,7 +25,7 @@ public class FatEnemy : MonoBehaviour
         Vector3 DogPos = transform.position;
 
         DogPos -= playerPos;
-        //Debug.Log(DogPos.x);
+   
 
         var x = range >= DogPos.x && DogPos.x >= -range;
         var y = range >= DogPos.y && DogPos.y >= -range;
@@ -36,8 +36,8 @@ public class FatEnemy : MonoBehaviour
         {
             Attack(DogPos);
         }
-        
-        transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
+
+        transform.LookAt(player.transform);
        
     }
 

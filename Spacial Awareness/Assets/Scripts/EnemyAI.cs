@@ -49,18 +49,23 @@ public class EnemyAI : MonoBehaviour
     }
 
     
-    // TODO: Fix
-    void OnCollisionEnter(Collider other) 
+    void OnCollisionEnter(Collision other) 
     {
+
         // If we run into something not the player go in the opposite direction
         if (other.gameObject.CompareTag("Rock") || other.gameObject.CompareTag("Enemy"))
         {
             // Push the Enemy away from the obstruction at an angle
             Vector3 redirect = other.gameObject.transform.position - body.transform.position;
-            body.AddForce(redirect * -1.5f, ForceMode.Impulse);
+            redirect.x *= 17;
 
-        }
-    } 
+            body.velocity = Vector3.zero;
+            body.angularVelocity = Vector3.zero;
+
+            body.AddForce(redirect * -30f, ForceMode.Force);
+
+        } 
+    }
 
     // Call the interface for doing damage to the player from KillPlayer.cs 
     void Attack(Vector3 knockback_dir)
