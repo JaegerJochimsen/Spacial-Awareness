@@ -21,7 +21,7 @@ public class MovePlayer : MonoBehaviour
 
     // Ground-check variables
     public Transform groundCheck;
-    float groundDistance = 0.65f;
+    float groundDistance = 0.75f;
     public LayerMask groundMask;
     public bool isGrounded = true;
     float inAirPenalty;
@@ -34,14 +34,10 @@ public class MovePlayer : MonoBehaviour
 
     // Shield variables
     public GameObject ForceField;
-    public float forceFieldStrength;
     public bool shielding = false;
-    MeshRenderer render;
-    Color color;
-    public float fullAlpha = 103f;
-    public float minAlpha = 0f;
     public float t = 0f;
-    public float fadeSpeed = 1f;
+    private Vector3 shrunkSize = new Vector3(0.01f, 0.01f, 0.01f);
+    private Vector3 fullSize = new Vector3(0.5f, 0.5f, 0.5f);
     // End Shield variables
 
     public Rigidbody body;
@@ -52,10 +48,6 @@ public class MovePlayer : MonoBehaviour
 
         body = GetComponent<Rigidbody>();
         anim = gameObject.GetComponentInChildren<Animator>();
-
-        // Forcefield
-        render = ForceField.GetComponent<MeshRenderer>();
-        color = render.material.color;
 
         // Jetpack
         JetParticles = GetComponentInChildren<ParticleSystem>();
@@ -88,37 +80,8 @@ public class MovePlayer : MonoBehaviour
             Jump();
         }
 
-        // toggle shield on/off 
-        if(Input.GetKeyDown("left shift"))
-        {
-            shielding ^= true;
-            //Shield();
-        }
-
-        if (shielding)
-        {
-            if (render.material.color.a < 103f)
-            {
-                color.a += Time.deltaTime * fadeSpeed;
-                render.material.color = color;
-            }
-            if(Mathf.Approximately(render.material.color.a, 103f))
-            {
-                ForceField.SetActive(true);
-            }
-        }
-        if(!shielding)
-        {
-            if(render.material.color.a > 0f)
-            {
-                color.a -= Time.deltaTime * fadeSpeed;
-                render.material.color = color;
-            }
-            if (Mathf.Approximately(render.material.color.a, 0f))
-            {
-                ForceField.SetActive(false);
-            }
-        }
+        Shield();
+        
 
 
         // handle logic for using jetpack and apply force + play particle effects
@@ -132,6 +95,7 @@ public class MovePlayer : MonoBehaviour
 
     /* Shield():
      * :description: activate/deactivate bubble shield that will prevent incoming damage from enemies; knockback from being attacked still applies.
+     *               Handles growing and shrinking effect of the bubble shield as well.
      *               Sets (shielding) boolean that is used in enemy AI script to deal damage in Attack() function.
      *               
      * :param: n/a
@@ -139,14 +103,46 @@ public class MovePlayer : MonoBehaviour
      * 
      * :calls: n/a
      * :called by: Update();
+     * 
+     * :credit: idea for shrink/grow came from Emilee McDonald
      */
     void Shield()
     {
         // TODO: add energy/O2 cost
-        // alternate between on and off
-        shielding ^= true;
-        // this just activates/deactivates the GameObject
-        ForceField.SetActive(shielding);
+
+        // toggle shield on/off 
+        if (Input.GetKeyDown("left shift"))
+        {
+            // alternate between on and off
+            shielding ^= true;
+        }
+
+        // if we want to shrink and we are still bigger than our minimum size continue to shrink
+        if (shielding && (ForceField.transform.localScale.x < fullSize.x))
+        {
+            ForceField.transform.localScale *= Mathf.Lerp(1f, 3f, t);
+            t += 0.1f * Time.deltaTime;
+        }
+
+        // if we want to shrink
+        if (!shielding)
+        {
+            // if we still have room to grow, i.e. we are smaller than our full size
+            if (ForceField.transform.localScale.x > shrunkSize.x)
+            {
+                ForceField.transform.localScale /= Mathf.Lerp(1f, 3f, t);
+                t += 0.1f * Time.deltaTime;
+            }
+            // also, if we have accidentally grown too much or we are ESSENTIALLY done growing, grow back to our usual size
+            if ((ForceField.transform.localScale.x < shrunkSize.x) || (Mathf.Approximately(ForceField.transform.localScale.x, shrunkSize.x)))
+            {
+                ForceField.transform.localScale = shrunkSize;
+                // we're done growing/shrinking so disable lerp
+                t = 1f;
+            }
+        }
+        // reset for next lerp
+        if (t == 1f) { t = 0f; }
     }
 
     /* MoveAndLook():
