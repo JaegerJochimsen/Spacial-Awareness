@@ -10,6 +10,7 @@ public class MovePlayer : MonoBehaviour
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
     bool hasInput = false;
+    public bool goodPos = false;
     // End movement variables
 
     // Animation variables
@@ -21,7 +22,7 @@ public class MovePlayer : MonoBehaviour
 
     // Ground-check variables
     public Transform groundCheck;
-    float groundDistance = 0.75f;
+    float groundDistance = 0.8f;
     public LayerMask groundMask;
     public bool isGrounded = true;
     float inAirPenalty;
@@ -60,9 +61,10 @@ public class MovePlayer : MonoBehaviour
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         anim.SetBool("IsGrounded", isGrounded);
      
+        // TODO: remove
         // determine if we need to reduce movement dexterity due to being in the air
         // set penalty value accordingly
-        SetInAirPenalty();
+        //SetInAirPenalty();
 
         // handle input from keyboard, put into Vector3 for MoveAndLook() later, and apply inAirPenalty 
         HandleMovementInput();
@@ -82,8 +84,6 @@ public class MovePlayer : MonoBehaviour
 
         Shield();
         
-
-
         // handle logic for using jetpack and apply force + play particle effects
         // TODO: possibly remove commented particle code ==> since this is Sam's jurisdiction I've left it commented out
         // it is up to Sam which of the changes I made we keep and how the final implementation works out
@@ -159,7 +159,25 @@ public class MovePlayer : MonoBehaviour
         Vector3 desiredForward = Vector3.RotateTowards(transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
         m_Rotation = Quaternion.LookRotation(desiredForward);
         body.MoveRotation(m_Rotation);
-        body.MovePosition(transform.position + m_Movement * Time.deltaTime * speed);
+
+        // Lock Z
+        // Add constraints into the movement so that we just don't execute a move if we stray too far
+        if ((transform.position.z > 10f) || (transform.position.z < -10f))
+        {
+            // handle signage
+            float newZ = (transform.position.z > 0) ? 9.9f : -9.9f;
+            body.MovePosition(new Vector3(transform.position.x, transform.position.y, newZ));
+            
+        }
+        // Lock X
+        else if ((transform.position.x > 25f) || (transform.position.x < -25f))
+        {
+            float newX = (transform.position.x > 0) ? 24.9f : -24.9f;
+            body.MovePosition(new Vector3(newX, transform.position.y, transform.position.z));
+
+        }
+        // if we are within the bounds move as normal
+        else { body.MovePosition(transform.position + m_Movement * Time.deltaTime * speed); }
     }
 
     /* SetInAirPenalty():
@@ -174,7 +192,7 @@ public class MovePlayer : MonoBehaviour
     {
         // set inAirPenalty for moveent
         if (isGrounded) { inAirPenalty = 1f; }
-        else { inAirPenalty = 0.65f; }
+        else { inAirPenalty = 1f; }
     }
 
     /* HandleMovementInput():
@@ -193,8 +211,6 @@ public class MovePlayer : MonoBehaviour
 
         m_Movement.Set(horizontal, 0f, vertical);
         m_Movement.Normalize();
-        // account for in-air movement penalty
-        m_Movement *= inAirPenalty;
     }
 
     /* Constrain():
@@ -211,9 +227,10 @@ public class MovePlayer : MonoBehaviour
      */
     void Constrain()
     {
+        body.constraints = RigidbodyConstraints.FreezeRotation;
+
         if (!hasInput)
         {
-            body.constraints = RigidbodyConstraints.FreezeRotation;
 
             // if we land on a platform and stop, then make it so that we don't just slip off
             if (isGrounded)
@@ -250,8 +267,6 @@ public class MovePlayer : MonoBehaviour
         anim.SetBool("IsRunning", IsRunning);
     }
 
-
-
     /* Jump():
      * :description: apply jump force to character.
      * :param: n/a
@@ -262,11 +277,9 @@ public class MovePlayer : MonoBehaviour
      */
     void Jump()
     {
-        Vector3 jump = new Vector3(0.0f, 3.5f, 0.0f);
+        Vector3 jump = new Vector3(0.0f, 7f, 0.0f);
         body.AddForce(jump * speed, ForceMode.Impulse);
     }
-
-
 
     /* JetPack():
      * :description: implement jet pack ability; when space is held down apply vertical force to the character and play jet effect, when 
@@ -295,8 +308,8 @@ public class MovePlayer : MonoBehaviour
         if (flying)
         {
             // TODO: Decide on an amount of damage to take
-            FindObjectOfType<KillPlayer>().TakeDamage(0.1f);
-            Vector3 fly = new Vector3(0.0f, 3.5f, 0.0f);
+            FindObjectOfType<KillPlayer>().TakeDamage(0.3f);
+            Vector3 fly = new Vector3(0.0f, 10f, 0.0f);
             body.AddForce(fly * speed, ForceMode.Force);
             JetParticles.Play();
         }
