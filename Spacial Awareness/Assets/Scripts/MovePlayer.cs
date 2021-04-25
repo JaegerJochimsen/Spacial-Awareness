@@ -6,7 +6,8 @@ public class MovePlayer : MonoBehaviour
 {
     // Movement variables
     public float turnSpeed = 15f;
-    public float speed = 10f;
+    public float speed;
+    public float jumpHeight;
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
     bool hasInput = false;
@@ -33,6 +34,7 @@ public class MovePlayer : MonoBehaviour
 
     // JetPack variables
     public ParticleSystem JetParticles;
+    public float jetForce;
     bool flying = false;
     // End JetPack variables
 
@@ -71,27 +73,22 @@ public class MovePlayer : MonoBehaviour
         // check to see if we should play the animation, then set the bool
         SetRunningAnimBool();
 
-        // constrain various player rotation/movement so that if we aren't moving we don't fall over or
-        // fall off of the platform we've landed on because of the low poly mesh
-        Constrain();
+        //DoubleJump();
+
+        Shield();
+        // apply player movement and look rotation to character model
+        MoveAndLook();
+
+        // handle logic for using jetpack and apply force + play particle effects
+        // TODO: possibly remove commented particle code ==> since this is Sam's jurisdiction I've left it commented out
+        // it is up to Sam which of the changes I made we keep and how the final implementation works out
+        JetPack();
 
         // jump if press space and we have something to jump from
         if (Input.GetKeyDown("space") && isGrounded)
         {
             Jump();
         }
-
-        //DoubleJump();
-
-        Shield();
-        
-        // handle logic for using jetpack and apply force + play particle effects
-        // TODO: possibly remove commented particle code ==> since this is Sam's jurisdiction I've left it commented out
-        // it is up to Sam which of the changes I made we keep and how the final implementation works out
-        JetPack();        
-        
-        // apply player movement and look rotation to character model
-        MoveAndLook();
     }
 
     void DoubleJump()
@@ -167,74 +164,33 @@ public class MovePlayer : MonoBehaviour
      */
     void MoveAndLook()
     {
-        Vector3 desiredForward = Vector3.RotateTowards(transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
-        m_Rotation = Quaternion.LookRotation(desiredForward);
-        body.MoveRotation(m_Rotation);
-
-        // Lock Z
-        // Add constraints into the movement so that we just don't execute a move if we stray too far
-        if ((transform.position.z > 10f) || (transform.position.z < -10f))
+        if (hasInput)
         {
-            // handle signage
-            float newZ = (transform.position.z > 0) ? 9.9f : -9.9f;
-            body.MovePosition(new Vector3(transform.position.x, transform.position.y, newZ));
-            
+            Vector3 desiredForward = Vector3.RotateTowards(transform.forward, m_Movement.normalized, turnSpeed * Time.deltaTime, 0f);
+            // zero our y rotation, this keeps player upright/from looking at the ground
+            desiredForward.y = 0f;
+            m_Rotation = Quaternion.LookRotation(desiredForward);
+            body.MoveRotation(m_Rotation);
+            body.velocity = m_Movement;
         }
-        // Lock X
-        else if ((transform.position.x > 25f) || (transform.position.x < -25f))
-        {
-            float newX = (transform.position.x > 0) ? 24.9f : -24.9f;
-            body.MovePosition(new Vector3(newX, transform.position.y, transform.position.z));
-
-        }
-        // if we are within the bounds move as normal
-        else { body.MovePosition(transform.position + m_Movement * Time.deltaTime * speed); }
     }
 
     /* HandleMovementInput():
-     * :description: intake keyboard input and sets vector m_Movement based off of that input. Sets the hasInput bool. Applies inAirPenalty.
-     * :param: n/a
-     * :dependency: n/a
-     * 
-     * :calls: n/a
-     * :called by: Update().
-     */
+    * :description: intake keyboard input and sets vector m_Movement based off of that input. Sets the hasInput bool. Applies inAirPenalty.
+    * :param: n/a
+    * :dependency: n/a
+    * 
+    * :calls: n/a
+    * :called by: Update().
+    */
     void HandleMovementInput()
     {
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
         hasInput = (horizontal != 0f || vertical != 0f);
 
-        m_Movement.Set(horizontal, 0f, vertical);
-        m_Movement.Normalize();
-    }
-
-    /* Constrain():
-     * :description: applies movement and rotation constraints to player model so that uneven, low-poly terrain doesn't tip over or spin around
-     *               the player. Also helps when landing on a platform/rock so that player doesn't slip off arbitrarily.
-     * :param: n/a
-     * :dependency: isGrounded: relies on isGrounded to determine when we need to constrain x and z position. This should happen so if we land on 
-     *                          an asteroid/platform we don't slide off due to the shape of the platform. Set at the top of Update().
-     *              hasInput: relies on hasInput so that we only apply constraints when the player isn't moving intentionally. We don't want to 
-     *                        inhibit voluntary movement, only involuntary movement. Set in HandleMovementInput().
-     *                        
-     * :calls: n/a
-     * :called by: Update().
-     */
-    void Constrain()
-    {
-        body.constraints = RigidbodyConstraints.FreezeRotation;
-
-        if (!hasInput)
-        {
-
-            // if we land on a platform and stop, then make it so that we don't just slip off
-            if (isGrounded)
-            {
-                body.constraints = RigidbodyConstraints.FreezePositionX;
-                body.constraints = RigidbodyConstraints.FreezePositionZ;
-            }
-        }
+        // change to velocity based vector
+        m_Movement = new Vector3(horizontal * speed, body.velocity.y, vertical * speed);
     }
 
     /* SetRunningAnimBool():
@@ -273,8 +229,9 @@ public class MovePlayer : MonoBehaviour
      */
     void Jump()
     {
-        Vector3 jump = new Vector3(0.0f, 7f, 0.0f);
-        body.AddForce(jump * speed, ForceMode.Impulse);
+        Vector3 jump = new Vector3(body.velocity.x, jumpHeight, body.velocity.z);
+        body.velocity = jump;
+        //body.AddForce(jump, ForceMode.VelocityChange);
     }
 
     /* JetPack():
@@ -305,8 +262,11 @@ public class MovePlayer : MonoBehaviour
         {
             // TODO: Decide on an amount of damage to take
             FindObjectOfType<KillPlayer>().TakeDamage(0.3f);
-            Vector3 fly = new Vector3(0.0f, 10f, 0.0f);
-            body.AddForce(fly * speed, ForceMode.Force);
+
+            Vector3 fly = new Vector3(0f, jetForce, 0f);
+            body.AddForce(fly, ForceMode.VelocityChange);
+
+            //body.velocity = fly;
             JetParticles.Play();
         }
     }

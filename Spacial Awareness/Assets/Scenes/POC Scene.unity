@@ -668,7 +668,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 14
   m_CollisionDetection: 1
 --- !u!114 &81476815
 MonoBehaviour:
@@ -1243,7 +1243,7 @@ Transform:
   m_GameObject: {fileID: 113025554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.06, y: 4.7, z: 0}
-  m_LocalScale: {x: 5, y: 0.5, z: 22.44}
+  m_LocalScale: {x: 5, y: 7.82, z: 22.44}
   m_Children: []
   m_Father: {fileID: 908914894}
   m_RootOrder: 0
@@ -2493,13 +2493,13 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422381599}
   serializedVersion: 2
-  m_Mass: 10
-  m_Drag: 0
+  m_Mass: 7
+  m_Drag: 3.83
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 2
-  m_Constraints: 80
+  m_Interpolate: 1
+  m_Constraints: 112
   m_CollisionDetection: 3
 --- !u!114 &422381605
 MonoBehaviour:
@@ -2515,20 +2515,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turnSpeed: 12
   speed: 15
-  goodPos: 0
-  IsRunning: 0
-  IsJumping: 0
-  IsLanding: 0
+  jumpHeight: 50
+  doubleJumped: 0
   groundCheck: {fileID: 1063517886}
   groundMask:
     serializedVersion: 2
     m_Bits: 8
   isGrounded: 1
   JetParticles: {fileID: 1469912142}
+  jetForce: 2
   ForceField: {fileID: 2145710208}
   shielding: 0
   t: 0
   body: {fileID: 422381604}
+--- !u!136 &422381606
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422381599}
+  m_Material: {fileID: 13400000, guid: a773a2f5f8016d14a8da99f98dbdb6de, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.11
+  m_Height: 0.25
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.13, z: 0}
 --- !u!1 &451405488 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 127644, guid: 4486733afe3d4bf4f9d01e5536082d74, type: 3}
@@ -3805,7 +3818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4268597916284530, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.14
+      value: 2.93
       objectReference: {fileID: 0}
     - target: {fileID: 4268597916284530, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3971,7 +3984,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.2164396, y: 0, z: 0, w: 0.97629607}
-  m_LocalPosition: {x: 0, y: 12.437602, z: -19.93877}
+  m_LocalPosition: {x: 0, y: 12.227602, z: -19.938772}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4108,13 +4121,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988413430}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.06, y: 16.46, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 16.07, y: 12.75, z: 0}
   m_LocalScale: {x: 10, y: 0.5, z: 10}
   m_Children: []
   m_Father: {fileID: 908914894}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!65 &988413432
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4653,7 +4666,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1063517885}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.052, z: 0}
+  m_LocalPosition: {x: 0, y: -0.0011, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 422381600}
@@ -5470,7 +5483,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375594988}
   m_LocalRotation: {x: 0.2164396, y: 0, z: 0, w: 0.97629607}
-  m_LocalPosition: {x: 0, y: 12.437602, z: -19.93877}
+  m_LocalPosition: {x: 0, y: 12.227602, z: -19.938772}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 85715495}
@@ -10934,7 +10947,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 14
   m_CollisionDetection: 0
 --- !u!114 &1652276175
 MonoBehaviour:
@@ -11596,7 +11609,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 14
   m_CollisionDetection: 0
 --- !u!4 &1836718037 stripped
 Transform:
