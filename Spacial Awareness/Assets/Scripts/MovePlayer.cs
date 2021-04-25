@@ -10,14 +10,14 @@ public class MovePlayer : MonoBehaviour
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
     bool hasInput = false;
-    public bool goodPos = false;
+    public bool doubleJumped = false;
     // End movement variables
 
     // Animation variables
     private Animator anim;
-    public bool IsRunning = false;
-    public bool IsJumping = false;
-    public bool IsLanding = false;
+    bool IsRunning = false;
+    bool IsJumping = false;
+    bool IsLanding = false;
     // End animation variables
 
     // Ground-check variables
@@ -25,8 +25,11 @@ public class MovePlayer : MonoBehaviour
     float groundDistance = 0.8f;
     public LayerMask groundMask;
     public bool isGrounded = true;
-    float inAirPenalty;
     // End ground check variables
+
+    // Dash vars
+    float dashForce = 10f;
+    //
 
     // JetPack variables
     public ParticleSystem JetParticles;
@@ -60,11 +63,7 @@ public class MovePlayer : MonoBehaviour
         // check to see if our player is on the ground or a ground equivalent
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         anim.SetBool("IsGrounded", isGrounded);
-     
-        // TODO: remove
-        // determine if we need to reduce movement dexterity due to being in the air
-        // set penalty value accordingly
-        //SetInAirPenalty();
+        
 
         // handle input from keyboard, put into Vector3 for MoveAndLook() later, and apply inAirPenalty 
         HandleMovementInput();
@@ -82,15 +81,27 @@ public class MovePlayer : MonoBehaviour
             Jump();
         }
 
+        //DoubleJump();
+
         Shield();
         
         // handle logic for using jetpack and apply force + play particle effects
         // TODO: possibly remove commented particle code ==> since this is Sam's jurisdiction I've left it commented out
         // it is up to Sam which of the changes I made we keep and how the final implementation works out
-        JetPack();
-
+        JetPack();        
+        
         // apply player movement and look rotation to character model
         MoveAndLook();
+    }
+
+    void DoubleJump()
+    {
+        if (Input.GetKeyDown("space") && !doubleJumped && !isGrounded)
+        {
+            Jump();
+            doubleJumped = true;
+        }
+        if (!isGrounded) { doubleJumped = false; }
     }
 
     /* Shield():
@@ -178,21 +189,6 @@ public class MovePlayer : MonoBehaviour
         }
         // if we are within the bounds move as normal
         else { body.MovePosition(transform.position + m_Movement * Time.deltaTime * speed); }
-    }
-
-    /* SetInAirPenalty():
-     * :description: set modifier (inAirPenalty) based off of grounded status. If player is in the air we reduce dexterity by 35%
-     * :param: n/a
-     * :dependency: relies on Physics.CheckSphere() call at the top of Update() to determine grounded status.
-     * 
-     * :calls: n/a
-     * :called by: Update().
-     */
-    void SetInAirPenalty()
-    {
-        // set inAirPenalty for moveent
-        if (isGrounded) { inAirPenalty = 1f; }
-        else { inAirPenalty = 1f; }
     }
 
     /* HandleMovementInput():
