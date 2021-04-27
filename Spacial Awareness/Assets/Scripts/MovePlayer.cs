@@ -29,8 +29,10 @@ public class MovePlayer : MonoBehaviour
     // End ground check variables
 
     // Dash vars
-    float dashForce = 10f;
-    //
+    private bool onCoolDown = false;
+    private int dashCoolDown = 3;
+    private float dashLastUse = 0f;
+    // End Dash vars
 
     // JetPack variables
     public ParticleSystem JetParticles;
@@ -73,7 +75,8 @@ public class MovePlayer : MonoBehaviour
         // check to see if we should play the animation, then set the bool
         SetRunningAnimBool();
 
-        //DoubleJump();
+        DoubleJump();
+        Dash();
 
         Shield();
         // apply player movement and look rotation to character model
@@ -88,18 +91,73 @@ public class MovePlayer : MonoBehaviour
         if (Input.GetKeyDown("space") && isGrounded)
         {
             Jump();
-        }
+        } 
     }
 
     void DoubleJump()
     {
+
         if (Input.GetKeyDown("space") && !doubleJumped && !isGrounded)
         {
             Jump();
+            //Debug.Log(doubleJumped);
             doubleJumped = true;
         }
-        if (!isGrounded) { doubleJumped = false; }
+        if (isGrounded) { doubleJumped = false; } 
+
     }
+
+    /* Dash()
+     *  Dash forward and slightly up with a 3 second cool down
+     * :param: n/a
+     * :dependency: n/a
+     * 
+     * :calls: n/a
+     * :called by: Update().
+     */
+    void Dash()
+    {
+        
+        if (onCoolDown) 
+        {
+            dashLastUse += Time.deltaTime;
+            if (dashLastUse <= dashCoolDown)
+            {
+                return;
+            }
+
+            dashLastUse = 0;
+            onCoolDown = false;
+            
+        }
+
+        // We need to check the y rotation and set it to 270 or 90 so the player doesn'y
+        // go off the playing area
+        if (Input.GetKeyDown("left ctrl"))
+        {
+            int new_x = 0;
+            Vector3 rot = transform.position;
+
+            if (body.transform.rotation.y >= 0) 
+            { 
+                new_x = 10; 
+            }
+            else  
+            {
+                new_x = -10; 
+            }
+
+            rot.x += new_x;
+            transform.LookAt(rot);
+
+            body.velocity = Vector3.zero;
+            body.angularVelocity = Vector3.zero;
+
+            body.velocity = new Vector3(10 * new_x, 40, 0);
+            onCoolDown = true;
+        } 
+    }
+
 
     /* Shield():
      * :description: activate/deactivate bubble shield that will prevent incoming damage from enemies; knockback from being attacked still applies.
@@ -246,12 +304,12 @@ public class MovePlayer : MonoBehaviour
     void JetPack()
     {
         // We are in the air, so use JetPack
-        if (Input.GetKeyDown("space") && !isGrounded)
+        if (Input.GetKeyDown("e") && !isGrounded)
         {
             flying = true;
             anim.SetBool("IsFlying", flying);
         }
-        else if (Input.GetKeyUp("space"))
+        else if (Input.GetKeyUp("e"))
         {
             flying = false;
             anim.SetBool("IsFlying", flying);
