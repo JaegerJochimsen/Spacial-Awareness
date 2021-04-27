@@ -319,7 +319,7 @@ public class MovePlayer : MonoBehaviour
         if (flying)
         {
             // TODO: Decide on an amount of damage to take
-            FindObjectOfType<KillPlayer>().TakeDamage(0.3f);
+            FindObjectOfType<KillPlayer>().TakeDamage(0.1f);
 
             Vector3 fly = new Vector3(0f, jetForce, 0f);
             body.AddForce(fly, ForceMode.VelocityChange);
