@@ -5,13 +5,13 @@ using UnityEngine;
 public class MovePlayer : MonoBehaviour
 {
     // Movement variables
-    public float turnSpeed = 15f;
-    public float speed;
-    public float jumpHeight;
+    float turnSpeed = 12f;
+    float speed = 15f;
+    float jumpHeight = 50f;
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
     bool hasInput = false;
-    public bool doubleJumped = false;
+    bool doubleJumped = false;
     // End movement variables
 
     // Animation variables
@@ -25,7 +25,7 @@ public class MovePlayer : MonoBehaviour
     public Transform groundCheck;
     float groundDistance = 0.8f;
     public LayerMask groundMask;
-    public bool isGrounded = true;
+    bool isGrounded = true;
     // End ground check variables
 
     // Dash vars
@@ -36,14 +36,14 @@ public class MovePlayer : MonoBehaviour
 
     // JetPack variables
     public ParticleSystem JetParticles;
-    public float jetForce;
+    float jetForce = 2f;
     bool flying = false;
     // End JetPack variables
 
     // Shield variables
     public GameObject ForceField;
     public bool shielding = false;
-    public float t = 0f;
+    float t = 0f;
     private Vector3 shrunkSize = new Vector3(0.01f, 0.01f, 0.01f);
     private Vector3 fullSize = new Vector3(0.5f, 0.5f, 0.5f);
     float shieldGrowSpeed = 0.85f;
@@ -78,6 +78,7 @@ public class MovePlayer : MonoBehaviour
         SetRunningAnimBool();
 
         DoubleJump();
+
         Dash();
 
         Shield();
@@ -95,18 +96,24 @@ public class MovePlayer : MonoBehaviour
             Jump();
         } 
     }
-
+    /* DoubleJump():
+     * :description: allow the player to double jump; maintain x and z velocity but add to y velocity. Sets doubleJumped bool 
+     * :param: n/a
+     * :dependency: isGrounded: only allow the player to double jump if we aren't on the ground (if we are on the ground then just jump as normal)
+     * 
+     * :calls: n/a
+     * :called by: Update().
+     */
     void DoubleJump()
     {
 
         if (Input.GetKeyDown("space") && !doubleJumped && !isGrounded)
         {
-            Jump();
-            //Debug.Log(doubleJumped);
+
+            body.AddForce(new Vector3(body.velocity.x, jumpHeight + Mathf.Abs(body.velocity.y), body.velocity.z), ForceMode.VelocityChange);
             doubleJumped = true;
         }
         if (isGrounded) { doubleJumped = false; } 
-
     }
 
     /* Dash()
@@ -117,6 +124,7 @@ public class MovePlayer : MonoBehaviour
      * :calls: n/a
      * :called by: Update().
      */
+
     void Dash()
     {
         
@@ -176,13 +184,13 @@ public class MovePlayer : MonoBehaviour
      */
     void Shield()
     {
-        // TODO: add energy/O2 cost
 
         // toggle shield on/off 
-        if (Input.GetKeyDown("left shift"))
+        if (Input.GetKeyDown("q"))
         {
             // alternate between on and off
             shielding ^= true;
+
             // reset for next lerp
             t = 0f;
 
@@ -199,8 +207,6 @@ public class MovePlayer : MonoBehaviour
         if ((Mathf.Approximately(ForceField.transform.localScale.x, fullSize.x)) || (ForceField.transform.localScale.x > fullSize.x))
         {
             ForceField.transform.localScale = fullSize;
-            // we're done growing so disable lerp
-          //  t = 0f;
         }
 
         // if we want to shrink
@@ -216,8 +222,6 @@ public class MovePlayer : MonoBehaviour
             if ((Mathf.Approximately(ForceField.transform.localScale.x, shrunkSize.x)))
             {
                 ForceField.transform.localScale = shrunkSize;
-                // we're done shrinking so disable lerp
-               // t = 0f;
             }
         }
     }
@@ -300,12 +304,11 @@ public class MovePlayer : MonoBehaviour
     {
         Vector3 jump = new Vector3(body.velocity.x, jumpHeight, body.velocity.z);
         body.velocity = jump;
-        //body.AddForce(jump, ForceMode.VelocityChange);
     }
 
     /* JetPack():
-     * :description: implement jet pack ability; when space is held down apply vertical force to the character and play jet effect, when 
-     *               space is released stop applying force and stop playing particle effect. Sets flying bool.
+     * :description: implement jet pack ability; when left shift is held down apply vertical force to the character and play jet effect, when 
+     *               left shift is released stop applying force and stop playing particle effect. Sets flying bool.
      * :param: n/a
      * :dependency: isGrounded: used because we should only be able to use the jet pack in the air so we need to see if we are grounded. Set at top of Update().
      *              
@@ -315,12 +318,12 @@ public class MovePlayer : MonoBehaviour
     void JetPack()
     {
         // We are in the air, so use JetPack
-        if (Input.GetKeyDown("e") && !isGrounded)
+        if (Input.GetKeyDown("left shift") && !isGrounded)
         {
             flying = true;
             anim.SetBool("IsFlying", flying);
         }
-        else if (Input.GetKeyUp("e"))
+        else if (Input.GetKeyUp("left shift"))
         {
             flying = false;
             anim.SetBool("IsFlying", flying);
@@ -330,7 +333,7 @@ public class MovePlayer : MonoBehaviour
         if (flying)
         {
             // TODO: Decide on an amount of damage to take
-            FindObjectOfType<KillPlayer>().TakeDamage(0.1f);
+            FindObjectOfType<KillPlayer>().TakeDamage(0.3f);
 
             Vector3 fly = new Vector3(0f, jetForce, 0f);
             body.AddForce(fly, ForceMode.VelocityChange);

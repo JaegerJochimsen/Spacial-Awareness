@@ -2527,20 +2527,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25890cd8965867f42a4fe2e586ece369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnSpeed: 12
-  speed: 15
-  jumpHeight: 50
-  doubleJumped: 0
   groundCheck: {fileID: 1063517886}
   groundMask:
     serializedVersion: 2
     m_Bits: 8
-  isGrounded: 1
   JetParticles: {fileID: 1469912142}
-  jetForce: 2
   ForceField: {fileID: 2145710208}
   shielding: 0
-  t: 0
   body: {fileID: 422381604}
 --- !u!136 &422381606
 CapsuleCollider:
