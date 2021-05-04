@@ -46,6 +46,8 @@ public class MovePlayer : MonoBehaviour
     public float t = 0f;
     private Vector3 shrunkSize = new Vector3(0.01f, 0.01f, 0.01f);
     private Vector3 fullSize = new Vector3(0.5f, 0.5f, 0.5f);
+    float shieldGrowSpeed = 0.85f;
+    float shieldShrinkSpeed = 0.6f;
     // End Shield variables
 
     public Rigidbody body;
@@ -181,13 +183,24 @@ public class MovePlayer : MonoBehaviour
         {
             // alternate between on and off
             shielding ^= true;
+            // reset for next lerp
+            t = 0f;
+
         }
 
         // if we want to shrink and we are still bigger than our minimum size continue to shrink
         if (shielding && (ForceField.transform.localScale.x < fullSize.x))
         {
             ForceField.transform.localScale *= Mathf.Lerp(1f, 3f, t);
-            t += 0.1f * Time.deltaTime;
+            t += shieldGrowSpeed * Time.deltaTime;
+        }
+
+        // if we are just about done growing or we have overgrown
+        if ((Mathf.Approximately(ForceField.transform.localScale.x, fullSize.x)) || (ForceField.transform.localScale.x > fullSize.x))
+        {
+            ForceField.transform.localScale = fullSize;
+            // we're done growing so disable lerp
+          //  t = 0f;
         }
 
         // if we want to shrink
@@ -197,18 +210,16 @@ public class MovePlayer : MonoBehaviour
             if (ForceField.transform.localScale.x > shrunkSize.x)
             {
                 ForceField.transform.localScale /= Mathf.Lerp(1f, 3f, t);
-                t += 0.1f * Time.deltaTime;
+                t += shieldShrinkSpeed * Time.deltaTime;
             }
             // also, if we have accidentally grown too much or we are ESSENTIALLY done growing, grow back to our usual size
-            if ((ForceField.transform.localScale.x < shrunkSize.x) || (Mathf.Approximately(ForceField.transform.localScale.x, shrunkSize.x)))
+            if ((Mathf.Approximately(ForceField.transform.localScale.x, shrunkSize.x)))
             {
                 ForceField.transform.localScale = shrunkSize;
-                // we're done growing/shrinking so disable lerp
-                t = 1f;
+                // we're done shrinking so disable lerp
+               // t = 0f;
             }
         }
-        // reset for next lerp
-        if (t == 1f) { t = 0f; }
     }
 
     /* MoveAndLook():
