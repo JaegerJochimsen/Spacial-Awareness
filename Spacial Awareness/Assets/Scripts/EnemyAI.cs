@@ -45,6 +45,8 @@ public class EnemyAI : MonoBehaviour
         body.velocity = Vector3.zero;
         body.angularVelocity = Vector3.zero;
 
+        //Debug.Log(DogPos * speed * -1f);
+        Debug.Log(DogPos);
         body.AddForce(DogPos * speed * -1f, ForceMode.Impulse);
     }
 

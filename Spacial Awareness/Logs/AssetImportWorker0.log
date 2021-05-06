@@ -1481,3 +1481,1365 @@ Received Import Request.
 Start importing Assets/EmaceArt_LavaPlant/Skybox/Textures/desert_skybox.png using Guid(257eabfb03b3fb14d868ab9485e993f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be717095a816633a1ec9714e2f6e497') in 0.056062 seconds
   Import took 0.062432 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001563 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3193.
+Total: 3.099500 ms (FindLiveObjects: 0.371400 ms CreateObjectMapping: 0.175600 ms MarkObjects: 2.528200 ms  DeleteObjects: 0.022500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 516.911110 seconds.
+  path: Assets/Sprites/Bar.png
+  artifactKey: Guid(c8bbd02a88c2bbc41b7d7e50ec7b2aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bar.png using Guid(c8bbd02a88c2bbc41b7d7e50ec7b2aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b2a673f40b46b28c69bd7d05bac613') in 0.072443 seconds
+  Import took 0.080985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Sprites/Heart.png
+  artifactKey: Guid(9a8e023b5e66b0d478386a07d1627765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Heart.png using Guid(9a8e023b5e66b0d478386a07d1627765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037ab40c079c335a9deeeaaa44fc1f8c') in 0.039038 seconds
+  Import took 0.044116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.736907 seconds.
+  path: Assets/Space Crawlers/Prefabs
+  artifactKey: Guid(0110e0513c67e6149ba81d4faa1bb83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Prefabs using Guid(0110e0513c67e6149ba81d4faa1bb83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b093a5b2dbe38de68f6bdf6a037adaa7') in 0.009307 seconds
+  Import took 0.016323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Space Crawlers/Prefabs/Polygonal Metalon Red.prefab
+  artifactKey: Guid(f88c6ad57910d8648807bcf0c131f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Prefabs/Polygonal Metalon Red.prefab using Guid(f88c6ad57910d8648807bcf0c131f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a672167f938bce6558e6b8f6a23acb09') in 0.255462 seconds
+  Import took 0.265355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Space Crawlers/Prefabs/Polygonal Metalon Purple.prefab
+  artifactKey: Guid(e9a03d46b76afe246a9ffd58d255bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Prefabs/Polygonal Metalon Purple.prefab using Guid(e9a03d46b76afe246a9ffd58d255bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b2ad3a910c73ffd9e484de7c3a40ea') in 0.059400 seconds
+  Import took 0.065791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Space Crawlers/Prefabs
+  artifactKey: Guid(0110e0513c67e6149ba81d4faa1bb83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Prefabs using Guid(0110e0513c67e6149ba81d4faa1bb83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b093a5b2dbe38de68f6bdf6a037adaa7') in 0.003445 seconds
+  Import took 0.008426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Space Crawlers/Prefabs/Polygonal Metalon Green.prefab
+  artifactKey: Guid(7f931d4b5c97d194d8726ddf5acdd440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Prefabs/Polygonal Metalon Green.prefab using Guid(7f931d4b5c97d194d8726ddf5acdd440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255c8fdc07d1415b3c1ad9e2b39e7e79') in 0.065227 seconds
+  Import took 0.072058 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.123 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3201.
+Total: 2.435300 ms (FindLiveObjects: 0.302000 ms CreateObjectMapping: 0.131400 ms MarkObjects: 1.981900 ms  DeleteObjects: 0.018900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.086742 seconds.
+  path: Assets/Scripts/MovePlayer.cs
+  artifactKey: Guid(25890cd8965867f42a4fe2e586ece369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MovePlayer.cs using Guid(25890cd8965867f42a4fe2e586ece369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378c2598136b1ebec10fc8111c878498') in 0.019599 seconds
+  Import took 0.030292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012949 seconds.
+  path: Assets/Scripts/MovePlayer.cs
+  artifactKey: Guid(25890cd8965867f42a4fe2e586ece369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MovePlayer.cs using Guid(25890cd8965867f42a4fe2e586ece369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378c2598136b1ebec10fc8111c878498') in 0.005401 seconds
+  Import took 0.015653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.317386 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06cfc197d27d6b73fe42b3a7e2b5a99') in 0.034386 seconds
+  Import took 0.039999 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3204.
+Total: 3.605100 ms (FindLiveObjects: 0.600000 ms CreateObjectMapping: 0.149900 ms MarkObjects: 2.769400 ms  DeleteObjects: 0.084500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.2 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3207.
+Total: 3.415200 ms (FindLiveObjects: 0.491700 ms CreateObjectMapping: 0.292400 ms MarkObjects: 2.568800 ms  DeleteObjects: 0.060800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 626.748605 seconds.
+  path: Assets/Space Crawlers/Demo Assets/Base.FBX
+  artifactKey: Guid(d43fabc0c6249d84b8e67387e5f3a340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Demo Assets/Base.FBX using Guid(d43fabc0c6249d84b8e67387e5f3a340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6f677d8be4f2634b8fccb908b02ebc') in 0.142703 seconds
+  Import took 0.154660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005714 seconds.
+  path: Assets/Space Crawlers/Demo Assets/Base.FBX
+  artifactKey: Guid(d43fabc0c6249d84b8e67387e5f3a340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Demo Assets/Base.FBX using Guid(d43fabc0c6249d84b8e67387e5f3a340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6f677d8be4f2634b8fccb908b02ebc') in 0.015121 seconds
+  Import took 0.020425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.008491 seconds.
+  path: Assets/Space Rocks/Components/Meshes/glowing_rock_purple_6.fbx
+  artifactKey: Guid(ff934fa4e02d1784d9a324b0f2923a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/glowing_rock_purple_6.fbx using Guid(ff934fa4e02d1784d9a324b0f2923a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd4ad0a1f7694d431fd32e865c6ba83') in 0.029989 seconds
+  Import took 0.040363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Space Rocks/Components/Meshes/glowing_rock_purple_7.fbx
+  artifactKey: Guid(9f79fcd53003fc045b5544c889eae044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/glowing_rock_purple_7.fbx using Guid(9f79fcd53003fc045b5544c889eae044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21c2c6c8cd6628dc38c7d4a424c2918') in 0.060391 seconds
+  Import took 0.065522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003508 seconds.
+  path: Assets/Space Rocks/Components/Meshes/glowing_rock_purple_7.fbx
+  artifactKey: Guid(9f79fcd53003fc045b5544c889eae044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/glowing_rock_purple_7.fbx using Guid(9f79fcd53003fc045b5544c889eae044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21c2c6c8cd6628dc38c7d4a424c2918') in 0.064670 seconds
+  Import took 0.070525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102696 seconds.
+  path: Assets/Space Rocks/Components/Meshes/ice_scifi_rock_1.fbx
+  artifactKey: Guid(8e8b361a299c566429d9acd37b8354a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/ice_scifi_rock_1.fbx using Guid(8e8b361a299c566429d9acd37b8354a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7161ec37fb237b75615b0e2e67e23cf0') in 0.027722 seconds
+  Import took 0.035376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/EffectExamples/Shared/Models/LowMan.fbx
+  artifactKey: Guid(7e15121f5f042ed46aba81406403f2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Shared/Models/LowMan.fbx using Guid(7e15121f5f042ed46aba81406403f2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddebd8138238517196180ca27a7b0b90') in 0.070563 seconds
+  Import took 0.076181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_blue_4.fbx
+  artifactKey: Guid(af4d1ee0120aac84d93994faf61785d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_blue_4.fbx using Guid(af4d1ee0120aac84d93994faf61785d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f132a4e47cfad80df9df6563255e0a2f') in 0.030818 seconds
+  Import took 0.038046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_blue_5.fbx
+  artifactKey: Guid(088755d8769b73d49b5a21020ced1d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_blue_5.fbx using Guid(088755d8769b73d49b5a21020ced1d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e9d87ae09b485b22c0f7a9f8cf06e1') in 0.051919 seconds
+  Import took 0.057368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_blue_1.fbx
+  artifactKey: Guid(63b2179e87b923f48be9bd29fcb8379b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_blue_1.fbx using Guid(63b2179e87b923f48be9bd29fcb8379b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c29c1d3f5739b898a4bfee237ee7a96') in 0.026523 seconds
+  Import took 0.035152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_blue_3.fbx
+  artifactKey: Guid(8b967417c5247f04d90e2e9ee937dd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_blue_3.fbx using Guid(8b967417c5247f04d90e2e9ee937dd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ed53fd79f2746cac3870019ecbddc9') in 0.028407 seconds
+  Import took 0.034709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/EffectExamples/WaterEffects/Models/ImpactSplash.FBX
+  artifactKey: Guid(8f8a4cd20bdf7f845ab3768cae8aceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/WaterEffects/Models/ImpactSplash.FBX using Guid(8f8a4cd20bdf7f845ab3768cae8aceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23be7d91c12f621bec12980c15b5705d') in 0.034771 seconds
+  Import took 0.042414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_blue_2.fbx
+  artifactKey: Guid(3ed6047299bcbdb4abdaf5fdd7b04d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_blue_2.fbx using Guid(3ed6047299bcbdb4abdaf5fdd7b04d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881843ad7166a2cfa176e66899761bed') in 0.035219 seconds
+  Import took 0.043492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065832 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_green_1.fbx
+  artifactKey: Guid(1f770b7849768e54895cc467b711d37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_green_1.fbx using Guid(1f770b7849768e54895cc467b711d37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39219e6d902b8ba1fbb061ce00972a5b') in 0.031204 seconds
+  Import took 0.037722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_green_2.fbx
+  artifactKey: Guid(622d3a6fd5de67a46a462acb025e743c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_green_2.fbx using Guid(622d3a6fd5de67a46a462acb025e743c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce901703df90c334d0a14ba6f0fe9cd9') in 0.024227 seconds
+  Import took 0.032906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_green_1.fbx
+  artifactKey: Guid(1f770b7849768e54895cc467b711d37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_green_1.fbx using Guid(1f770b7849768e54895cc467b711d37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39219e6d902b8ba1fbb061ce00972a5b') in 0.026217 seconds
+  Import took 0.032415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_green_3.fbx
+  artifactKey: Guid(217b599cd7a835d499a22db251de7a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_green_3.fbx using Guid(217b599cd7a835d499a22db251de7a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ee9dc7fdd6cd872500e489ee6d6623') in 0.041071 seconds
+  Import took 0.050099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_green_5.fbx
+  artifactKey: Guid(e2e796d06943d7744a44b8c06363c376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_green_5.fbx using Guid(e2e796d06943d7744a44b8c06363c376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e513b2a71bcb60da2269c9d8974c09f') in 0.061424 seconds
+  Import took 0.068449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_green_4.fbx
+  artifactKey: Guid(0beb55768cd294e49a833e894dc6736f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_green_4.fbx using Guid(0beb55768cd294e49a833e894dc6736f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32e641c412bb2f92c0affc7015c40b1') in 0.027124 seconds
+  Import took 0.032816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.360233 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_orange_1.fbx
+  artifactKey: Guid(9686942d1c170814e91ab38c689f25c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_orange_1.fbx using Guid(9686942d1c170814e91ab38c689f25c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0836c5be0551181d6accad86425cdf69') in 0.032881 seconds
+  Import took 0.042066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_orange_2.fbx
+  artifactKey: Guid(86e82b7cc89e6a945a7414f8e12e661c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_orange_2.fbx using Guid(86e82b7cc89e6a945a7414f8e12e661c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d602e430fd5b6503325cf0b61a9a67c') in 0.026292 seconds
+  Import took 0.034308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_orange_5.fbx
+  artifactKey: Guid(c01ae32850ac04441a2d9661102a7204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_orange_5.fbx using Guid(c01ae32850ac04441a2d9661102a7204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc01965d4b7cd050b2dd078175bab7fc') in 0.059497 seconds
+  Import took 0.070150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_purple_1.fbx
+  artifactKey: Guid(4d89d9a63bfa3344dabdfac490531596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_purple_1.fbx using Guid(4d89d9a63bfa3344dabdfac490531596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda4a31ec86e68600c57b4e59999e1e6') in 0.027027 seconds
+  Import took 0.034116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_purple_3.fbx
+  artifactKey: Guid(e1789358898a6654cae1b3eb6b963c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_purple_3.fbx using Guid(e1789358898a6654cae1b3eb6b963c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d52de3dff6b285d409e079378883c13') in 0.032668 seconds
+  Import took 0.037834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_purple_4.fbx
+  artifactKey: Guid(ecdfa8f4101804d4a8464b94ef9be78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_purple_4.fbx using Guid(ecdfa8f4101804d4a8464b94ef9be78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ae40d6f2ed0c3f95d0343484c153b5') in 0.031692 seconds
+  Import took 0.046096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_orange_4.fbx
+  artifactKey: Guid(ba4368ab103b3904aa45a8ec9eda9c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_orange_4.fbx using Guid(ba4368ab103b3904aa45a8ec9eda9c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea7cd07da9f1b51c93df44171b06085') in 0.041460 seconds
+  Import took 0.049917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_orange_3.fbx
+  artifactKey: Guid(0b5f0541699ee754e8bc9c9792dd7ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_orange_3.fbx using Guid(0b5f0541699ee754e8bc9c9792dd7ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb0dc1e039e13b9319d1ee9a8aa8cc1') in 0.036798 seconds
+  Import took 0.042179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000779 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_orange_1.fbx
+  artifactKey: Guid(9686942d1c170814e91ab38c689f25c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_orange_1.fbx using Guid(9686942d1c170814e91ab38c689f25c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0836c5be0551181d6accad86425cdf69') in 0.035368 seconds
+  Import took 0.048540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_purple_2.fbx
+  artifactKey: Guid(7bb859d3629e9744ab1a4caa0450a7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_purple_2.fbx using Guid(7bb859d3629e9744ab1a4caa0450a7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bba427982d48e4a3560ec3d5bcd28d6') in 0.060324 seconds
+  Import took 0.074873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/DogKnight/Mesh/Stage.fbx
+  artifactKey: Guid(83ccc45f4c0939440a46957a74a54d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogKnight/Mesh/Stage.fbx using Guid(83ccc45f4c0939440a46957a74a54d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ee62f9d867a7c508bbc673cd00bb82') in 0.051712 seconds
+  Import took 0.059989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001644 seconds.
+  path: Assets/Space Rocks/Components/Meshes/planet.fbx
+  artifactKey: Guid(7f8b9f69fc536fd4183d2b851fa22663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/planet.fbx using Guid(7f8b9f69fc536fd4183d2b851fa22663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4712146a1467c8709f10c197786e50') in 0.049032 seconds
+  Import took 0.057613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Stylized Astronaut/Character/Astronaut.fbx
+  artifactKey: Guid(02dd6406ed1ebc248b2fafd0485e0de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Astronaut/Character/Astronaut.fbx using Guid(02dd6406ed1ebc248b2fafd0485e0de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447d2d7e2ca533fecb2470103b3f0c39') in 0.084380 seconds
+  Import took 0.090926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Walk Forward W Root.FBX
+  artifactKey: Guid(8b293a3eb76e69e41adf2e2cb14ea626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Walk Forward W Root.FBX using Guid(8b293a3eb76e69e41adf2e2cb14ea626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af6cc179b78f1e1b1d0da8f7df9b40c') in 0.075072 seconds
+  Import took 0.084220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/EffectExamples/Shared/Models/BackGround.FBX
+  artifactKey: Guid(f4527c479041fc040b53171204c086a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Shared/Models/BackGround.FBX using Guid(f4527c479041fc040b53171204c086a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a30affd7e8e1a2515217929a0aeaa2a') in 0.040128 seconds
+  Import took 0.045800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Cast Spell.FBX
+  artifactKey: Guid(fe02d79f80f664d4d95ca809354183dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Cast Spell.FBX using Guid(fe02d79f80f664d4d95ca809354183dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812be9bd3866768a6f461ae4fc34205d') in 0.062694 seconds
+  Import took 0.072273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_purple_2.fbx
+  artifactKey: Guid(7bb859d3629e9744ab1a4caa0450a7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_purple_2.fbx using Guid(7bb859d3629e9744ab1a4caa0450a7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bba427982d48e4a3560ec3d5bcd28d6') in 0.018536 seconds
+  Import took 0.025035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Space Rocks/Components/Meshes/obelisk_purple_5.fbx
+  artifactKey: Guid(3893f8e9d56c69146955883c15258902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/obelisk_purple_5.fbx using Guid(3893f8e9d56c69146955883c15258902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed10c2f5f76898e38d9ae5fd956ceab0') in 0.072440 seconds
+  Import took 0.081550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Defend.FBX
+  artifactKey: Guid(6433a82a889b92448abf3bc7e915ebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Defend.FBX using Guid(6433a82a889b92448abf3bc7e915ebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24da133d638f621c9cc80f54a19ab12b') in 0.064979 seconds
+  Import took 0.075222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon.FBX
+  artifactKey: Guid(66ca9bf0145725543a1e8a693589f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon.FBX using Guid(66ca9bf0145725543a1e8a693589f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83930a263c62b8bc15091012f69cf2da') in 0.062538 seconds
+  Import took 0.068432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Run Backward W Root.FBX
+  artifactKey: Guid(916cdb4d7688f614bb9714a9b184cf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Run Backward W Root.FBX using Guid(916cdb4d7688f614bb9714a9b184cf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6527f1cc7184efc8b6455f44db10f53') in 0.060636 seconds
+  Import took 0.065916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Idle.FBX
+  artifactKey: Guid(c87cf6f81b4b72a4eb3acfa19f05bcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Idle.FBX using Guid(c87cf6f81b4b72a4eb3acfa19f05bcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd424dd09027af676efe2c5e98c278e8b') in 0.060733 seconds
+  Import took 0.066173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Run Forward In Place.FBX
+  artifactKey: Guid(5c58933387b06c046a5f6eb866055790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Run Forward In Place.FBX using Guid(5c58933387b06c046a5f6eb866055790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73222a1857f959b2d043f4e0eb8b18b1') in 0.072473 seconds
+  Import took 0.078434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Run Forward W Root.FBX
+  artifactKey: Guid(52aa6b18414074c4abccfd74ad152bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Run Forward W Root.FBX using Guid(52aa6b18414074c4abccfd74ad152bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a1b886ddfddf7adf223b93941dcbe8') in 0.070580 seconds
+  Import took 0.076225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Jump In Place.FBX
+  artifactKey: Guid(1a1c63557b37d1240a5ac8c100802a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Jump In Place.FBX using Guid(1a1c63557b37d1240a5ac8c100802a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc007ac9ed34f8b44aba78cc153329cd') in 0.067636 seconds
+  Import took 0.074205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Die.FBX
+  artifactKey: Guid(f98e921a4bf7e9644ad07becaccbf218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Die.FBX using Guid(f98e921a4bf7e9644ad07becaccbf218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fadaf3498d3e4dec9f7776e280e3a5') in 0.056214 seconds
+  Import took 0.062029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Run Backward In Place.FBX
+  artifactKey: Guid(6cb6b8fadf3f07d40aa719fb0e3a6050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Run Backward In Place.FBX using Guid(6cb6b8fadf3f07d40aa719fb0e3a6050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6872d821d027c2716e153426ac6964') in 0.079147 seconds
+  Import took 0.084574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Jump W Root.FBX
+  artifactKey: Guid(31b86f9a62289fe4eba6cc76582b09b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Jump W Root.FBX using Guid(31b86f9a62289fe4eba6cc76582b09b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d640f7f24920cbbdd191a8b30887867') in 0.059009 seconds
+  Import took 0.067593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.141058 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Smash Attack.FBX
+  artifactKey: Guid(83f1c57bd1d0f6a4b8cc179a0cc87ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Smash Attack.FBX using Guid(83f1c57bd1d0f6a4b8cc179a0cc87ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e920c9be522c95b114c9e607779eac') in 0.082437 seconds
+  Import took 0.092597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Strafe Right In Place.FBX
+  artifactKey: Guid(7e312894e90a2b9499fbf7d318e0a6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Strafe Right In Place.FBX using Guid(7e312894e90a2b9499fbf7d318e0a6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568fda90d2931d12d1e7ac6004f6d877') in 0.079403 seconds
+  Import took 0.086527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Strafe Left W Root.FBX
+  artifactKey: Guid(d5a310ef9b4546a48a9af98fc33e1fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Strafe Left W Root.FBX using Guid(d5a310ef9b4546a48a9af98fc33e1fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bf417f3b9264b3cff0f763a2f62f39') in 0.072514 seconds
+  Import took 0.081397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Take Damage.FBX
+  artifactKey: Guid(ccf6810f56ac7b34b9cd17ada01cbda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Take Damage.FBX using Guid(ccf6810f56ac7b34b9cd17ada01cbda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4830c21a65382e5a57489b77cdc524d6') in 0.065387 seconds
+  Import took 0.070843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Strafe Right W Root.FBX
+  artifactKey: Guid(c0c6345aa9498424fb7a4a88b0ea4434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Strafe Right W Root.FBX using Guid(c0c6345aa9498424fb7a4a88b0ea4434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3257d8ba635fdde345046eb0be23d853') in 0.057433 seconds
+  Import took 0.062451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Strafe Left In Place.FBX
+  artifactKey: Guid(93d17616636e4344ba731f98af433285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Strafe Left In Place.FBX using Guid(93d17616636e4344ba731f98af433285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0126bc710df26c148bb75a9ecd6c756a') in 0.056636 seconds
+  Import took 0.062789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.437844 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Turn Left.FBX
+  artifactKey: Guid(58a65a4056e96eb4c922672f1765209f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Turn Left.FBX using Guid(58a65a4056e96eb4c922672f1765209f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a186df34bee4463b38fad8d6f29028df') in 0.090066 seconds
+  Import took 0.103697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Walk Backward In Place.FBX
+  artifactKey: Guid(505c033703351d542a5914d18cf2f36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Walk Backward In Place.FBX using Guid(505c033703351d542a5914d18cf2f36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a03cda35449f54b7ddd0bf8dd12d9d1') in 0.063615 seconds
+  Import took 0.069402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Cloud-02.fbx
+  artifactKey: Guid(e4517c298d091d0499b08981344c5398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Cloud-02.fbx using Guid(e4517c298d091d0499b08981344c5398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32930660ef1501a683ac1a8438bc771') in 0.063244 seconds
+  Import took 0.068488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Cloud-01.fbx
+  artifactKey: Guid(e482b39d7ed22034ca6a61dd145ee82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Cloud-01.fbx using Guid(e482b39d7ed22034ca6a61dd145ee82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a4bd4b6e43cde8a89bfab7b81574ff') in 0.040518 seconds
+  Import took 0.047100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Walk Forward In Place.FBX
+  artifactKey: Guid(b102accb4eb134940ba2ad7b36761f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Walk Forward In Place.FBX using Guid(b102accb4eb134940ba2ad7b36761f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47dbf6ff47af780db87abde16946f85b') in 0.054554 seconds
+  Import took 0.062092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Stab Attack.FBX
+  artifactKey: Guid(86ad529a54857f24ba490579bfcc56eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Stab Attack.FBX using Guid(86ad529a54857f24ba490579bfcc56eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4915737b2c600845e028823ff34db9') in 0.049345 seconds
+  Import took 0.054614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Turn Right.FBX
+  artifactKey: Guid(fc2d3265555e92f43bc57284e1444438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Turn Right.FBX using Guid(fc2d3265555e92f43bc57284e1444438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5883fe38e47bc6ddc897cc7fe1456193') in 0.051635 seconds
+  Import took 0.057859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Space Crawlers/FBX/Polygonal Metalon@Walk Backward W Root.FBX
+  artifactKey: Guid(d4de8ef3201556a4fae62ee81ad36128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX/Polygonal Metalon@Walk Backward W Root.FBX using Guid(d4de8ef3201556a4fae62ee81ad36128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab80887676904c26ab5498c6f686d399') in 0.049660 seconds
+  Import took 0.054979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/DogKnight/Mesh/DogPBR.fbx
+  artifactKey: Guid(d9a1483b77bf10e4e851678ab6c2e54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogKnight/Mesh/DogPBR.fbx using Guid(d9a1483b77bf10e4e851678ab6c2e54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e76ff5c0adbd370490603f6cae0c24') in 0.055932 seconds
+  Import took 0.060843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/DogKnight/Mesh/DogPolyart.fbx
+  artifactKey: Guid(a58d63122b09e9144938cd6a1ece4824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogKnight/Mesh/DogPolyart.fbx using Guid(a58d63122b09e9144938cd6a1ece4824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769e347d2804d5a5359c56358e3d7849') in 0.054155 seconds
+  Import took 0.059511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.424438 seconds.
+  path: Assets/Space Crawlers/Materials/Polygonal Metalon Green.mat
+  artifactKey: Guid(eb8fac8d0552e3f499a0eca1d3932a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Materials/Polygonal Metalon Green.mat using Guid(eb8fac8d0552e3f499a0eca1d3932a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd5062c7876b6d1ce2e9aee2e24c11b') in 0.045892 seconds
+  Import took 0.052399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Space Crawlers/Materials/Polygonal Metalon Purple.mat
+  artifactKey: Guid(343efc4e4daa6884fb114514185426c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Materials/Polygonal Metalon Purple.mat using Guid(343efc4e4daa6884fb114514185426c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fe4bd4f02ae06435b612cc4d43db08') in 0.020997 seconds
+  Import took 0.029973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Space Crawlers/Materials/Polygonal Metalon Red.mat
+  artifactKey: Guid(bcaad48fae9d78948944fe183b6e39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Materials/Polygonal Metalon Red.mat using Guid(bcaad48fae9d78948944fe183b6e39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0109e1e9bac4534151d05d217f9307f9') in 0.023482 seconds
+  Import took 0.030636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Space Crawlers/Materials
+  artifactKey: Guid(a853662e3f0995d45b91e7568d36158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Materials using Guid(a853662e3f0995d45b91e7568d36158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd363bef07b3f747d2b679bfb3ac1028d') in 0.012524 seconds
+  Import took 0.018087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Space Crawlers/Materials/Polygonal Metalon Red.mat
+  artifactKey: Guid(bcaad48fae9d78948944fe183b6e39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Materials/Polygonal Metalon Red.mat using Guid(bcaad48fae9d78948944fe183b6e39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0109e1e9bac4534151d05d217f9307f9') in 0.025727 seconds
+  Import took 0.034103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.507873 seconds.
+  path: Assets/Space Crawlers/READ ME
+  artifactKey: Guid(9d17a0810146d824aaca89233dd343e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/READ ME using Guid(9d17a0810146d824aaca89233dd343e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65281338fb2fb7017185ad896b770a1b') in 0.016902 seconds
+  Import took 0.021758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.381357 seconds.
+  path: Assets/Space Crawlers/Scenes
+  artifactKey: Guid(588879e92147ce14a8658dde4e11502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Scenes using Guid(588879e92147ce14a8658dde4e11502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8231c3cc0ffbfc5a6113c111afdfa2') in 0.016426 seconds
+  Import took 0.023429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.865165 seconds.
+  path: Assets/Space Crawlers/Textures/Polygonal Metalon Green.psd
+  artifactKey: Guid(eb118efcd9688724695a55b9619a35a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Textures/Polygonal Metalon Green.psd using Guid(eb118efcd9688724695a55b9619a35a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f05407e035cb14248dc74bfbcbd3fbe') in 0.045854 seconds
+  Import took 0.050937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Space Crawlers/Textures
+  artifactKey: Guid(2c82c0fe1efcd0d43a1c7700787429d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Textures using Guid(2c82c0fe1efcd0d43a1c7700787429d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6033d66688ca68a98acf0b7f2ed75e0') in 0.008310 seconds
+  Import took 0.013579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Space Crawlers/Textures/Polygonal Metalon Red.psd
+  artifactKey: Guid(fe164343ee8f22a49aef4febac70ba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Textures/Polygonal Metalon Red.psd using Guid(fe164343ee8f22a49aef4febac70ba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15693e5dd65ba77573cc1f742c23fe06') in 0.019430 seconds
+  Import took 0.026130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Space Crawlers/Textures/Polygonal Metalon Purple.psd
+  artifactKey: Guid(450844baa6aa19b4caf45ab26b4255a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Textures/Polygonal Metalon Purple.psd using Guid(450844baa6aa19b4caf45ab26b4255a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890640888568aacdd46641d4f8888f65') in 0.024482 seconds
+  Import took 0.031009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.160597 seconds.
+  path: Assets/Space Crawlers/Animators
+  artifactKey: Guid(00320358ca55c7a41b49ab295502e017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Animators using Guid(00320358ca55c7a41b49ab295502e017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c227a8c2db3411f7e3888825f6ae1176') in 0.015634 seconds
+  Import took 0.024165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.002447 seconds.
+  path: Assets/Space Crawlers/Demo Assets/Base Prefabs.prefab
+  artifactKey: Guid(b71f0a1959c50814ab931c25475edcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Demo Assets/Base Prefabs.prefab using Guid(b71f0a1959c50814ab931c25475edcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ffd895b0da8983339d93c3b3ff6e6c') in 0.017404 seconds
+  Import took 0.026614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000856 seconds.
+  path: Assets/Space Crawlers/Demo Assets/Polygonal Creatures.asset
+  artifactKey: Guid(a30dce614a64400498cb1551d48bacd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Demo Assets/Polygonal Creatures.asset using Guid(a30dce614a64400498cb1551d48bacd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879c1ef66f77e73864ed21f5cbe77ec3') in 0.044214 seconds
+  Import took 0.050918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Space Crawlers/Demo Assets/Demo Ground 1.mat
+  artifactKey: Guid(0aae032dca142c1458bfb151bb2e2f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Demo Assets/Demo Ground 1.mat using Guid(0aae032dca142c1458bfb151bb2e2f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f10c240944983ed744728f683a38c3') in 0.027830 seconds
+  Import took 0.036011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Space Crawlers/Demo Assets
+  artifactKey: Guid(1faa190315021254494cbb457dc847ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Demo Assets using Guid(1faa190315021254494cbb457dc847ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feb17dc09691d79fc78b9f166d7705a') in 0.009648 seconds
+  Import took 0.021612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.394723 seconds.
+  path: Assets/Space Crawlers/FBX
+  artifactKey: Guid(2c93230623b20a74294d3d84e5f2616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX using Guid(2c93230623b20a74294d3d84e5f2616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b61f1211f94d2afdad5242776b06b1') in 0.009333 seconds
+  Import took 0.021028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/Space Crawlers/FBX
+  artifactKey: Guid(2c93230623b20a74294d3d84e5f2616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/FBX using Guid(2c93230623b20a74294d3d84e5f2616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b61f1211f94d2afdad5242776b06b1') in 0.002674 seconds
+  Import took 0.008475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.035809 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Cloud-03.fbx
+  artifactKey: Guid(7adcbac7714161e40bc7421e2762cfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Cloud-03.fbx using Guid(7adcbac7714161e40bc7421e2762cfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36674706ea48d36fa6df4dd53f5748f0') in 0.037793 seconds
+  Import took 0.044911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Cloud-04.fbx
+  artifactKey: Guid(d75090a6aa124b747a842bf2b5ae80cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Cloud-04.fbx using Guid(d75090a6aa124b747a842bf2b5ae80cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5d7bbf62b5d9d0af04a80fc7943c91') in 0.046323 seconds
+  Import took 0.052922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051291 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Cloud-05.fbx
+  artifactKey: Guid(66b62323586a05541bdf731d7ce0497d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Cloud-05.fbx using Guid(66b62323586a05541bdf731d7ce0497d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7759267ec5be3367eded305a7419d5a5') in 0.038592 seconds
+  Import took 0.045159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-02.fbx
+  artifactKey: Guid(60dac4541678ff54a9690e314df2a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-02.fbx using Guid(60dac4541678ff54a9690e314df2a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f742bf2c0c3592b7d1bd411af3eed3d') in 0.039053 seconds
+  Import took 0.044904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-04.fbx
+  artifactKey: Guid(adbb845018a19c84ab980437a3da2ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-04.fbx using Guid(adbb845018a19c84ab980437a3da2ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82e0a407eaf08bfd6f62a181a4faae0') in 0.034360 seconds
+  Import took 0.041587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-07.fbx
+  artifactKey: Guid(486a1262f9b832045bfdfaa7d6114710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-07.fbx using Guid(486a1262f9b832045bfdfaa7d6114710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf40d1c78a686f58c35030d0e8d77e1') in 0.030640 seconds
+  Import took 0.036249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-09.fbx
+  artifactKey: Guid(286ee0a49be317f48a7adb4eba633bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-09.fbx using Guid(286ee0a49be317f48a7adb4eba633bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab8d2c934c97327118d6c0cb4b1b85a') in 0.037625 seconds
+  Import took 0.045436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-10.fbx
+  artifactKey: Guid(546dac8082f13bc40b63cca499c08ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-10.fbx using Guid(546dac8082f13bc40b63cca499c08ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e06180a60a4beee3c416b8ccb95271') in 0.037057 seconds
+  Import took 0.042613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-11.fbx
+  artifactKey: Guid(3bf57d1d7cdc2ef4f85f29c73d3e7fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-11.fbx using Guid(3bf57d1d7cdc2ef4f85f29c73d3e7fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1328cb86476dc8dd1484fb4f00a62040') in 0.032334 seconds
+  Import took 0.039281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-05.fbx
+  artifactKey: Guid(e60878c343be266469e6570212f2faa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-05.fbx using Guid(e60878c343be266469e6570212f2faa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea380ea999376bc3eafa17c89fae5f13') in 0.047025 seconds
+  Import took 0.052625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-01.fbx
+  artifactKey: Guid(db1552bf73af6294bac4422e73042b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-01.fbx using Guid(db1552bf73af6294bac4422e73042b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c3cfe6aee55ec1660238de3294c3da') in 0.030586 seconds
+  Import took 0.037025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-03.fbx
+  artifactKey: Guid(7ffdb0373582d034c84b5878d320c352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-03.fbx using Guid(7ffdb0373582d034c84b5878d320c352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf4dfdfb78effe8ea3e3443d58e69de') in 0.029759 seconds
+  Import took 0.035595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-08.fbx
+  artifactKey: Guid(721552ed1838a6d4b85a2e7372560f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-08.fbx using Guid(721552ed1838a6d4b85a2e7372560f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8903417ecd6297c443d6d8c2a3c4db0d') in 0.030249 seconds
+  Import took 0.035567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-12.fbx
+  artifactKey: Guid(f9b075983bc7d44408ad92adf939d065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-12.fbx using Guid(f9b075983bc7d44408ad92adf939d065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41d2cf71d78821f80625c734db7b3f1') in 0.028483 seconds
+  Import took 0.037144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Space Rocks/Components/Meshes/rock_5.fbx
+  artifactKey: Guid(57ffc38a8308e3f46acb7691dae3a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/rock_5.fbx using Guid(57ffc38a8308e3f46acb7691dae3a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce060e05d994c98ebfad68d1e1d84e0') in 0.017598 seconds
+  Import took 0.022396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Space Rocks/Components/Meshes/rock_3.fbx
+  artifactKey: Guid(641738c4ca765d54080e11de807db067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/rock_3.fbx using Guid(641738c4ca765d54080e11de807db067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c67b67323db6c89fa7be20a5b3053e') in 0.023762 seconds
+  Import took 0.029684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-06.fbx
+  artifactKey: Guid(df58f0cba6506cc40ab54389761aa495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Models/RG_Terrain-Mesh-06.fbx using Guid(df58f0cba6506cc40ab54389761aa495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ad0944b03cb82fa0db3f7a2d3674d6') in 0.032138 seconds
+  Import took 0.037266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Space Rocks/Components/Meshes/rock_1.fbx
+  artifactKey: Guid(3c3b354360ad39c4f98f50e8111b3f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/rock_1.fbx using Guid(3c3b354360ad39c4f98f50e8111b3f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e63c80f0a472d8e3d32816431b1cd34') in 0.024574 seconds
+  Import took 0.032815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Space Rocks/Components/Meshes/rock_7.fbx
+  artifactKey: Guid(d20a43965a442f344b45eba4c87cd7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/rock_7.fbx using Guid(d20a43965a442f344b45eba4c87cd7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd38e4f508a07ab012afcb3ce05d82b') in 0.021889 seconds
+  Import took 0.028403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Space Rocks/Components/Meshes/rock_6.fbx
+  artifactKey: Guid(2703e2062106f8348aa323888a540a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/rock_6.fbx using Guid(2703e2062106f8348aa323888a540a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26c11e0f1732afa56fd608c4e0c03f0') in 0.022618 seconds
+  Import took 0.028811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/Space Rocks/Components/Meshes/rock_4.fbx
+  artifactKey: Guid(9eb6ea9f2bc2c4a4baadccd6cd116323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/rock_4.fbx using Guid(9eb6ea9f2bc2c4a4baadccd6cd116323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4779f6f1cfc1d8086a201d51eb7e180a') in 0.022995 seconds
+  Import took 0.029246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Space Rocks/Components/Meshes/rock_2.fbx
+  artifactKey: Guid(2a6de7785e904d0429a8e369526f7aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Rocks/Components/Meshes/rock_2.fbx using Guid(2a6de7785e904d0429a8e369526f7aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba1d18fb1ebc162f3d2cdcfa9692abd') in 0.022578 seconds
+  Import took 0.027896 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002416 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.1 MB.
+System memory in use after: 134.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3211.
+Total: 3.811900 ms (FindLiveObjects: 0.781700 ms CreateObjectMapping: 0.214100 ms MarkObjects: 2.782800 ms  DeleteObjects: 0.031400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.1 MB.
+System memory in use after: 134.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3214.
+Total: 2.768700 ms (FindLiveObjects: 0.394200 ms CreateObjectMapping: 0.160500 ms MarkObjects: 2.173400 ms  DeleteObjects: 0.039300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.824908 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6059638fd2850569427ed6d644a59fba') in 0.012194 seconds
+  Import took 0.017043 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001572 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.026 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.2 MB.
+System memory in use after: 134.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3217.
+Total: 2.869100 ms (FindLiveObjects: 0.394900 ms CreateObjectMapping: 0.194900 ms MarkObjects: 2.246500 ms  DeleteObjects: 0.031400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.391449 seconds.
+  path: Assets/Space Crawlers/Scenes/Demo.unity
+  artifactKey: Guid(7a5c4650727e8544d96a1d27f810cefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Crawlers/Scenes/Demo.unity using Guid(7a5c4650727e8544d96a1d27f810cefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8967404164da408095ce03879359468') in 0.024372 seconds
+  Import took 0.030263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.495684 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54474830fa6ee3b7760fc6fcfe42f764') in 0.004247 seconds
+  Import took 0.010183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011758 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54474830fa6ee3b7760fc6fcfe42f764') in 0.005645 seconds
+  Import took 0.012222 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001921 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.135 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3220.
+Total: 2.954100 ms (FindLiveObjects: 0.344700 ms CreateObjectMapping: 0.173600 ms MarkObjects: 2.406400 ms  DeleteObjects: 0.028000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001673 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.114 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3223.
+Total: 4.571100 ms (FindLiveObjects: 0.381100 ms CreateObjectMapping: 0.245100 ms MarkObjects: 3.919600 ms  DeleteObjects: 0.023400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.121 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3226.
+Total: 2.390100 ms (FindLiveObjects: 0.299500 ms CreateObjectMapping: 0.141000 ms MarkObjects: 1.927000 ms  DeleteObjects: 0.020700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3229.
+Total: 4.146200 ms (FindLiveObjects: 0.649800 ms CreateObjectMapping: 0.200900 ms MarkObjects: 3.267000 ms  DeleteObjects: 0.021100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.160 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3232.
+Total: 2.531700 ms (FindLiveObjects: 0.236600 ms CreateObjectMapping: 0.097300 ms MarkObjects: 2.175300 ms  DeleteObjects: 0.021200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.094 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3235.
+Total: 2.876100 ms (FindLiveObjects: 0.327600 ms CreateObjectMapping: 0.136200 ms MarkObjects: 2.375800 ms  DeleteObjects: 0.034900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.672 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3238.
+Total: 3.039000 ms (FindLiveObjects: 0.421600 ms CreateObjectMapping: 0.286000 ms MarkObjects: 2.305500 ms  DeleteObjects: 0.023500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001631 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3241.
+Total: 2.744600 ms (FindLiveObjects: 0.270900 ms CreateObjectMapping: 0.125900 ms MarkObjects: 2.323600 ms  DeleteObjects: 0.022700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.677 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3244.
+Total: 2.538700 ms (FindLiveObjects: 0.304200 ms CreateObjectMapping: 0.199000 ms MarkObjects: 2.013700 ms  DeleteObjects: 0.019900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001704 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.098 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3247.
+Total: 3.206500 ms (FindLiveObjects: 0.389800 ms CreateObjectMapping: 0.173100 ms MarkObjects: 2.613500 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
