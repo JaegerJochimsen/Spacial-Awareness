@@ -32,6 +32,7 @@ public class MovePlayer : MonoBehaviour
     private bool onCoolDown = false;
     private int dashCoolDown = 3;
     private float dashLastUse = 0f;
+    public float dashSpeed;
     // End Dash vars
 
     // JetPack variables
@@ -128,43 +129,39 @@ public class MovePlayer : MonoBehaviour
     void Dash()
     {
         
+        // If we are currently cooling down then cool down, don't dash
         if (onCoolDown) 
         {
+            // add to time since last use
             dashLastUse += Time.deltaTime;
-            if (dashLastUse <= dashCoolDown)
+            if (dashLastUse > dashCoolDown) 
             {
-                return;
+                dashLastUse = 0;
+                onCoolDown = false;
             }
-
-            dashLastUse = 0;
-            onCoolDown = false;
             
         }
 
+        // if rotation: 0< rot < 180 then dash to the right, else left
+
         // We need to check the y rotation and set it to 270 or 90 so the player doesn'y
         // go off the playing area
-        if (Input.GetKeyDown("left ctrl"))
+        if (Input.GetKeyDown("k") && !onCoolDown)
         {
-            int new_x = 0;
             Vector3 rot = transform.position;
 
-            if (body.transform.rotation.y >= 0) 
-            { 
-                new_x = 10; 
+            // access euler angle representation of rotation (0 - 360 degrees)
+            if ((body.transform.eulerAngles.y >= 0f) && (body.transform.eulerAngles.y <= 180f)) 
+            {
+                transform.rotation = Quaternion.Euler(body.rotation.x, 90f, body.rotation.z);
             }
             else  
             {
-                new_x = -10; 
+                transform.rotation = Quaternion.Euler(body.rotation.x, -90f, body.rotation.z);
             }
 
-            rot.x += new_x;
-            transform.LookAt(rot);
 
-            body.velocity = Vector3.zero;
-            body.angularVelocity = Vector3.zero;
-
-            body.velocity = new Vector3(10 * new_x, 40, 0);
-            onCoolDown = true;
+            body.AddForce(new Vector3(dashSpeed * body.velocity.x, body.velocity.y, body.velocity.z), ForceMode.Impulse);
         } 
     }
 
@@ -318,12 +315,12 @@ public class MovePlayer : MonoBehaviour
     void JetPack()
     {
         // We are in the air, so use JetPack
-        if (Input.GetKeyDown("left shift") && !isGrounded)
+        if (Input.GetKeyDown("j") && !isGrounded)
         {
             flying = true;
             anim.SetBool("IsFlying", flying);
         }
-        else if (Input.GetKeyUp("left shift"))
+        else if (Input.GetKeyUp("j"))
         {
             flying = false;
             anim.SetBool("IsFlying", flying);
