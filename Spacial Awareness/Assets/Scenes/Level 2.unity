@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3592415, g: 0.7010237, b: 1.4127797, a: 1}
+  m_IndirectSpecularColor: {r: 0.359217, g: 0.70114905, b: 1.4131622, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2631,8 +2631,12 @@ PrefabInstance:
       value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 1106539822090162859, guid: 235b5050dddd061459dead66672b146d, type: 3}
+      propertyPath: dashDelay
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1106539822090162859, guid: 235b5050dddd061459dead66672b146d, type: 3}
       propertyPath: dashSpeed
-      value: 1500
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 1106539822090162859, guid: 235b5050dddd061459dead66672b146d, type: 3}
       propertyPath: JetParticles

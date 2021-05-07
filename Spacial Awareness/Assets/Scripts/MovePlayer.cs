@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
-    // Movement variables
+    [Header("Movement Variables")]  // used for headers in Unity editor
+    // Movement Variables
     float turnSpeed = 12f;
     float speed = 15f;
     float jumpHeight = 50f;
@@ -14,6 +15,7 @@ public class MovePlayer : MonoBehaviour
     bool doubleJumped = false;
     // End movement variables
 
+    [Header("Animation Variables")]
     // Animation variables
     private Animator anim;
     bool IsRunning = false;
@@ -21,6 +23,7 @@ public class MovePlayer : MonoBehaviour
     bool IsLanding = false;
     // End animation variables
 
+    [Header("Groundcheck Variables")]
     // Ground-check variables
     public Transform groundCheck;
     float groundDistance = 0.8f;
@@ -28,20 +31,24 @@ public class MovePlayer : MonoBehaviour
     bool isGrounded = true;
     // End ground check variables
 
+    [Header("Dash Variables")]
     // Dash vars
     private bool onCoolDown = false;
     private int dashCoolDown = 3;
     private float dashLastUse = 0f;
     public float dashSpeed;
-    //private bool used = false;
+    public float dashDelay;
+    bool dashing = false;
     // End Dash vars
 
+    [Header("JetPack Variables")]
     // JetPack variables
     public ParticleSystem JetParticles;
     float jetForce = 2f;
     bool flying = false;
     // End JetPack variables
 
+    [Header("Shield Variables")]
     // Shield variables
     public GameObject ForceField;
     public bool shielding = false;
@@ -61,7 +68,7 @@ public class MovePlayer : MonoBehaviour
         body = GetComponent<Rigidbody>();
         anim = gameObject.GetComponentInChildren<Animator>();
 
-        // Jetpack
+        // Jetpack particle system
         JetParticles = GetComponentInChildren<ParticleSystem>();
     }
 
@@ -72,32 +79,59 @@ public class MovePlayer : MonoBehaviour
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         anim.SetBool("IsGrounded", isGrounded);
 
-        // handle input from keyboard, put into Vector3 for MoveAndLook() later, and apply inAirPenalty 
-        HandleMovementInput();
+        // if we aren't dashing then move as usual, otherwise we need to wait until we finish dashing to move again
+        if (!dashing)
+        {
+            // handle input from keyboard, put into Vector3 for MoveAndLook() later, and apply inAirPenalty 
+            HandleMovementInput();
 
 
-        // check to see if we should play the animation, then set the bool
-        SetRunningAnimBool();
+            // check to see if we should play the animation, then set the bool
+            SetRunningAnimBool();
 
-        DoubleJump();
+            DoubleJump();
+
+            Shield();
+            // apply player movement and look rotation to character model
+            MoveAndLook();
+
+            // handle logic for using jetpack and apply force + play particle effects
+            JetPack();
+
+            // jump if press space and we have something to jump from
+            if (Input.GetKeyDown("space") && isGrounded)
+            {
+                Jump();
+            }
+
+        }
 
         Dash();
 
-        Shield();
-        // apply player movement and look rotation to character model
-        MoveAndLook();
-
-        // handle logic for using jetpack and apply force + play particle effects
-        // TODO: possibly remove commented particle code ==> since this is Sam's jurisdiction I've left it commented out
-        // it is up to Sam which of the changes I made we keep and how the final implementation works out
-        JetPack();
-
-        // jump if press space and we have something to jump from
-        if (Input.GetKeyDown("space") && isGrounded)
-        {
-            Jump();
-        } 
     }
+
+    /* DashWait(float waitTime):
+     * :description: add force to player body and then wait for the dash to finish. After the dash has finished zero out body velocity 
+     *               and set bool to say we are no longer dashing.
+     * :param: float waitTime: the duration we should wait before returning control to main loop/accepting new player input.
+     * :dependency: must be invoked by using StartCoroutine(DashWait(dashDelay));
+     * :side effects: sets dashing bool, affects player velocity
+     * 
+     * :calls: n/a
+     * :called by: Dash()
+     */
+    IEnumerator DashWait(float waitTime)
+    {
+        // apply force to body
+        body.AddForce(transform.forward * dashSpeed, ForceMode.Impulse);
+        // wait for dash to complete
+        yield return new WaitForSeconds(waitTime);
+        // zero out body velocity so we kind of fall after dash
+        body.velocity = Vector3.zero;
+        dashing = false;
+    }
+
+
     /* DoubleJump():
      * :description: allow the player to double jump; maintain x and z velocity but add to y velocity. Sets doubleJumped bool 
      * :param: n/a
@@ -119,7 +153,7 @@ public class MovePlayer : MonoBehaviour
     }
 
     /* Dash()
-     *  Dash forward and slightly up with a 3 second cool down
+     * :description: Dash forward and slightly up with a 3 second cool down
      * :param: n/a
      * :dependency: n/a
      * 
@@ -140,8 +174,6 @@ public class MovePlayer : MonoBehaviour
                 dashLastUse = 0;
                 onCoolDown = false;
             }
-            //used = false; 
-            
         }
 
         // We need to check the y rotation and set it to 270 or 90 so the player doesn'y
@@ -162,15 +194,11 @@ public class MovePlayer : MonoBehaviour
             
             body.velocity = Vector3.zero;
             body.angularVelocity = Vector3.zero;
-            /*
-            Things I tried:
-            1. Zeroing out velocity (in here and HandleMovement)
-            2. Using relative Force vs addforce
-            3. Adding a bool to check if we used dash this frame, so we don't check for horizontal input
-            */
-            body.AddForce(transform.forward * dashSpeed, ForceMode.Impulse);
+
+            // start coroutine that will enact the dash and then delay until dash completes
+            StartCoroutine(DashWait(dashDelay));
             onCoolDown = true;
-            //used = true;
+            dashing = true;
         } 
     }
 
