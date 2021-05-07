@@ -33,6 +33,7 @@ public class MovePlayer : MonoBehaviour
     private int dashCoolDown = 3;
     private float dashLastUse = 0f;
     public float dashSpeed;
+    //private bool used = false;
     // End Dash vars
 
     // JetPack variables
@@ -70,10 +71,10 @@ public class MovePlayer : MonoBehaviour
         // check to see if our player is on the ground or a ground equivalent
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         anim.SetBool("IsGrounded", isGrounded);
-        
 
         // handle input from keyboard, put into Vector3 for MoveAndLook() later, and apply inAirPenalty 
         HandleMovementInput();
+
 
         // check to see if we should play the animation, then set the bool
         SetRunningAnimBool();
@@ -139,6 +140,7 @@ public class MovePlayer : MonoBehaviour
                 dashLastUse = 0;
                 onCoolDown = false;
             }
+            //used = false; 
             
         }
 
@@ -157,9 +159,18 @@ public class MovePlayer : MonoBehaviour
             {
                 transform.rotation = Quaternion.Euler(body.rotation.x, -90f, body.rotation.z);
             }
-
+            
+            body.velocity = Vector3.zero;
+            body.angularVelocity = Vector3.zero;
+            /*
+            Things I tried:
+            1. Zeroing out velocity (in here and HandleMovement)
+            2. Using relative Force vs addforce
+            3. Adding a bool to check if we used dash this frame, so we don't check for horizontal input
+            */
             body.AddForce(transform.forward * dashSpeed, ForceMode.Impulse);
             onCoolDown = true;
+            //used = true;
         } 
     }
 
@@ -256,6 +267,10 @@ public class MovePlayer : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
         hasInput = (horizontal != 0f || vertical != 0f);
+
+        //body.velocity = Vector3.zero;
+        //body.angularVelocity = Vector3.zero;
+        // Attempt to fix dash issue
 
         // change to velocity based vector
         m_Movement = new Vector3(horizontal * speed, body.velocity.y, vertical * speed);
