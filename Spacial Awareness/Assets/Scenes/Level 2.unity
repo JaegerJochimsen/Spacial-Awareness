@@ -1427,7 +1427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1106539822090162859, guid: 235b5050dddd061459dead66672b146d, type: 3}
       propertyPath: dashSpeed
-      value: 60
+      value: 1500
       objectReference: {fileID: 0}
     - target: {fileID: 1106539822090162859, guid: 235b5050dddd061459dead66672b146d, type: 3}
       propertyPath: JetParticles

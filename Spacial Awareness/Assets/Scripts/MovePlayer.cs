@@ -142,8 +142,6 @@ public class MovePlayer : MonoBehaviour
             
         }
 
-        // if rotation: 0< rot < 180 then dash to the right, else left
-
         // We need to check the y rotation and set it to 270 or 90 so the player doesn'y
         // go off the playing area
         if (Input.GetKeyDown("k") && !onCoolDown)
@@ -160,8 +158,8 @@ public class MovePlayer : MonoBehaviour
                 transform.rotation = Quaternion.Euler(body.rotation.x, -90f, body.rotation.z);
             }
 
-
-            body.AddForce(new Vector3(dashSpeed * body.velocity.x, body.velocity.y, body.velocity.z), ForceMode.Impulse);
+            body.AddForce(transform.forward * dashSpeed, ForceMode.Impulse);
+            onCoolDown = true;
         } 
     }
 
