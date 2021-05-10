@@ -19,8 +19,8 @@ public class MovePlayer : MonoBehaviour
     // Animation variables
     private Animator anim;
     bool IsRunning = false;
-    bool IsJumping = false;
-    bool IsLanding = false;
+    //bool IsJumping = false;
+    //bool IsLanding = false;
     // End animation variables
 
     [Header("Groundcheck Variables")]
