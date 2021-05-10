@@ -6,7 +6,7 @@ public class MovePlayer : MonoBehaviour
 {
     [Header("Movement Variables")]  // used for headers in Unity editor
     // Movement Variables
-    float turnSpeed = 12f;
+    float turnSpeed = 40f;
     float speed = 15f;
     float jumpHeight = 50f;
     Vector3 m_Movement;
