@@ -19,10 +19,11 @@ public class ControlScripts : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        WSAD = GetComponent<Collider>();
-        Dash = GetComponent<Collider>();
-        Jetpack = GetComponent<Collider>();
-        Bubble = GetComponent<Collider>();
+        // Get component isnt working, so manually find each object
+        WSAD = GameObject.Find("ControlText/WSAD").GetComponent<Collider>();
+        Dash = GameObject.Find("ControlText/Dash").GetComponent<Collider>();
+        Jetpack = GameObject.Find("ControlText/Jetpack").GetComponent<Collider>();
+        Bubble = GameObject.Find("ControlText/Bubble").GetComponent<Collider>();
 
         myText = GameObject.Find("Canvas/Text").GetComponent<Text>();
     }
