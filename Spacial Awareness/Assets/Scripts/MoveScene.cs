@@ -6,25 +6,15 @@ using UnityEngine.SceneManagement;
 public class MoveScene : MonoBehaviour
 {
     public string nextScene;
-    private bool isGrounded = false;
-    public Transform groundCheck;
-    float groundDistance = 0.8f;
-    public LayerMask groundMask;
 
-
-    void OnCollisionEnter(Collision other)
+    //void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
     {
-        
+       
         if (other.gameObject.CompareTag("Player")) 
         {
-            Debug.Log("Here2");
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
-            //if (isGrounded)
-            //{
-                Debug.Log("Here");
-                SceneManager.LoadScene(nextScene);
-            //}
+            SceneManager.LoadScene(nextScene);
+           
         }
     }
 }

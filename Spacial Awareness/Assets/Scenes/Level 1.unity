@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4711,7 +4711,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098868711}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.71, y: 207.56, z: 0}
+  m_LocalPosition: {x: 0, y: 233.86, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 645907415}
@@ -4730,10 +4730,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: Level 2
-  groundCheck: {fileID: 1952836482}
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!65 &1098868714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8729,6 +8725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stylized Astronaut
       objectReference: {fileID: 0}
+    - target: {fileID: 7387237233252875022, guid: 235b5050dddd061459dead66672b146d, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7390271217581975792, guid: 235b5050dddd061459dead66672b146d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -8775,11 +8775,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 235b5050dddd061459dead66672b146d, type: 3}
---- !u!4 &1952836482 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1106539822732600368, guid: 235b5050dddd061459dead66672b146d, type: 3}
-  m_PrefabInstance: {fileID: 1952836481}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1955131375 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4603652019393726451, guid: 7660a193d16ba0c4e86724f1171e3735, type: 3}
