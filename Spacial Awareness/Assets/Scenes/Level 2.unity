@@ -2283,35 +2283,6 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 8
---- !u!114 &1901313242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901313235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89831ea6141636645ae37ba02f9e8cfd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1847681819}
-  configureMode: 0
-  arrowTargetSmooth: 0
-  TotalWaypoints: 1
-  waypointList:
-  - waypointName: 
-    waypoint: {fileID: 0}
-    waypointEvent:
-      m_PersistentCalls:
-        m_Calls: []
-      m_CallsDirty: 1
-  newWaypoint: {fileID: 0}
-  newWaypointName: 
-  nextWP: 0
-  waypointArrow: {fileID: 0}
-  currentWaypoint: {fileID: 0}
-  arrowTarget: {fileID: 0}
 --- !u!1001 &1905614330
 PrefabInstance:
   m_ObjectHideFlags: 0

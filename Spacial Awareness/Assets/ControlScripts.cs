@@ -49,6 +49,10 @@ public class ControlScripts : MonoBehaviour
             //Debug.Log("Jetpack");
 
         }
+        else if (col.gameObject.CompareTag("obj"))
+        {
+            myText.text = "Touch the 3 white buttons \n(on the side of the hull on the left) \nto unlock the spaceship and escape";
+        }
         /*else if (col.gameObject.CompareTag("Bubble"))
         {
             myText.text = "Use q to get a protection bubble.\n (This will be useful in later levels)";

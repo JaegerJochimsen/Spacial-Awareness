@@ -11,6 +11,7 @@ TagManager:
   - Dash
   - Bubble
   - Jetpack
+  - obj
   layers:
   - Default
   - TransparentFX
