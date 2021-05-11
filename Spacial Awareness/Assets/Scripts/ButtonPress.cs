@@ -5,6 +5,7 @@ using UnityEngine;
 public class ButtonPress : MonoBehaviour
 {
     bool pressable;
+    public Material pressedMat;
     void Start()
     {
         pressable = true;
@@ -14,6 +15,7 @@ public class ButtonPress : MonoBehaviour
         if (pressable)
         {
             FindObjectOfType<SlideAway>().slideThreshold -= 1;
+            this.GetComponent<MeshRenderer>().material = pressedMat;
             pressable = false;
         }
     }

@@ -6,11 +6,11 @@ public class SlideAway : MonoBehaviour
 {
     public int slideThreshold = 3;
     public GameObject selfRef;
-    public GameObject otherRef;
+    //public GameObject otherRef;
 
     void Start()
     {
-        otherRef.SetActive(false);
+        //otherRef.SetActive(false);
         selfRef.SetActive(true);
     }
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class SlideAway : MonoBehaviour
         if (slideThreshold == 0)
         {
             selfRef.SetActive(false);
-            otherRef.SetActive(true);
+            //otherRef.SetActive(true);
         }
     }
 }

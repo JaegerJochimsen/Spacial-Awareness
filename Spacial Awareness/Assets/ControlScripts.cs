@@ -34,7 +34,7 @@ public class ControlScripts : MonoBehaviour
         //Debug.Log("Here");        
 
         if (col.gameObject.CompareTag("WSAD")) {
-            myText.text = "Use WSAD to move and Space to jump.";
+            myText.text = "Use WSAD to move and \nSpace to jump or double jump.";
             //Debug.Log("WSAD");
         } 
         else if (col.gameObject.CompareTag("Dash"))
@@ -51,7 +51,7 @@ public class ControlScripts : MonoBehaviour
         }
         else if (col.gameObject.CompareTag("obj"))
         {
-            myText.text = "Touch the 3 white buttons \n(on the side of the hull on the left) \nto unlock the spaceship and escape";
+            myText.text = "Why did we put the green airlock\n buttons in such inconvenient places??\n I guees I'll have to press them \nto open the airlock and escape";
         }
         /*else if (col.gameObject.CompareTag("Bubble"))
         {
