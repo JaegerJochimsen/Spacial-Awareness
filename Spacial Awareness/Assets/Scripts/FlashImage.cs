@@ -16,7 +16,8 @@ public class FlashImage : MonoBehaviour
 
     public void StartFlash(float secondsForOneFlash, float maxAlpha, Color newColor)
     {
-        _image.color = newColor;
+        // NOTICE: uncomment this to change color, though not sure where the color newColor gets assigned??
+        //_image.color = newColor;
 
         // ensure maxAlpha isn't above 1
         maxAlpha = Mathf.Clamp(maxAlpha, 0, 1);
@@ -32,7 +33,7 @@ public class FlashImage : MonoBehaviour
     IEnumerator Flash(float secondsForOneFlash, float maxAlpha)
     {
         // animate flash in
-        float flashInDuration = secondsForOneFlash / 2;
+        float flashInDuration = secondsForOneFlash / 6;
         for (float t = 0; t <= flashInDuration; t += Time.deltaTime)
         {
             // create a new color change
