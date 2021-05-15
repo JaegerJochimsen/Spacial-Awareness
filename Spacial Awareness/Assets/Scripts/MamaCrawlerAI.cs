@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class MamaCrawlerAI : MonoBehaviour
@@ -36,25 +37,6 @@ public class MamaCrawlerAI : MonoBehaviour
         Vector3 CrawlerPos = transform.position;
         CrawlerPos -= playerPos;
 
-        // Is the player within range of the crawler
-        var x = range >= CrawlerPos.x && CrawlerPos.x >= -range;
-        var y = range >= CrawlerPos.y && CrawlerPos.y >= -range;
-        var z = range >= CrawlerPos.z && CrawlerPos.z >= -range;
-
-        if (x && y && z)
-        {
-            Kill();
-        }
-        
-        foreach (GameObject i in objects)
-        {
-            if (i != null)
-            {
-                Distance(i);
-            }  
-        }
-        
-        
         // Zero out all the momentum for the enemy
         body.velocity = Vector3.zero;
         body.angularVelocity = Vector3.zero;
@@ -62,70 +44,21 @@ public class MamaCrawlerAI : MonoBehaviour
         body.AddForce(CrawlerPos * speed * -1f, ForceMode.Impulse);
     }
 
-    
-    /*
-     * Check if the distance from the crawler is close enough 
-     * to the object that it needs to be destroyed.
-     * 
-     * 3 postions on the crawler are checked: The head, right and left legs
-     * 
-     */
 
-    void Distance(GameObject rock)
+    void OnTriggerEnter(Collider col)
     {
 
-        /*Vector3 CrawlerPos = transform.position;
-
-        CrawlerPos.y += 13.2f;
-        CrawlerPos.z += -4.8f;
-
-        CrawlerPos -= rock.transform.position;
-        */
-
-        //var GetComponentInChildren<Collider>();
-        var absolute_pos = head.transform.position + GameObject.Find("Crawler").transform.position;
-
-        // check if the head of the crawler is within range of the object
-        var x = range >= absolute_pos.x && absolute_pos.x >= -range;
-        var y = range >= absolute_pos.y && absolute_pos.y >= -range;
-        var z = range >= absolute_pos.z && absolute_pos.z >= -range;
-
-        if (x && y && z)
+        if (col.gameObject.CompareTag("destroy"))
         {
-            Destroy(rock);
+            Destroy(col.gameObject);
+            return;
         }
 
-        /*
-         
-        Below is for later refinement
-         
-        CrawlerPos.x += 1f;
-        CrawlerPos.y += .1f;
-        CrawlerPos.z += -1f;
 
-        // check if the right leg of the crawler is within range of the object
-        x = range >= CrawlerPos.x && CrawlerPos.x >= -range;
-        y = range >= CrawlerPos.y && CrawlerPos.y >= -range;
-        z = range >= CrawlerPos.z && CrawlerPos.z >= -range;
-
-        if (x && y && z)
+        if (col == GameObject.Find("Stylized Astronaut").GetComponent<Collider>())
         {
-            Destroy(rock);
+            Kill();
         }
-
-        CrawlerPos.x += -2f;
-
-        // check if the left leg of the crawler is within range of the object
-        x = range >= CrawlerPos.x && CrawlerPos.x >= -range;
-        y = range >= CrawlerPos.y && CrawlerPos.y >= -range;
-        z = range >= CrawlerPos.z && CrawlerPos.z >= -range;
-
-        if (x && y && z)
-        {
-            Destroy(rock);
-        }
-        */
-
     }
 
     // Call the interface for doing damage to the player from KillPlayer.cs 
