@@ -12,6 +12,7 @@ TagManager:
   - Bubble
   - Jetpack
   - obj
+  - destroy
   layers:
   - Default
   - TransparentFX

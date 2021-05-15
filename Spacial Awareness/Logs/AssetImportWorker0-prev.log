@@ -1,0 +1,1689 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 7958 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\unity\2020.3.1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/Unity Projects/Spacial-Awareness/Spacial Awareness
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50968
+Successfully changed project path to: D:/unity/Unity Projects/Spacial-Awareness/Spacial Awareness
+D:/unity/Unity Projects/Spacial-Awareness/Spacial Awareness
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 113.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path D:/unity/2020.3.1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/Unity Projects/Spacial-Awareness/Spacial Awareness/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   
+    VRAM:     3979 MB
+    Driver:   27.20.100.8935
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/unity/2020.3.1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.3.1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.3.1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.3.1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/2020.3.1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.039421 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 60.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.731 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.034627 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 79.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.849 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2679 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3129.
+Total: 2.578900 ms (FindLiveObjects: 0.323900 ms CreateObjectMapping: 0.131800 ms MarkObjects: 2.033800 ms  DeleteObjects: 0.088600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/EffectExamples/Misc Effects/Prefabs/DustMotesEffect.prefab
+  artifactKey: Guid(5ca4c580b3888314581688fa46fb142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects/Prefabs/DustMotesEffect.prefab using Guid(5ca4c580b3888314581688fa46fb142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02692ed3fd71b86d9d114ee688aac4f5') in 0.085658 seconds
+  Import took 0.128109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/EffectExamples/Misc Effects/Prefabs/SandSwirlsEffect.prefab
+  artifactKey: Guid(14d81e2c407975245973a11cdfbeb902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects/Prefabs/SandSwirlsEffect.prefab using Guid(14d81e2c407975245973a11cdfbeb902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9199a8569ceb7ca5001ff9c5dab434aa') in 0.008887 seconds
+  Import took 0.036429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/EffectExamples/Misc Effects/Prefabs/SparksEffect.prefab
+  artifactKey: Guid(78b71003e8b357d4bbf89c8b5e5e4f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects/Prefabs/SparksEffect.prefab using Guid(78b71003e8b357d4bbf89c8b5e5e4f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e86c44a148dfe4454f3299b72dc3cc') in 0.027966 seconds
+  Import took 0.059746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/EffectExamples/Misc Effects
+  artifactKey: Guid(7dd5994c11ccf45c3b64748c6a871d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects using Guid(7dd5994c11ccf45c3b64748c6a871d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6279ba7f4e5caa1cf5ff42be00ac4a5d') in 0.012588 seconds
+  Import took 0.047502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/EffectExamples/Misc Effects/Prefabs/ElectricalSparksEffect.prefab
+  artifactKey: Guid(96b2ec0239d11fa4b9792311efceb8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects/Prefabs/ElectricalSparksEffect.prefab using Guid(96b2ec0239d11fa4b9792311efceb8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b09339220a80570bc6704beec69b626') in 0.407486 seconds
+  Import took 0.419332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/EffectExamples/Misc Effects/Prefabs
+  artifactKey: Guid(fca85df12e535493183bed364873ede7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects/Prefabs using Guid(fca85df12e535493183bed364873ede7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32cf1283d3736c87d7c9f5ab4b89073') in 0.017288 seconds
+  Import took 0.042721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 658.338977 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects
+  artifactKey: Guid(9c9c292c9091a7d4fbaf34fdd81b85fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects using Guid(9c9c292c9091a7d4fbaf34fdd81b85fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8a8d12e5b89a90312b88090291f98c') in 0.008064 seconds
+  Import took 0.133746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.347701 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs
+  artifactKey: Guid(af557a47dae08a94cb2839384fe7ac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs using Guid(af557a47dae08a94cb2839384fe7ac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a8a84ee0dd4e8feec7b4d9e402d003') in 0.005650 seconds
+  Import took 0.045372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033206 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/BigExplosionEffect.prefab
+  artifactKey: Guid(acf39d9f4addf294d93fa56fa373961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/BigExplosionEffect.prefab using Guid(acf39d9f4addf294d93fa56fa373961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fa397031ef341fc4cb2c09cc3ddc1c') in 0.097008 seconds
+  Import took 0.130987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/PlasmaExplosionEffect.prefab
+  artifactKey: Guid(96730f8640590934eacb6f860058e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/PlasmaExplosionEffect.prefab using Guid(96730f8640590934eacb6f860058e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00939817e4a493fdc890d0c90ef49765') in 0.023216 seconds
+  Import took 0.048470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/SmokeEffect.prefab
+  artifactKey: Guid(85a8865d1bf4a63478038fae23776de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/SmokeEffect.prefab using Guid(85a8865d1bf4a63478038fae23776de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5427926ee566ac4687bd042c6aa2f89e') in 0.049998 seconds
+  Import took 0.076060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/WallFlames.prefab
+  artifactKey: Guid(2c7e85f4b03483447a66947c83fb7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/WallFlames.prefab using Guid(2c7e85f4b03483447a66947c83fb7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9fcb6cb32ff3ec6bcb49dec980c94a') in 0.040315 seconds
+  Import took 0.063656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/DrippingFlames.prefab
+  artifactKey: Guid(ce4133109fd2cb7469faad8e7c4307a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/DrippingFlames.prefab using Guid(ce4133109fd2cb7469faad8e7c4307a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75a309b1c0d71ab4654ba3297c2dbbe') in 0.032563 seconds
+  Import took 0.061823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/FlameThrowerEffect.prefab
+  artifactKey: Guid(3123da49cb81147489b444f2749aba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/FlameThrowerEffect.prefab using Guid(3123da49cb81147489b444f2749aba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bc77ff3e348c6ef58b49b5ee11fff6') in 0.027648 seconds
+  Import took 0.038669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/TorchEffect.prefab
+  artifactKey: Guid(3cdf614b79009ca49a2a5c117fb49c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/TorchEffect.prefab using Guid(3cdf614b79009ca49a2a5c117fb49c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a234b33efb3967a935f51cb70baaac9d') in 0.025589 seconds
+  Import took 0.048208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/SmallExplosionEffect.prefab
+  artifactKey: Guid(ecdd96beb7f93494880c052dfccf9dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/SmallExplosionEffect.prefab using Guid(ecdd96beb7f93494880c052dfccf9dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def35a3d7a11e10dcad207016887ac5a') in 0.010832 seconds
+  Import took 0.024267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab
+  artifactKey: Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab using Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1affbf5a7b04acf9734601285fb7c1') in 0.010714 seconds
+  Import took 0.089119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/RibbonSmoke.prefab
+  artifactKey: Guid(4d35711ba17dcd4409264568d9155360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/RibbonSmoke.prefab using Guid(4d35711ba17dcd4409264568d9155360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860896628718d06ffa3f8978c0c70132') in 0.007957 seconds
+  Import took 0.026075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesEffects.prefab
+  artifactKey: Guid(b9e167e31f640b34f87caab122fca598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesEffects.prefab using Guid(b9e167e31f640b34f87caab122fca598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aedef0daa5069b4b2a1abdc5d6c2764') in 0.026654 seconds
+  Import took 0.045837 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2574 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3143.
+Total: 2.475900 ms (FindLiveObjects: 0.364200 ms CreateObjectMapping: 0.170900 ms MarkObjects: 1.858100 ms  DeleteObjects: 0.081600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 668.409121 seconds.
+  path: Assets/Level1Props/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Textures/CrateAlbedoTransparency.png
+  artifactKey: Guid(dc49773ae437968479cd24155de2aa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Textures/CrateAlbedoTransparency.png using Guid(dc49773ae437968479cd24155de2aa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31983fd6c9fda5d10a23961ea8feb21d') in 0.413906 seconds
+  Import took 0.437456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_6_wire_153228153_nmap.png
+  artifactKey: Guid(fa1635004128a3a46ab842401290cffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_6_wire_153228153_nmap.png using Guid(fa1635004128a3a46ab842401290cffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442d39d3e74dcb7c4a6e25179e67647f') in 0.111096 seconds
+  Import took 0.142028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_1_wire_153228153_nmap.png
+  artifactKey: Guid(a4d9c832553eec1468c09d6b79789e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_1_wire_153228153_nmap.png using Guid(a4d9c832553eec1468c09d6b79789e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e192284a75f682812b3d708d1c2fc096') in 0.124137 seconds
+  Import took 0.149303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_1_wire_153228153_rough.png
+  artifactKey: Guid(b8ebba18c4f88ad4e903727590234898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_1_wire_153228153_rough.png using Guid(b8ebba18c4f88ad4e903727590234898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd1cd0f0ad8102ff5ad3a16445f56d8') in 0.101473 seconds
+  Import took 0.129970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_10_wire_153228153_metalness.png
+  artifactKey: Guid(b62785e21fde78c46af2c4dc6ec9e97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_10_wire_153228153_metalness.png using Guid(b62785e21fde78c46af2c4dc6ec9e97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb95733992dd5ba68185b8bc927ad3e9') in 0.106149 seconds
+  Import took 0.127910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_7_wire_153228153_rough.png
+  artifactKey: Guid(d52d5d8bbb0e67f468fa3c129cad197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_7_wire_153228153_rough.png using Guid(d52d5d8bbb0e67f468fa3c129cad197d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99f560e3518723fe13d0d91dbf5b0b3') in 0.116912 seconds
+  Import took 0.138898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_9_wire_153228153_metalness.png
+  artifactKey: Guid(421efd4412fe8f343b159ee2f78cdc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_9_wire_153228153_metalness.png using Guid(421efd4412fe8f343b159ee2f78cdc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d08a9323cf81e9445f3489b0b6cbaf') in 0.200229 seconds
+  Import took 0.208060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_4_wire_153228153_metalness.png
+  artifactKey: Guid(03e1a6d3e639e5e4f9eaa4bb01ceb24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_4_wire_153228153_metalness.png using Guid(03e1a6d3e639e5e4f9eaa4bb01ceb24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6974c4f285b3185415956df9252432a5') in 0.073580 seconds
+  Import took 0.107951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_1_wire_153228153_color.png
+  artifactKey: Guid(9b40608b32af0394991b4fc438a9e631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_1_wire_153228153_color.png using Guid(9b40608b32af0394991b4fc438a9e631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4470ab53b4e8a1478849b570705680') in 0.100665 seconds
+  Import took 0.117624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_5_wire_153228153_color.png
+  artifactKey: Guid(7f255821be7d81948928006b6556896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_5_wire_153228153_color.png using Guid(7f255821be7d81948928006b6556896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1d0951791c8b2e81dc80bd395a9840') in 0.095337 seconds
+  Import took 0.124128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_0_wire_153228153_rough.png
+  artifactKey: Guid(39722d44f805d204aaf521d9f1f04d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_0_wire_153228153_rough.png using Guid(39722d44f805d204aaf521d9f1f04d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6854eaf3b92cce01f019a3b2f1c91c59') in 0.116483 seconds
+  Import took 0.132333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_1_wire_153228153_emissive.png
+  artifactKey: Guid(e85d5085b1e91a34f8794c2fbd07130b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_1_wire_153228153_emissive.png using Guid(e85d5085b1e91a34f8794c2fbd07130b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd047dd5816f9d21c6e204de7a29de3cb') in 0.081492 seconds
+  Import took 0.097311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_4_wire_153228153_rough.png
+  artifactKey: Guid(4930e3ec7f1c80e41b1df864ef1ebb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_4_wire_153228153_rough.png using Guid(4930e3ec7f1c80e41b1df864ef1ebb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7af91f8e78fe79aa300c29b0188fe58') in 0.095567 seconds
+  Import took 0.101951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_6_wire_153228153_nmap.png
+  artifactKey: Guid(ed9af5e8a7401684eafe440180936371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_6_wire_153228153_nmap.png using Guid(ed9af5e8a7401684eafe440180936371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b96cc9ba27f302704f873e2f9afa1b') in 0.137389 seconds
+  Import took 0.143147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_2_wire_153228153_metalness.png
+  artifactKey: Guid(b50e88e285135ba469dd081ef19869e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_2_wire_153228153_metalness.png using Guid(b50e88e285135ba469dd081ef19869e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3151e704825eee31c7f03c3d5714dd2') in 0.045968 seconds
+  Import took 0.067125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_9_wire_153228153_color.png
+  artifactKey: Guid(f83a1434c66acf54eaace6915d6c9b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_9_wire_153228153_color.png using Guid(f83a1434c66acf54eaace6915d6c9b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2bd80163e04574f3f3359c49808a39') in 0.079487 seconds
+  Import took 0.097100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_5_wire_153228153_rough.png
+  artifactKey: Guid(13ebb5dce30139d4eaacaa31004080e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_5_wire_153228153_rough.png using Guid(13ebb5dce30139d4eaacaa31004080e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bf2306cff69e10dada498fd2dd8668') in 0.100662 seconds
+  Import took 0.125541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_3_wire_153228153_nmap.png
+  artifactKey: Guid(2d9aba291c63f9f409d01d7b1288024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_3_wire_153228153_nmap.png using Guid(2d9aba291c63f9f409d01d7b1288024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a19d8fa9f4897f6f3adedbe7acd263') in 0.086124 seconds
+  Import took 0.095216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Level1Props/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Textures/CrateMetallicSmoothness.png
+  artifactKey: Guid(86028f18a9cbbaa4493f68c66e7cf960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Textures/CrateMetallicSmoothness.png using Guid(86028f18a9cbbaa4493f68c66e7cf960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1e8df5e562d02a44aac2187e01ba18') in 0.253408 seconds
+  Import took 0.275573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_11_wire_153228153_rough.png
+  artifactKey: Guid(69cca35eea82c2a4d8ed383b25d5bc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_11_wire_153228153_rough.png using Guid(69cca35eea82c2a4d8ed383b25d5bc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7346a8f75b92ddeadda4efb04045ac9c') in 0.142128 seconds
+  Import took 0.179183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_9_wire_153228153_metalness.png
+  artifactKey: Guid(271565249fa035f47a1303df3dbe64b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_9_wire_153228153_metalness.png using Guid(271565249fa035f47a1303df3dbe64b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd420d393603ed0aafc1191a11fdd0b') in 0.207153 seconds
+  Import took 0.225603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_8_wire_153228153_color.png
+  artifactKey: Guid(56690c2491dc19a43a2cf491488bdf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_8_wire_153228153_color.png using Guid(56690c2491dc19a43a2cf491488bdf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8f65e4963e0e02c3b248d8746172e2') in 0.056133 seconds
+  Import took 0.062349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_3_wire_153228153_nmap.png
+  artifactKey: Guid(10c2d05275176a54d9afd75e4289d147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_3_wire_153228153_nmap.png using Guid(10c2d05275176a54d9afd75e4289d147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e332718ab462c235b1e0839849a4848') in 0.143384 seconds
+  Import took 0.155833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_0_wire_153228153_metalness.png
+  artifactKey: Guid(d614f8ae99011294083a35b26332f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_0_wire_153228153_metalness.png using Guid(d614f8ae99011294083a35b26332f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714ae43bf29d2e3bcb2fc0e0e3f1f704') in 0.088472 seconds
+  Import took 0.095821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Level1Props/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Textures/CrateOcclusion.png
+  artifactKey: Guid(5c4f8e71b68371049b492558483c6094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Textures/CrateOcclusion.png using Guid(5c4f8e71b68371049b492558483c6094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b7e857c76acfbef58239291a7e2b6e') in 0.161609 seconds
+  Import took 0.176689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_2_wire_153228153_color.png
+  artifactKey: Guid(f4c4dfcca5b567a44926aef7079ada0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_2_wire_153228153_color.png using Guid(f4c4dfcca5b567a44926aef7079ada0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920bac9a6df634b048871ea95118e613') in 0.110861 seconds
+  Import took 0.128207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Level1Props/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Textures/CrateEmission.png
+  artifactKey: Guid(3768bf9f85523e747bedd6d5b2fff5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Textures/CrateEmission.png using Guid(3768bf9f85523e747bedd6d5b2fff5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea756b1cca637665dc8bab6247ef789e') in 0.187538 seconds
+  Import took 0.206250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_6_wire_153228153_metalness.png
+  artifactKey: Guid(3a50f7a7ac3e5d644b90a8fb61b2f69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_6_wire_153228153_metalness.png using Guid(3a50f7a7ac3e5d644b90a8fb61b2f69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10adc839165e3f0cbc79769a1495e066') in 0.097272 seconds
+  Import took 0.114887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_5_wire_153228153_nmap.png
+  artifactKey: Guid(cbede598a24497e479e408386ee4ec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_5_wire_153228153_nmap.png using Guid(cbede598a24497e479e408386ee4ec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dac7f14efe099bcf562d117d8af1bcb') in 0.115644 seconds
+  Import took 0.129107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_3_wire_153228153_rough.png
+  artifactKey: Guid(ecabbbba680b32349aef093b14d1ad59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_3_wire_153228153_rough.png using Guid(ecabbbba680b32349aef093b14d1ad59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5818f5365babab36fbcd50a90bb6c4a4') in 0.114276 seconds
+  Import took 0.127228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_5_wire_153228153_metalness.png
+  artifactKey: Guid(8c05dbec33b41c64ab7342f88ff81445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_5_wire_153228153_metalness.png using Guid(8c05dbec33b41c64ab7342f88ff81445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a585b488115116dc14df8c4dfb87d4') in 0.046303 seconds
+  Import took 0.070705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_6_wire_153228153_rough.png
+  artifactKey: Guid(dd3bacc986220bc42b63d3fa9b560242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_6_wire_153228153_rough.png using Guid(dd3bacc986220bc42b63d3fa9b560242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bf7146cc142752ac6f67e26b374c95') in 0.093852 seconds
+  Import took 0.100858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_7_wire_153228153_nmap.png
+  artifactKey: Guid(e6daa9336082133448a7ebc4af062c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_7_wire_153228153_nmap.png using Guid(e6daa9336082133448a7ebc4af062c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d334585f86f6e0ce8a3fd1f9de998f') in 0.047458 seconds
+  Import took 0.084022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_8_wire_153228153_rough.png
+  artifactKey: Guid(ae375d0077002d1489127296940271dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_8_wire_153228153_rough.png using Guid(ae375d0077002d1489127296940271dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81ff6dbd31553428f7c88476c4fa794') in 0.098242 seconds
+  Import took 0.119989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_4_wire_153228153_rough.png
+  artifactKey: Guid(7b75bd9e2485ee249aa09d7c04ec4d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_4_wire_153228153_rough.png using Guid(7b75bd9e2485ee249aa09d7c04ec4d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6459e4c1ba2bf8ffa76426c590490c61') in 0.126732 seconds
+  Import took 0.147461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_7_wire_153228153_rough.png
+  artifactKey: Guid(8ebfcb1129a649d4e91e82d77dcbaee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_7_wire_153228153_rough.png using Guid(8ebfcb1129a649d4e91e82d77dcbaee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c1698c1de82741fe53319d63980dab') in 0.098507 seconds
+  Import took 0.114676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_0_wire_153228153_emissive.png
+  artifactKey: Guid(b5cd2c0ab9ba6354b9539b7f6aa9f4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_0_wire_153228153_emissive.png using Guid(b5cd2c0ab9ba6354b9539b7f6aa9f4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ac069a6d8178f83a553d521b67eeeb') in 0.080852 seconds
+  Import took 0.088700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_2_wire_153228153_rough.png
+  artifactKey: Guid(a085417fb0a3ad94895b15980f92a7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_2_wire_153228153_rough.png using Guid(a085417fb0a3ad94895b15980f92a7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f5d6320219a8e4f1fbc8c1ea3d6ddd') in 0.090283 seconds
+  Import took 0.105159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_6_wire_153228153_color.png
+  artifactKey: Guid(96ca4d4e7154d4a4c93f1668f84adf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_6_wire_153228153_color.png using Guid(96ca4d4e7154d4a4c93f1668f84adf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37421c1a275781e87d1086f11a372eca') in 0.093992 seconds
+  Import took 0.129728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_1_wire_153228153_metalness.png
+  artifactKey: Guid(ee55131471155fd4388095f331b168ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_1_wire_153228153_metalness.png using Guid(ee55131471155fd4388095f331b168ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f885b1c277167dd78a0df87bce71220e') in 0.078088 seconds
+  Import took 0.085343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_11_wire_153228153_metalness.png
+  artifactKey: Guid(1bf3540c27af108478b362468ce8dd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_11_wire_153228153_metalness.png using Guid(1bf3540c27af108478b362468ce8dd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9ae16e62ecedd46eb367164e010d7c') in 0.125774 seconds
+  Import took 0.162647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_7_wire_153228153_metalness.png
+  artifactKey: Guid(c392980b022a64b4c904c55787565038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_7_wire_153228153_metalness.png using Guid(c392980b022a64b4c904c55787565038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1901f3748d8e3315c2ae66662dba1d44') in 0.115705 seconds
+  Import took 0.145813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_3_wire_153228153_metalness.png
+  artifactKey: Guid(00de9e56b851e0d44806ade6d2e21761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_3_wire_153228153_metalness.png using Guid(00de9e56b851e0d44806ade6d2e21761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b961333a30b0d15bc0eff68b063c26') in 0.083736 seconds
+  Import took 0.090642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_2_wire_153228153_nmap.png
+  artifactKey: Guid(8bd41a7cf662c14449a2017505efe690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_2_wire_153228153_nmap.png using Guid(8bd41a7cf662c14449a2017505efe690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebd287b5d5e5aeec2d7d7621404a566') in 0.051708 seconds
+  Import took 0.067194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_5_wire_153228153_metalness.png
+  artifactKey: Guid(7cc576a56827bdb4e86d8cd63f86312e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_5_wire_153228153_metalness.png using Guid(7cc576a56827bdb4e86d8cd63f86312e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920019b503d452a95f7e4c9228dae647') in 0.078627 seconds
+  Import took 0.083635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_0_wire_153228153_nmap.png
+  artifactKey: Guid(96f92523df33ba141809e96e00756813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_0_wire_153228153_nmap.png using Guid(96f92523df33ba141809e96e00756813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d992021720e9152647032b12ed52773') in 0.059064 seconds
+  Import took 0.086531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_0_wire_153228153_metalness.png
+  artifactKey: Guid(6fa5505696fd8a1468e1bd047dc2fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_0_wire_153228153_metalness.png using Guid(6fa5505696fd8a1468e1bd047dc2fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b77d572e6fec15b858f46515d74b9f') in 0.081614 seconds
+  Import took 0.099829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_4_wire_153228153_color.png
+  artifactKey: Guid(fb0657c7808ae0f4fbfad813fae660b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_4_wire_153228153_color.png using Guid(fb0657c7808ae0f4fbfad813fae660b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6bb345584aad2f91fc355a0da9815c') in 0.051010 seconds
+  Import took 0.060398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_4_wire_153228153_nmap.png
+  artifactKey: Guid(0e893c53b6d40914db7c77a6b9fa8bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_4_wire_153228153_nmap.png using Guid(0e893c53b6d40914db7c77a6b9fa8bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b52c9988ccf2a939e3218fc8bd3d0b') in 0.092438 seconds
+  Import took 0.110605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_6_wire_153228153_rough.png
+  artifactKey: Guid(65323dcb2e5ed03449e4a1fda2f03bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_6_wire_153228153_rough.png using Guid(65323dcb2e5ed03449e4a1fda2f03bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929de7c3d833e7aa6f43eb4d1f3d6e6c') in 0.062037 seconds
+  Import took 0.072075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_7_wire_153228153_nmap.png
+  artifactKey: Guid(d33e7deef4563d549ac5c8aed1ffed4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_7_wire_153228153_nmap.png using Guid(d33e7deef4563d549ac5c8aed1ffed4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c79d641d6226d0e17c1da805ee4fb4c') in 0.086964 seconds
+  Import took 0.121916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Level1Props/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Textures/CrateNormal.png
+  artifactKey: Guid(1e160257a81365946b7ed6d8a62b53a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Textures/CrateNormal.png using Guid(1e160257a81365946b7ed6d8a62b53a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92f4f873580bcbec7ec97a8a20d7bec') in 0.246266 seconds
+  Import took 0.266324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_5_wire_153228153_nmap.png
+  artifactKey: Guid(fd08d1ca795d7f54ca1ee423ca1a5512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_5_wire_153228153_nmap.png using Guid(fd08d1ca795d7f54ca1ee423ca1a5512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da1afb21133fc4a6701f3b9cf132ab9') in 0.043533 seconds
+  Import took 0.076212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_5_wire_153228153_rough.png
+  artifactKey: Guid(6125d847648958e44a35b832ce85c703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_5_wire_153228153_rough.png using Guid(6125d847648958e44a35b832ce85c703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb0c2d04bf4454cf423ce300d481ea3') in 0.100841 seconds
+  Import took 0.105516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_12_wire_153228153_nmap.png
+  artifactKey: Guid(963edff46987a0644bf6f5b0c5b3548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_12_wire_153228153_nmap.png using Guid(963edff46987a0644bf6f5b0c5b3548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c380d5b91d33a035ffcc4b6665a589') in 0.051227 seconds
+  Import took 0.070358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_11_wire_153228153_nmap.png
+  artifactKey: Guid(f5ba5b931ef129e4784574089651467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_11_wire_153228153_nmap.png using Guid(f5ba5b931ef129e4784574089651467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9033ed4d232976a940c55ca5285614d9') in 0.125042 seconds
+  Import took 0.142670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_11_wire_153228153_color.png
+  artifactKey: Guid(c583086f8eb80cd44bf1d25b2149f3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_11_wire_153228153_color.png using Guid(c583086f8eb80cd44bf1d25b2149f3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffba96b8e3f8e5eac4e2c1e7dec49152') in 0.161982 seconds
+  Import took 0.168342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_12_wire_153228153_color.png
+  artifactKey: Guid(1aa5e2db24c324a42a7c2c2afbd7d46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_12_wire_153228153_color.png using Guid(1aa5e2db24c324a42a7c2c2afbd7d46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c659b1b6fc7d6e967964b996e1126515') in 0.064390 seconds
+  Import took 0.093168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_10_wire_153228153_nmap.png
+  artifactKey: Guid(e011bf02264d76245b94d71331efa8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_10_wire_153228153_nmap.png using Guid(e011bf02264d76245b94d71331efa8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158a8177902738c96aca4b2ad37b8ca2') in 0.078104 seconds
+  Import took 0.094604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_11_wire_153228153_metalness.png
+  artifactKey: Guid(ab835772aabbfb04794c5acaecb59318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_11_wire_153228153_metalness.png using Guid(ab835772aabbfb04794c5acaecb59318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78174581bb75d902e50cdedf716a5912') in 0.046554 seconds
+  Import took 0.060770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_11_wire_153228153_rough.png
+  artifactKey: Guid(58cd9cb6684a79c43800930d42421d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_11_wire_153228153_rough.png using Guid(58cd9cb6684a79c43800930d42421d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e325d503fc52033dc86e8c24c53958f0') in 0.084720 seconds
+  Import took 0.150338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_8_wire_153228153_metalness.png
+  artifactKey: Guid(3137704c8fa2f754b87e5ac56d452e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_8_wire_153228153_metalness.png using Guid(3137704c8fa2f754b87e5ac56d452e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ba69d015d161161762b827e0e76404') in 0.065657 seconds
+  Import took 0.074385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_1_wire_153228153_color.png
+  artifactKey: Guid(73f5b3151b63200408a20c29de039167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_1_wire_153228153_color.png using Guid(73f5b3151b63200408a20c29de039167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5517f1740171223757703ae31dac66') in 0.063766 seconds
+  Import took 0.094208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_10_wire_153228153_metalness.png
+  artifactKey: Guid(6494908ebe945c94f8fdd88345ee51a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_10_wire_153228153_metalness.png using Guid(6494908ebe945c94f8fdd88345ee51a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47a4e8a329196dcc3d9ca29457f1b75') in 0.105754 seconds
+  Import took 0.127716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_7_wire_153228153_color.png
+  artifactKey: Guid(9cc516442008248499ff562d76c8e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_7_wire_153228153_color.png using Guid(9cc516442008248499ff562d76c8e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bfa3d54f3fd40d367a2727b8105566') in 0.075129 seconds
+  Import took 0.082137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_12_wire_153228153_rough.png
+  artifactKey: Guid(4fd24b367a90b5a47b4c9a8038e291a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_12_wire_153228153_rough.png using Guid(4fd24b367a90b5a47b4c9a8038e291a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35222728197f651d884d4159dca96ff3') in 0.049317 seconds
+  Import took 0.055507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_0_wire_153228153_nmap.png
+  artifactKey: Guid(847e1358ce46b2d49859fe7187fd49b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_0_wire_153228153_nmap.png using Guid(847e1358ce46b2d49859fe7187fd49b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a469d82e451c45840394043cfe469862') in 0.099639 seconds
+  Import took 0.106494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_0_wire_153228153_emissive_power.png
+  artifactKey: Guid(83ea5c1dde765874c8bbb359cc53495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_0_wire_153228153_emissive_power.png using Guid(83ea5c1dde765874c8bbb359cc53495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81201f7b25bce1e1d11f435733fc899') in 0.092984 seconds
+  Import took 0.099450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_7_wire_153228153_color.png
+  artifactKey: Guid(dbf4dec80e539ad4d97438e2164704d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_7_wire_153228153_color.png using Guid(dbf4dec80e539ad4d97438e2164704d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec35f35c6943df2e1b4a39270db9daae') in 0.123635 seconds
+  Import took 0.130717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Level1Props/FreeToolsKit/Demo/GridTex.png
+  artifactKey: Guid(22692cc8b1ac3654c9ab807f32fd057e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/FreeToolsKit/Demo/GridTex.png using Guid(22692cc8b1ac3654c9ab807f32fd057e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be834d26f0b276e0f6e0953f7e424cae') in 0.205227 seconds
+  Import took 0.225741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_10_wire_153228153_rough.png
+  artifactKey: Guid(23775c12b13e065488846c82c298e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_10_wire_153228153_rough.png using Guid(23775c12b13e065488846c82c298e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4855bc064c5996f43fc885e7ae6c8de9') in 0.045465 seconds
+  Import took 0.055680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_9_wire_153228153_rough.png
+  artifactKey: Guid(fd1c176c0df3b4c4a82b578dc94968e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_9_wire_153228153_rough.png using Guid(fd1c176c0df3b4c4a82b578dc94968e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38d9b2d6666ef8ce9c07d5c353fea64') in 0.057813 seconds
+  Import took 0.077016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_10_wire_153228153_nmap.png
+  artifactKey: Guid(55a9f9928e359fe42816b76f9a8abc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_10_wire_153228153_nmap.png using Guid(55a9f9928e359fe42816b76f9a8abc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9c508cf0b3705531a49e3f03e2aabd') in 0.184259 seconds
+  Import took 0.195597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000922 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_0_wire_153228153_color.png
+  artifactKey: Guid(ecc28568ddd65f1468affd6ee1c5f1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_0_wire_153228153_color.png using Guid(ecc28568ddd65f1468affd6ee1c5f1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd43f44358b21c9d1cc5152c7f2da8f') in 0.080468 seconds
+  Import took 0.088865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_6_wire_153228153_color.png
+  artifactKey: Guid(71da80bc445a90b43b8fcd6bd1887cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_6_wire_153228153_color.png using Guid(71da80bc445a90b43b8fcd6bd1887cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7a4ef5f1180fdfff7cb97d19a6cc39') in 0.073958 seconds
+  Import took 0.104340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_6_wire_153228153_metalness.png
+  artifactKey: Guid(9d54daf7e51be7a4c8a4273cebdad4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_6_wire_153228153_metalness.png using Guid(9d54daf7e51be7a4c8a4273cebdad4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b723bcfa17d51c579c02c9fc30cdc7') in 0.071608 seconds
+  Import took 0.076935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_3_wire_153228153_color.png
+  artifactKey: Guid(4d4ae56f841f7d44a814f25cb7ed02bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_3_wire_153228153_color.png using Guid(4d4ae56f841f7d44a814f25cb7ed02bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f29ce9028e7af560ba121467ccec8be') in 0.060957 seconds
+  Import took 0.096392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Level1Props/FreeLabAssets/Textures/Mana_Net.tga
+  artifactKey: Guid(9722f513cefe64f74bdf375931311104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/FreeLabAssets/Textures/Mana_Net.tga using Guid(9722f513cefe64f74bdf375931311104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ffca1efea78d461efd82d384c8d419') in 0.135413 seconds
+  Import took 0.154257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Level1Props/Gameella/Texture/New_Sci_fi_barrel_MetallicSmoothness.png
+  artifactKey: Guid(3166c0e642c531e44a65b2f6243697c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Gameella/Texture/New_Sci_fi_barrel_MetallicSmoothness.png using Guid(3166c0e642c531e44a65b2f6243697c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c78b64f40d8a6d737cdd2f1be0169ba') in 0.113949 seconds
+  Import took 0.132760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Level1Props/FreeLabAssets/Textures/Pipette_Alb.tga
+  artifactKey: Guid(8942adacda12f47e2a72969825774394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/FreeLabAssets/Textures/Pipette_Alb.tga using Guid(8942adacda12f47e2a72969825774394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dce880a957b1adfac8ed2ad8a646a89') in 0.028575 seconds
+  Import took 0.055028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Level1Props/FreeLabAssets/Textures/Mana_Green.tga
+  artifactKey: Guid(bc7b190aa39d2456bbd9b12873ba8fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/FreeLabAssets/Textures/Mana_Green.tga using Guid(bc7b190aa39d2456bbd9b12873ba8fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7ed7ecb0ff2b3fb7cbf36ce85e094c') in 0.100395 seconds
+  Import took 0.105629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Level1Props/FreeLabAssets/Textures/Pipette_Em.tga
+  artifactKey: Guid(dbb91fe86a9de46fe935cf7068013117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/FreeLabAssets/Textures/Pipette_Em.tga using Guid(dbb91fe86a9de46fe935cf7068013117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b443cb2143e240089026fbd7283e57') in 0.026657 seconds
+  Import took 0.043942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Level1Props/FreeLabAssets/Textures/Pipette_Mtl.tga
+  artifactKey: Guid(01b3d826b57cd4958944b2d3f053126a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/FreeLabAssets/Textures/Pipette_Mtl.tga using Guid(01b3d826b57cd4958944b2d3f053126a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ded5a2e1d6e5c6776e4005892a4cfb') in 0.372905 seconds
+  Import took 0.379783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Level1Props/Crates_0/Scene/Metal/Metal Plate Floor 01/Metal_Plate_Floor_01_Height.png
+  artifactKey: Guid(f54dc44f28c25b346b102758ccc6936d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Scene/Metal/Metal Plate Floor 01/Metal_Plate_Floor_01_Height.png using Guid(f54dc44f28c25b346b102758ccc6936d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d4cc06bf64eed0811743db3079997a') in 0.109779 seconds
+  Import took 0.130074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/Level1Props/FreeLabAssets/Textures/Pipette_N.tga
+  artifactKey: Guid(f253397bbf9164cfda87b08f7c0f6394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/FreeLabAssets/Textures/Pipette_N.tga using Guid(f253397bbf9164cfda87b08f7c0f6394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3af8d97256d508a5dc129eac7e4b0f6') in 0.060066 seconds
+  Import took 0.105199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Level1Props/Gameella/Texture/New_Sci_fi_barrel_AlbedoTransparency.png
+  artifactKey: Guid(1a4df5c6d41a8254a9d5117686314a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Gameella/Texture/New_Sci_fi_barrel_AlbedoTransparency.png using Guid(1a4df5c6d41a8254a9d5117686314a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c431f4d0f1cb07925263792691c623') in 0.117973 seconds
+  Import took 0.124428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Level1Props/Gameella/Texture/Sci Fi Oil Barrel_LOW_Sci fi barrel_Emission.png
+  artifactKey: Guid(3285f75f73b5ed04499e30be170301d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Gameella/Texture/Sci Fi Oil Barrel_LOW_Sci fi barrel_Emission.png using Guid(3285f75f73b5ed04499e30be170301d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef9d5dcd8b149a4bde86bf9454be5ab') in 0.056924 seconds
+  Import took 0.115414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Level1Props/FreeLabAssets/Textures/SB_Glass_Mtl.tga
+  artifactKey: Guid(593c47fa3dd924483b36b5132d03df2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/FreeLabAssets/Textures/SB_Glass_Mtl.tga using Guid(593c47fa3dd924483b36b5132d03df2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650316398a838737c7fe2b439a711f30') in 0.105260 seconds
+  Import took 0.111726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Level1Props/Crates_0/Scene/Metal/Metal Plate Floor 01/Metal_Plate_Floor_01_Albedo.png
+  artifactKey: Guid(0d02dfeb36bfe97489715743a344edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Scene/Metal/Metal Plate Floor 01/Metal_Plate_Floor_01_Albedo.png using Guid(0d02dfeb36bfe97489715743a344edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823fe5437ef9386ed466f99885be07be') in 0.241402 seconds
+  Import took 0.270010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Level1Props/Crates_0/Scene/Metal/Metal Plate Floor 01/Metal_Plate_Floor_01_Metalness.tga
+  artifactKey: Guid(bd7f32bbe9545eb4db26bbafa14539c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Scene/Metal/Metal Plate Floor 01/Metal_Plate_Floor_01_Metalness.tga using Guid(bd7f32bbe9545eb4db26bbafa14539c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc29f3514ea3cd9cab6a5f069245e414') in 0.270848 seconds
+  Import took 0.306154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Level1Props/Crates_0/Scene/Metal/Metal Plate Floor 01/Metal_Plate_Floor_01_AO.png
+  artifactKey: Guid(d10b73b4ece9e904f9394422563ba6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Scene/Metal/Metal Plate Floor 01/Metal_Plate_Floor_01_AO.png using Guid(d10b73b4ece9e904f9394422563ba6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e06b1bf0ba611e8f048e43d045a457') in 0.097845 seconds
+  Import took 0.115145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Level1Props/Crates_0/Scene/Metal/Metal Plate Floor 01/Metal_Plate_Floor_01_Normal.png
+  artifactKey: Guid(3b8c5f0c19684954c9f45159693b9e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Scene/Metal/Metal Plate Floor 01/Metal_Plate_Floor_01_Normal.png using Guid(3b8c5f0c19684954c9f45159693b9e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9b7765e167477f374176622fcb0662') in 0.102679 seconds
+  Import took 0.108598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_12_wire_153228153_metalness.png
+  artifactKey: Guid(c505fb6f7f6095f4983fad46f56c5ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_12_wire_153228153_metalness.png using Guid(c505fb6f7f6095f4983fad46f56c5ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c39958a247f25f30d200748dbd4a841') in 0.074304 seconds
+  Import took 0.107726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_10_wire_153228153_rough.png
+  artifactKey: Guid(06ed0fc26d4d9b44096818d9b885662a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_10_wire_153228153_rough.png using Guid(06ed0fc26d4d9b44096818d9b885662a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adab41fd3992161ef03cd9e9a8b20147') in 0.093098 seconds
+  Import took 0.116572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Level1Props/FreeLabAssets/Textures/Mana_FX.tga
+  artifactKey: Guid(cc1af833400504e3188b655b2a82f97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/FreeLabAssets/Textures/Mana_FX.tga using Guid(cc1af833400504e3188b655b2a82f97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2cb830d65216978d65db6ed37c9b72') in 0.026393 seconds
+  Import took 0.032405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_3_wire_153228153_metalness.png
+  artifactKey: Guid(bf46fc8f5a4caed42bc04ec2ce847e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_3_wire_153228153_metalness.png using Guid(bf46fc8f5a4caed42bc04ec2ce847e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab78d3a93b470516a025e5be3dab35a3') in 0.093881 seconds
+  Import took 0.133804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_4_wire_153228153_metalness.png
+  artifactKey: Guid(6d6a2d4ecbb446341a77675c84a55625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_4_wire_153228153_metalness.png using Guid(6d6a2d4ecbb446341a77675c84a55625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef15f2390cf19df7443b6a2f616ece0') in 0.055984 seconds
+  Import took 0.061536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000772 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_8_wire_153228153_color.png
+  artifactKey: Guid(13761141cb3576444a41c4db8e6a8ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_8_wire_153228153_color.png using Guid(13761141cb3576444a41c4db8e6a8ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37263854064a509724535c2bf98e05c') in 0.085385 seconds
+  Import took 0.120287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_7_wire_153228153_metalness.png
+  artifactKey: Guid(98f27073e46d70e4d803d17d473a7291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_7_wire_153228153_metalness.png using Guid(98f27073e46d70e4d803d17d473a7291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420494776abdc8f0837a5a5d18062088') in 0.075403 seconds
+  Import took 0.146254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Level1Props/Gameella/Texture/New_Sci_fi_barrel_Normal.png
+  artifactKey: Guid(63ceb56c21e1c69459b20e40e5ac4d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Gameella/Texture/New_Sci_fi_barrel_Normal.png using Guid(63ceb56c21e1c69459b20e40e5ac4d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c67d717e21fa4705fa98da2f31ceec') in 0.146626 seconds
+  Import took 0.153172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_8_wire_153228153_nmap.png
+  artifactKey: Guid(1b7231cb564202947b182ba18c433cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_8_wire_153228153_nmap.png using Guid(1b7231cb564202947b182ba18c433cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f11a7f8184a5a976ecafd119f6a4389') in 0.062572 seconds
+  Import took 0.168532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_9_wire_153228153_nmap.png
+  artifactKey: Guid(c17305d059b103e4a9b7a8481b9f5a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_9_wire_153228153_nmap.png using Guid(c17305d059b103e4a9b7a8481b9f5a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c238528585c91641ef00f2164e22043') in 0.084976 seconds
+  Import took 0.112621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_0_wire_153228153_color.png
+  artifactKey: Guid(221878c0c2ac40a43b2dbef40f913405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_0_wire_153228153_color.png using Guid(221878c0c2ac40a43b2dbef40f913405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d784b40f4166e31f3286b4addddf329') in 0.089361 seconds
+  Import took 0.106752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_8_wire_153228153_nmap.png
+  artifactKey: Guid(2c5a4c12314029f4491176c591fcda02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_8_wire_153228153_nmap.png using Guid(2c5a4c12314029f4491176c591fcda02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0423c9ced3771af4e56c884b22af7168') in 0.087189 seconds
+  Import took 0.111643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_3_wire_153228153_color.png
+  artifactKey: Guid(c2b33584268777c47997ec33dd48375b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_3_wire_153228153_color.png using Guid(c2b33584268777c47997ec33dd48375b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3791c199685c19384c515a988849be60') in 0.104339 seconds
+  Import took 0.140429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_10_wire_153228153_color.png
+  artifactKey: Guid(dc9df2aa17de000438fd6ab100366817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_10_wire_153228153_color.png using Guid(dc9df2aa17de000438fd6ab100366817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338692ceaf44cff7eb74eb4029e856ac') in 0.170229 seconds
+  Import took 0.210755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_9_wire_153228153_nmap.png
+  artifactKey: Guid(e0eee9152503197459b54d75a8916abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_9_wire_153228153_nmap.png using Guid(e0eee9152503197459b54d75a8916abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cd00d0da517309b9715ae542a32c9d') in 0.061519 seconds
+  Import took 0.097751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_9_wire_153228153_rough.png
+  artifactKey: Guid(6a0e9775e62c9574592525b028eb2148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_9_wire_153228153_rough.png using Guid(6a0e9775e62c9574592525b028eb2148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5ffc9bb5e63750473697b462756ff9') in 0.121627 seconds
+  Import took 0.206123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_1_wire_153228153_emissive_power.png
+  artifactKey: Guid(cf9fce58c7cfbbd43a8331bcc4a10489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_1_wire_153228153_emissive_power.png using Guid(cf9fce58c7cfbbd43a8331bcc4a10489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853a11f5757405c45d4d0617d3a06039') in 0.081625 seconds
+  Import took 0.089194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_2_wire_153228153_nmap.png
+  artifactKey: Guid(5e400b1582dde4648a9051b24d4e9cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_2_wire_153228153_nmap.png using Guid(5e400b1582dde4648a9051b24d4e9cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d2702c3c9f302bccfefde8555fb356') in 0.163779 seconds
+  Import took 0.205064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_1_wire_153228153_nmap.png
+  artifactKey: Guid(5cb02e47e4e0b4340adb425e7fd3db1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_1_wire_153228153_nmap.png using Guid(5cb02e47e4e0b4340adb425e7fd3db1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa7829cdb1c09464f96019e4f53b07e') in 0.093810 seconds
+  Import took 0.116814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_1_wire_153228153_rough.png
+  artifactKey: Guid(3489db7278bdfbc4698b5d14fe83f4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_1_wire_153228153_rough.png using Guid(3489db7278bdfbc4698b5d14fe83f4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be15e4c7c548f24d00d368171f99e7a7') in 0.111744 seconds
+  Import took 0.155677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_11_wire_153228153_nmap.png
+  artifactKey: Guid(d72e50b2973647e408106ca6f6018e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_11_wire_153228153_nmap.png using Guid(d72e50b2973647e408106ca6f6018e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7007d2022366024a69d8c74467a03b') in 0.087962 seconds
+  Import took 0.106821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_0_wire_153228153_rough.png
+  artifactKey: Guid(2594614a95b446943895b8a4ab129b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_0_wire_153228153_rough.png using Guid(2594614a95b446943895b8a4ab129b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60efedab8d4eeb7858e39da678fd5b90') in 0.085177 seconds
+  Import took 0.098337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_2_wire_153228153_rough.png
+  artifactKey: Guid(8871d53beb15fd4449600d591ec2cb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_2_wire_153228153_rough.png using Guid(8871d53beb15fd4449600d591ec2cb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ea6e0d9b3f74477a805cf126a04acc') in 0.092574 seconds
+  Import took 0.120097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_2_wire_153228153_color.png
+  artifactKey: Guid(42262ee7a8d04fa4da605998a8ac8950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_2_wire_153228153_color.png using Guid(42262ee7a8d04fa4da605998a8ac8950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ceb7fd453c6bf2de40d02c707c3b226') in 0.026979 seconds
+  Import took 0.033533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_9_wire_153228153_color.png
+  artifactKey: Guid(667ecdbde8d74624581e60ce74e046e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_9_wire_153228153_color.png using Guid(667ecdbde8d74624581e60ce74e046e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478363661e2d0703ac4dc71eadf39465') in 0.077598 seconds
+  Import took 0.110444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Level1Props/FreeLabAssets/Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(a1d646832b0ec4104baf45fe9cef3281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/FreeLabAssets/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(a1d646832b0ec4104baf45fe9cef3281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fd8eab7939b6e605139b6902507433') in 2.373972 seconds
+  Import took 2.396474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_4_wire_153228153_nmap.png
+  artifactKey: Guid(5942aedf09643da489bc6b73145b660c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_4_wire_153228153_nmap.png using Guid(5942aedf09643da489bc6b73145b660c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff437501b2ab08285a97b4e3d6ba39b') in 0.072949 seconds
+  Import took 0.110119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_1_wire_153228153_metalness.png
+  artifactKey: Guid(5c9162e01a2dec044a12ff7dc0d2fee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_1_wire_153228153_metalness.png using Guid(5c9162e01a2dec044a12ff7dc0d2fee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e1a3a734af0f956e2cd925595d13e3') in 0.086040 seconds
+  Import took 0.106217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_2_wire_153228153_metalness.png
+  artifactKey: Guid(4b12868a0dca16343acb70c617504f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_2_wire_153228153_metalness.png using Guid(4b12868a0dca16343acb70c617504f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7144208b74713be46b7b5f4011490af') in 0.092759 seconds
+  Import took 0.117224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_5_wire_153228153_color.png
+  artifactKey: Guid(491ab58e96d57744792497dad8bfde70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_5_wire_153228153_color.png using Guid(491ab58e96d57744792497dad8bfde70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958e3b75686ccb9fca7f4712f979e87b') in 0.163798 seconds
+  Import took 0.244337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_8_wire_153228153_rough.png
+  artifactKey: Guid(5645686287c7ea6438eb046ac878c858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_8_wire_153228153_rough.png using Guid(5645686287c7ea6438eb046ac878c858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e6341dfc3a43210f5eaf6d383f8615') in 0.086563 seconds
+  Import took 0.128289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_10_wire_153228153_color.png
+  artifactKey: Guid(0219bfb96a8d017468e8c5fbdda42673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/CreateCap_0_10_wire_153228153_color.png using Guid(0219bfb96a8d017468e8c5fbdda42673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e79311b3808ed8e2ea118800da659f') in 0.054936 seconds
+  Import took 0.099718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Level1Props/FreeLabAssets/Textures/Flask_01.tga
+  artifactKey: Guid(f68d7052f7e96437cb9b2bb9f8572a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/FreeLabAssets/Textures/Flask_01.tga using Guid(f68d7052f7e96437cb9b2bb9f8572a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6829756bfdc7de73d64e147b5c4aa61e') in 0.055250 seconds
+  Import took 0.061135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_8_wire_153228153_metalness.png
+  artifactKey: Guid(a25d175ec5d36974cb602cd16a45de87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_8_wire_153228153_metalness.png using Guid(a25d175ec5d36974cb602cd16a45de87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e3ee006bf380da32e1d86e9de0152f') in 0.116325 seconds
+  Import took 0.122217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_3_wire_153228153_rough.png
+  artifactKey: Guid(79198b4c0ff246a44a27c519f64a7bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_3_wire_153228153_rough.png using Guid(79198b4c0ff246a44a27c519f64a7bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0977d9ba5040671652200d953ffe2a44') in 0.119742 seconds
+  Import took 0.142599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_4_wire_153228153_color.png
+  artifactKey: Guid(c807668a293109a4fa0fcb6fc2e92f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_4_wire_153228153_color.png using Guid(c807668a293109a4fa0fcb6fc2e92f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f467d715edb8f2f165f90a66a702f6') in 0.107214 seconds
+  Import took 0.136133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_11_wire_153228153_color.png
+  artifactKey: Guid(395704f31a130cd4399d4ea266751f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Crates_0/Crate_0/Textures/Create_0_11_wire_153228153_color.png using Guid(395704f31a130cd4399d4ea266751f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0203da5fc31cbd83dfd68155905bfc2a') in 0.286799 seconds
+  Import took 0.378462 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002333 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2575 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.6 MB.
+System memory in use after: 119.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3178.
+Total: 2.729100 ms (FindLiveObjects: 0.288200 ms CreateObjectMapping: 0.129100 ms MarkObjects: 2.241100 ms  DeleteObjects: 0.069200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.057 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2575 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.6 MB.
+System memory in use after: 119.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3181.
+Total: 2.675900 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.158300 ms MarkObjects: 2.119000 ms  DeleteObjects: 0.082400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2575 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3184.
+Total: 3.019400 ms (FindLiveObjects: 0.526100 ms CreateObjectMapping: 0.142600 ms MarkObjects: 2.271600 ms  DeleteObjects: 0.078100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 120.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3188.
+Total: 2.969000 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.137900 ms MarkObjects: 2.448100 ms  DeleteObjects: 0.060800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003252 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 120.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3191.
+Total: 3.384700 ms (FindLiveObjects: 0.716100 ms CreateObjectMapping: 0.294300 ms MarkObjects: 2.293100 ms  DeleteObjects: 0.080000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 120.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3194.
+Total: 2.976300 ms (FindLiveObjects: 0.362200 ms CreateObjectMapping: 0.178100 ms MarkObjects: 2.366400 ms  DeleteObjects: 0.068200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 120.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3197.
+Total: 2.729000 ms (FindLiveObjects: 0.317300 ms CreateObjectMapping: 0.145000 ms MarkObjects: 2.193900 ms  DeleteObjects: 0.071900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002813 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 120.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3200.
+Total: 3.765100 ms (FindLiveObjects: 0.908200 ms CreateObjectMapping: 0.289100 ms MarkObjects: 2.495600 ms  DeleteObjects: 0.070500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002454 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 120.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3203.
+Total: 4.311000 ms (FindLiveObjects: 0.629600 ms CreateObjectMapping: 0.291400 ms MarkObjects: 3.273200 ms  DeleteObjects: 0.115100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002326 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 120.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3206.
+Total: 2.998300 ms (FindLiveObjects: 0.534900 ms CreateObjectMapping: 0.295400 ms MarkObjects: 2.100600 ms  DeleteObjects: 0.065700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002392 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 120.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3209.
+Total: 2.847400 ms (FindLiveObjects: 0.388000 ms CreateObjectMapping: 0.185300 ms MarkObjects: 2.201700 ms  DeleteObjects: 0.071100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003421 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 120.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3212.
+Total: 2.904500 ms (FindLiveObjects: 0.335100 ms CreateObjectMapping: 0.134700 ms MarkObjects: 2.357000 ms  DeleteObjects: 0.076400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002430 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 120.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3215.
+Total: 3.166400 ms (FindLiveObjects: 0.426000 ms CreateObjectMapping: 0.204600 ms MarkObjects: 2.465700 ms  DeleteObjects: 0.068600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002386 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.9 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3218.
+Total: 3.662900 ms (FindLiveObjects: 0.627200 ms CreateObjectMapping: 0.377500 ms MarkObjects: 2.580700 ms  DeleteObjects: 0.076000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002325 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.9 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3221.
+Total: 3.223000 ms (FindLiveObjects: 0.578800 ms CreateObjectMapping: 0.184000 ms MarkObjects: 2.378500 ms  DeleteObjects: 0.080200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002477 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.9 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3224.
+Total: 2.893500 ms (FindLiveObjects: 0.331500 ms CreateObjectMapping: 0.150100 ms MarkObjects: 2.298400 ms  DeleteObjects: 0.111800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
