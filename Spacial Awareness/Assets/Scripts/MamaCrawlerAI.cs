@@ -13,25 +13,34 @@ public class MamaCrawlerAI : MonoBehaviour
     private Rigidbody playerBody;
 
     public float speed;
-    public float range;
     public Collider head;
 
-    private GameObject[] objects;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.Find("Stylized Astronaut");
         body = GetComponent<Rigidbody>();
-        objects = GameObject.FindGameObjectsWithTag("destroy");
         head = GetComponentInChildren<Collider>();
 
     }
 
     void FixedUpdate()
     {
+        //transform.LookAt(player.transform);
 
-        transform.LookAt(player.transform);
+
+        // Want to lock y and z axis
+        //Vector3 rotation = Quaternion.LookRotation(player.transform.position).eulerAngles;
+        //rotation.x = 0f;
+        //rotation.y = 0f;
+        //transform.rotation = Quaternion.Euler(rotation);
+
+
+        // Still not perfect
+        Vector3 target = new Vector3(transform.position.x, player.transform.position.y, player.transform.position.z);
+        transform.LookAt(target);
+
         playerPos = GameObject.Find("Stylized Astronaut").transform.position;
         
         Vector3 CrawlerPos = transform.position;
