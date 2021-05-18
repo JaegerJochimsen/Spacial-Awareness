@@ -6353,6 +6353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a54b527cf2aade46ac07b921f4b78c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wantFlashOut: 0
 --- !u!114 &874991844
 MonoBehaviour:
   m_ObjectHideFlags: 0

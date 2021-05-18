@@ -6,6 +6,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class FlashImage : MonoBehaviour
 {
+    public bool wantFlashOut = false;
     Image _image = null;
     Coroutine _currentFlashRoutine = null;
 
@@ -45,19 +46,20 @@ public class FlashImage : MonoBehaviour
             yield return null;
         }
 
-        /*// TODO IF YOU WANT TO HAVE THE FLASH COLOR GO AWAY COMMENT OUT THE BELOW CODE
+        // TODO IF YOU WANT TO HAVE THE FLASH COLOR GO AWAY COMMENT OUT THE BELOW CODE
         // animate flash out
-        float flashOutDuration = secondsForOneFlash / 2;
-        for (float t = 0; t <= flashOutDuration; t += Time.deltaTime)
-        {
-            Color colorThisFrame = _image.color;
-            colorThisFrame.a = Mathf.Lerp(maxAlpha, 0, t / flashOutDuration);
-            _image.color = colorThisFrame;
-            yield return null;
-        }
+        if (wantFlashOut == true) {
+            float flashOutDuration = secondsForOneFlash / 2;
+            for (float t = 0; t <= flashOutDuration; t += Time.deltaTime)
+            {
+                Color colorThisFrame = _image.color;
+                colorThisFrame.a = Mathf.Lerp(maxAlpha, 0, t / flashOutDuration);
+                _image.color = colorThisFrame;
+                yield return null;
+            }
 
-        // ensure alpha is set to 0
-        _image.color = new Color32(0, 0, 0, 0); // color32 allows for alpha value
-        */    
+            // ensure alpha is set to 0
+            _image.color = new Color32(0, 0, 0, 0); // color32 allows for alpha value
+        }
     }
 }

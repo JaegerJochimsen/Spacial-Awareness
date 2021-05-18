@@ -6,6 +6,8 @@ using UnityEngine;
 public class MamaCrawlerAI : MonoBehaviour
 {
 
+    [SerializeField] FlashImage _flashImage = null;
+
     private Vector3 playerPos;
     private GameObject player;
 
@@ -66,6 +68,7 @@ public class MamaCrawlerAI : MonoBehaviour
 
         if (col == GameObject.Find("Stylized Astronaut").GetComponent<Collider>())
         {
+            _flashImage.StartFlash(.25f, 1f, Color.red);
             Kill();
         }
     }
