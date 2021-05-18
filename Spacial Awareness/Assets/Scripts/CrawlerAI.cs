@@ -20,7 +20,7 @@ public class CrawlerAI : MonoBehaviour
     private Transform nest;
 
     // Nest flag: 1 for nest 1, 2 for 2nd nesr
-    public int nest_number;
+    public int nestNumber;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +35,7 @@ public class CrawlerAI : MonoBehaviour
          * is attachted to. Since we only have two nests it isnt a big deal.
          */
 
-        if (nest_number == 1)
+        if (nestNumber == 1)
         {
             nest = GameObject.Find("nest_1").GetComponent<Transform>();
         }
@@ -53,7 +53,7 @@ public class CrawlerAI : MonoBehaviour
         Vector3 CrawlerPos = transform.position;
 
        // crawlerBody.velocity = Vector3.zero;
-        //crawlerBody.angularVelocity = Vector3.zero;
+        crawlerBody.angularVelocity = Vector3.zero;
 
         if (Vector3.Distance(playerPos, nest.position) <= attackZone)
         {
@@ -66,13 +66,13 @@ public class CrawlerAI : MonoBehaviour
                 //crawlerBody.AddForce(CrawlerPos - playerPos * 1, ForceMode.Impulse);
                 transform.position += transform.forward * 2 * Time.deltaTime;
             } 
-            Debug.Log("In attack zone0");
+            //Debug.Log("In attack zone0");
             transform.LookAt(playerPos);
         }
 
         else if (Vector3.Distance(playerPos, nest.position) <= warningZone)
         {
-            Debug.Log("In warning zone0");
+            //Debug.Log("In warning zone0");
             transform.LookAt(playerPos);
             // TODO: Insert a warning sound or particle effect here.
         }
