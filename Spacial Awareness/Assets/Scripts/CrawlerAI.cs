@@ -17,15 +17,32 @@ public class CrawlerAI : MonoBehaviour
     public float warningZone;
 
     // Location of the nest
-    public Transform nest;
+    private Transform nest;
+
+    // Nest flag: 1 for nest 1, 2 for 2nd nesr
+    public int nest_number;
 
     // Start is called before the first frame update
     void Start()
     {
         playerBody = GameObject.Find("Stylized Astronaut").GetComponent<Rigidbody>();
         player = GameObject.Find("Stylized Astronaut");
-        nest = GetComponent<Transform>();
         crawlerBody = GetComponent<Rigidbody>();
+
+        /* Super hacky solution:
+         * The script was not grabing the correct nest object attachted
+         * through unity, so I made a flag to determine which nest the crawler
+         * is attachted to. Since we only have two nests it isnt a big deal.
+         */
+
+        if (nest_number == 1)
+        {
+            nest = GameObject.Find("nest_1").GetComponent<Transform>();
+        }
+        else
+        {
+            nest = GameObject.Find("nest_2").GetComponent<Transform>();
+        }
     }
 
     // Update is called once per frame
@@ -46,12 +63,16 @@ public class CrawlerAI : MonoBehaviour
             } 
             else
             {
-                crawlerBody.AddForce(CrawlerPos - playerPos * 10, ForceMode.Impulse);
-            }
+                //crawlerBody.AddForce(CrawlerPos - playerPos * 1, ForceMode.Impulse);
+                transform.position += transform.forward * 2 * Time.deltaTime;
+            } 
+            Debug.Log("In attack zone0");
+            transform.LookAt(playerPos);
         }
 
         else if (Vector3.Distance(playerPos, nest.position) <= warningZone)
         {
+            Debug.Log("In warning zone0");
             transform.LookAt(playerPos);
             // TODO: Insert a warning sound or particle effect here.
         }
