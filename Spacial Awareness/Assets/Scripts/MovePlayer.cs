@@ -9,6 +9,8 @@ public class MovePlayer : MonoBehaviour
     float turnSpeed = 40f;
     float speed = 15f;
     float jumpHeight = 50f;
+    public float lavaKnock;
+    public float lavaDamage;
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
     bool hasInput = false;
@@ -19,16 +21,16 @@ public class MovePlayer : MonoBehaviour
     // Animation variables
     private Animator anim;
     bool IsRunning = false;
-    //bool IsJumping = false;
-    //bool IsLanding = false;
     // End animation variables
 
-    [Header("Groundcheck Variables")]
+    [Header("Groundcheck/Lavacheck Variables")]
     // Ground-check variables
     public Transform groundCheck;
     float groundDistance = 0.8f;
     public LayerMask groundMask;
+    public LayerMask lavaMask;
     bool isGrounded = true;
+    public bool isOnLava = false;
     // End ground check variables
 
     [Header("Dash Variables")]
@@ -79,12 +81,17 @@ public class MovePlayer : MonoBehaviour
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         anim.SetBool("IsGrounded", isGrounded);
 
+        // check to see if player stepped on lava
+        isOnLava = Physics.CheckSphere(groundCheck.position, groundDistance, lavaMask);
+
         // if we aren't dashing then move as usual, otherwise we need to wait until we finish dashing to move again
         if (!dashing)
         {
             // handle input from keyboard, put into Vector3 for MoveAndLook() later, and apply inAirPenalty 
             HandleMovementInput();
 
+            // if on lava, then jump and take damage
+            HandleLavaCheck();
 
             // check to see if we should play the animation, then set the bool
             SetRunningAnimBool();
@@ -108,6 +115,21 @@ public class MovePlayer : MonoBehaviour
 
         Dash();
 
+    }
+
+    void HandleLavaCheck()
+    {
+        if (isOnLava)
+        {
+            // if we are shielding then negate damage
+            if (!shielding)
+            {
+                GetComponent<KillPlayer>().TakeDamage(lavaDamage);
+            }
+            // knock player into the air when they touch the lava
+            Vector3 knockUp = new Vector3(0f, lavaKnock, 0f);
+            body.AddForce(knockUp, ForceMode.Impulse);
+        }
     }
 
     /* DashWait(float waitTime):

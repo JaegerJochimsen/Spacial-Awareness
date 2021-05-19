@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.80728984, g: 0.25126022, b: 0.3044948, a: 1}
+  m_IndirectSpecularColor: {r: 1.5204687, g: 0.37124377, b: 0.32182476, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -461,9 +461,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1423675226}
     m_Modifications:
+    - target: {fileID: 1202487827492764, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1285724460733782, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_Name
       value: EA_Puddle_01c_Default (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285724460733782, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_RootOrder
@@ -491,7 +499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.2
+      value: 25.8
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2430,9 +2438,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1423675226}
     m_Modifications:
+    - target: {fileID: 1202487827492764, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1285724460733782, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_Name
       value: EA_Puddle_01c_Default (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285724460733782, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_RootOrder
@@ -2460,7 +2476,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.2
+      value: 36.2
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3299,9 +3315,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1423675226}
     m_Modifications:
+    - target: {fileID: 1202487827492764, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1285724460733782, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_Name
       value: EA_Puddle_01c_Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285724460733782, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_RootOrder
@@ -3329,7 +3353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.4
+      value: 21.6
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3373,9 +3397,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1423675226}
     m_Modifications:
+    - target: {fileID: 1202487827492764, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1285724460733782, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_Name
       value: EA_Puddle_01c_Default (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285724460733782, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_RootOrder
@@ -3403,7 +3435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.2
+      value: 24.8
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4746,6 +4778,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4749563533036680, guid: a1afd15cbb93fea4bad648ed05e0af69, type: 3}
   m_PrefabInstance: {fileID: 1359756233}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1404062575 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7387237233252875022, guid: 235b5050dddd061459dead66672b146d, type: 3}
+  m_PrefabInstance: {fileID: 2108325936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1423675224
 GameObject:
   m_ObjectHideFlags: 0
@@ -4756,13 +4793,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1423675226}
   - component: {fileID: 1423675225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lava
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1423675225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4775,7 +4812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 220f84f1970dee148834cae898cc4537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1847681819}
+  player: {fileID: 1404062575}
 --- !u!4 &1423675226
 Transform:
   m_ObjectHideFlags: 0
@@ -5330,6 +5367,101 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 1106539822090162858, guid: 235b5050dddd061459dead66672b146d, type: 3}
   m_PrefabInstance: {fileID: 2108325936}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1653303314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1653303315}
+  - component: {fileID: 1653303318}
+  - component: {fileID: 1653303317}
+  - component: {fileID: 1653303316}
+  m_Layer: 6
+  m_Name: lava1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1653303315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653303314}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 101.81295, y: 119.39307, z: 3.3371344}
+  m_LocalScale: {x: 100, y: 20, z: 20}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1653303316
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653303314}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1653303317
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653303314}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 787cb25de3401c44b939f2599cda764c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1653303318
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653303314}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1656412796
 GameObject:
   m_ObjectHideFlags: 0
@@ -5565,9 +5697,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1423675226}
     m_Modifications:
+    - target: {fileID: 1202487827492764, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1285724460733782, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_Name
       value: EA_Puddle_01c_Default (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285724460733782, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_RootOrder
@@ -5595,7 +5735,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.2
+      value: 25.8
       objectReference: {fileID: 0}
     - target: {fileID: 4517755283870778, guid: 6a4bb2590ab0fe4499450223b402a8a4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6246,6 +6386,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Puddle_01a_Default
       objectReference: {fileID: 0}
+    - target: {fileID: 1363801279913228, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374232752055270, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4497577245460230, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6264,7 +6412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4497577245460230, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.06
+      value: 1.59
       objectReference: {fileID: 0}
     - target: {fileID: 4497577245460230, guid: b74f3d307eaadbc4294cd716ebca0f58, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6621,12 +6769,24 @@ PrefabInstance:
       value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 1106539822090162859, guid: 235b5050dddd061459dead66672b146d, type: 3}
+      propertyPath: lavaKnock
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1106539822090162859, guid: 235b5050dddd061459dead66672b146d, type: 3}
+      propertyPath: lavaDamage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1106539822090162859, guid: 235b5050dddd061459dead66672b146d, type: 3}
       propertyPath: JetParticles
       value: 
       objectReference: {fileID: 269200937}
     - target: {fileID: 1106539822090162859, guid: 235b5050dddd061459dead66672b146d, type: 3}
       propertyPath: dashMultiplier
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1106539822090162859, guid: 235b5050dddd061459dead66672b146d, type: 3}
+      propertyPath: lavaMask.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1106539822090162861, guid: 235b5050dddd061459dead66672b146d, type: 3}
       propertyPath: healthBar
