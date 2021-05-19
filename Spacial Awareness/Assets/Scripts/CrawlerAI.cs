@@ -21,6 +21,8 @@ public class CrawlerAI : MonoBehaviour
 
     // Nest flag: 1 for nest 1, 2 for 2nd nesr
     public int nestNumber;
+    private Animator anim;
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +30,7 @@ public class CrawlerAI : MonoBehaviour
         playerBody = GameObject.Find("Stylized Astronaut").GetComponent<Rigidbody>();
         player = GameObject.Find("Stylized Astronaut");
         crawlerBody = GetComponent<Rigidbody>();
+        anim = gameObject.GetComponentInChildren<Animator>();
 
         /* Super hacky solution:
          * The script was not grabing the correct nest object attachted
@@ -52,19 +55,20 @@ public class CrawlerAI : MonoBehaviour
         playerPos = GameObject.Find("Stylized Astronaut").transform.position;
         Vector3 CrawlerPos = transform.position;
 
-       // crawlerBody.velocity = Vector3.zero;
         crawlerBody.angularVelocity = Vector3.zero;
 
         if (Vector3.Distance(playerPos, nest.position) <= attackZone)
         {
             if (Vector3.Distance(playerPos, CrawlerPos) <= attackRange)
             {
+                anim.ResetTrigger("Run Forward");
+                anim.SetTrigger("Smash Attack");
                 Attack(CrawlerPos);
             } 
             else
             {
-                //crawlerBody.AddForce(CrawlerPos - playerPos * 1, ForceMode.Impulse);
                 transform.position += transform.forward * 2 * Time.deltaTime;
+                anim.SetTrigger("Run Forward");
             } 
             //Debug.Log("In attack zone0");
             transform.LookAt(playerPos);
@@ -76,7 +80,13 @@ public class CrawlerAI : MonoBehaviour
             transform.LookAt(playerPos);
             // TODO: Insert a warning sound or particle effect here.
         }
+        else if (Vector3.Distance(playerPos, nest.position) > warningZone) 
+        {
+            anim.ResetTrigger("Run Forward");
+
+        }
     }
+       
 
     // Call the interface for doing damage to the player from KillPlayer.cs 
     void Attack(Vector3 knockback_dir)
