@@ -3345,7 +3345,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -14925,6 +14925,10 @@ PrefabInstance:
       propertyPath: dashSpeed
       value: 600
       objectReference: {fileID: 0}
+    - target: {fileID: 1106539822090162861, guid: 235b5050dddd061459dead66672b146d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1370491703}
     - target: {fileID: 1106539822090162861, guid: 235b5050dddd061459dead66672b146d, type: 3}
       propertyPath: healthBar
       value: 
