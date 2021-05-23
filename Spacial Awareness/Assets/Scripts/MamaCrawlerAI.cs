@@ -12,7 +12,8 @@ public class MamaCrawlerAI : MonoBehaviour
     private GameObject player;
 
     private Rigidbody body;
-    private Rigidbody playerBody;
+
+    private float speedChange;
 
     public float speed;
     public Collider head;
@@ -24,35 +25,34 @@ public class MamaCrawlerAI : MonoBehaviour
         player = GameObject.Find("Stylized Astronaut");
         body = GetComponent<Rigidbody>();
         head = GetComponentInChildren<Collider>();
+        speedChange = 1f;
 
     }
 
     void FixedUpdate()
     {
-        //transform.LookAt(player.transform);
-
-
-        // Want to lock y and z axis
-        //Vector3 rotation = Quaternion.LookRotation(player.transform.position).eulerAngles;
-        //rotation.x = 0f;
-        //rotation.y = 0f;
-        //transform.rotation = Quaternion.Euler(rotation);
-
-
+     
         // Still not perfect
         Vector3 target = new Vector3(transform.position.x, player.transform.position.y, player.transform.position.z);
         transform.LookAt(target);
 
         playerPos = GameObject.Find("Stylized Astronaut").transform.position;
+
+        if (playerPos.y < transform.position.y)
+        {
+            Kill();
+        }
         
         Vector3 CrawlerPos = transform.position;
         CrawlerPos -= playerPos;
+
+        Set_Speed();
 
         // Zero out all the momentum for the enemy
         body.velocity = Vector3.zero;
         body.angularVelocity = Vector3.zero;
 
-        body.AddForce(CrawlerPos * speed * -1f, ForceMode.Impulse);
+        body.AddForce(CrawlerPos * speed * -1f * speedChange, ForceMode.Impulse);
     }
 
 
@@ -77,14 +77,25 @@ public class MamaCrawlerAI : MonoBehaviour
     void Kill()
     {
         
-        MovePlayer playerBod = player.GetComponent<MovePlayer>();
         KillPlayer health = player.GetComponent<KillPlayer>();
-
-        // if the player has a shield active then negate O2 damage
-        if (!playerBod.shielding)
-        {
-            health.TakeDamage(100000000f);
-        }
+        health.TakeDamage(100000000f);
         
+    }
+
+    // Change the speed of the crawler based on the postion of the player
+    void Set_Speed()
+    {
+        if (player.transform.position.y >= 270)
+        {
+            speedChange = 1.3f;
+        }
+        else if (player.transform.position.y >= 145)
+        {
+            speedChange = 1.15f;
+        }
+        else
+        {
+            speedChange = 1f;
+        }
     }
 }

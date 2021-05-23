@@ -15,11 +15,11 @@ C:/Users/jdpau/OneDrive/Desktop/Spacial-Awareness/Spacial Awareness
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50948
+57107
 Successfully changed project path to: C:/Users/jdpau/OneDrive/Desktop/Spacial-Awareness/Spacial Awareness
 C:/Users/jdpau/OneDrive/Desktop/Spacial-Awareness/Spacial Awareness
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 240.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 62.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -36,897 +36,216 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010139 seconds.
+Registered in 0.002628 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 89.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 57.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.958 seconds
+- Completed reload, in  1.415 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003904 seconds.
+Registered in 0.002695 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 220.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 66.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.705 seconds
+- Completed reload, in  1.286 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2696 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 129.2 MB.
 System memory in use after: 129.4 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3150.
-Total: 6.146300 ms (FindLiveObjects: 0.971200 ms CreateObjectMapping: 0.450200 ms MarkObjects: 4.500000 ms  DeleteObjects: 0.221800 ms)
+Total: 3.364800 ms (FindLiveObjects: 0.593700 ms CreateObjectMapping: 0.199600 ms MarkObjects: 2.466800 ms  DeleteObjects: 0.103200 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Scenes/Level 1.unity
   artifactKey: Guid(8d462d3abeba4a74db2443a145b428d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(8d462d3abeba4a74db2443a145b428d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281153f69e7eb4972fab7ee68a2c372f') in 0.052078 seconds
-  Import took 0.071317 seconds .
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 11.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 70.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3150.
-Total: 14.292800 ms (FindLiveObjects: 1.135500 ms CreateObjectMapping: 0.622900 ms MarkObjects: 12.313400 ms  DeleteObjects: 0.216000 ms)
+Start importing Assets/Scenes/Level 1.unity using Guid(8d462d3abeba4a74db2443a145b428d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1207844b9bc8111746166efe1d4815') in 0.015129 seconds
+  Import took 0.022081 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 232.639011 seconds.
-  path: Assets/Scenes/Level 2.unity
-  artifactKey: Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 2.unity using Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ecafda998711756fe5e012c3d506bf') in 0.045123 seconds
-  Import took 0.067042 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007220 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.613 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2586 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.0 MB.
-System memory in use after: 121.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3153.
-Total: 10.305100 ms (FindLiveObjects: 1.100800 ms CreateObjectMapping: 0.728500 ms MarkObjects: 8.405000 ms  DeleteObjects: 0.067600 ms)
+  Time since last request: 58.602215 seconds.
+  path: Assets/Audio/Dark Future/Extras
+  artifactKey: Guid(2807cef9616f66f499d748b000848d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Dark Future/Extras using Guid(2807cef9616f66f499d748b000848d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0517d69017d153007bd769eeab1c1896') in 0.011276 seconds
+  Import took 0.019831 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.690959 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(b27d502aaa9d3af4fac616bbc15c493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(b27d502aaa9d3af4fac616bbc15c493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2922472effe9a794b7aff3766649a8') in 0.078646 seconds
-  Import took 0.102281 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003587 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.91 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.832 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.79 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2586 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.1 MB.
-System memory in use after: 121.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3156.
-Total: 10.551600 ms (FindLiveObjects: 0.904600 ms CreateObjectMapping: 0.315700 ms MarkObjects: 9.257700 ms  DeleteObjects: 0.069600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3406.799112 seconds.
-  path: Assets/music
-  artifactKey: Guid(05c9b99a62926d44daec9cc291a0fbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/music using Guid(05c9b99a62926d44daec9cc291a0fbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d24144550363e79f5c7dd126f767491') in 0.017764 seconds
-  Import took 0.027813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 137.943781 seconds.
-  path: Assets/Dark Future
-  artifactKey: Guid(9b4d6795aea9e8d48a0166190a6dd0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future using Guid(9b4d6795aea9e8d48a0166190a6dd0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac8d0de3822328468a474489d377e36') in 0.013198 seconds
-  Import took 0.020284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008248 seconds.
-  path: Assets/Dark Future
-  artifactKey: Guid(9b4d6795aea9e8d48a0166190a6dd0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future using Guid(9b4d6795aea9e8d48a0166190a6dd0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac8d0de3822328468a474489d377e36') in 0.005065 seconds
-  Import took 0.013418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.685195 seconds.
-  path: Assets/Dark Future/FutureWorld_Dark_Loop_01.ogg
-  artifactKey: Guid(258e311ecdad0499f84da6b125e6177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_Dark_Loop_01.ogg using Guid(258e311ecdad0499f84da6b125e6177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55e6715f98d3e318a3b0709034b2b2f') in 0.225698 seconds
-  Import took 0.232580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Dark Future/FutureWorld_TheHeist_Loop.ogg
-  artifactKey: Guid(4ed329fb053834bc281b49629c77fa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_TheHeist_Loop.ogg using Guid(4ed329fb053834bc281b49629c77fa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe46028d5c4611998c54300458b8ff52') in 0.016685 seconds
-  Import took 0.022745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Dark Future/FutureWorld_Dark_Loop_03.ogg
-  artifactKey: Guid(a716130e5ecf94cfa9514c1ae65a516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_Dark_Loop_03.ogg using Guid(a716130e5ecf94cfa9514c1ae65a516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb401f1278576505b1243f1e894cb20d') in 0.019148 seconds
-  Import took 0.025934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000748 seconds.
-  path: Assets/Dark Future/FutureWorld_NewsReel_Loop.ogg
-  artifactKey: Guid(fc55e85438fe44522b95eb893c55a09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_NewsReel_Loop.ogg using Guid(fc55e85438fe44522b95eb893c55a09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438cff025d86c8cb36c09c5579a47be7') in 0.021879 seconds
-  Import took 0.032472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Dark Future/FutureWorld_PressOn_Loop.ogg
-  artifactKey: Guid(83a0a974ab25a4adfba3cbb3a1aaa76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_PressOn_Loop.ogg using Guid(83a0a974ab25a4adfba3cbb3a1aaa76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83092ff9aa0b754948bcfd882153c204') in 0.022032 seconds
-  Import took 0.030878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Dark Future/FutureWorld_Darkness_Loop_02.ogg
-  artifactKey: Guid(2e03ea08721f4428bad8a4aca5b4d869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_Darkness_Loop_02.ogg using Guid(2e03ea08721f4428bad8a4aca5b4d869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323db6b9e5756f76eadaa58976fdee7a') in 0.022120 seconds
-  Import took 0.030008 seconds .
+  Time since last request: 0.094533 seconds.
+  path: Assets/Audio/Dark Future/Extras/Jazz_Blazer_Loop.ogg
+  artifactKey: Guid(626bc169dd1354130a697094492ee6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Dark Future/Extras/Jazz_Blazer_Loop.ogg using Guid(626bc169dd1354130a697094492ee6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f851e5f8322b785aada506ff16ee7e24') in 0.155499 seconds
+  Import took 0.164612 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000337 seconds.
-  path: Assets/Dark Future/FutureWorld_PressOn_Loop_02.ogg
-  artifactKey: Guid(2cc3962fef85b49c993d168c562e8650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_PressOn_Loop_02.ogg using Guid(2cc3962fef85b49c993d168c562e8650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595f80d87f4464618baeb024c231a30b') in 0.022653 seconds
-  Import took 0.030945 seconds .
+  path: Assets/Audio/Dark Future/Extras/Jazz_SpeedJazz_Loop.ogg
+  artifactKey: Guid(c9efa5f98315e44f6ae787b958f0d0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Dark Future/Extras/Jazz_SpeedJazz_Loop.ogg using Guid(c9efa5f98315e44f6ae787b958f0d0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceba7967b48aa46059d72e6790e7a84f') in 0.023631 seconds
+  Import took 0.031062 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Dark Future/FutureWorld_Violins_Loop.ogg
-  artifactKey: Guid(0ba6ef1638d3a4bea93b34bbef0a123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_Violins_Loop.ogg using Guid(0ba6ef1638d3a4bea93b34bbef0a123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e71c0c3fadb3dbd48d164d97e314cdc') in 0.020588 seconds
-  Import took 0.029799 seconds .
+  Time since last request: 0.000693 seconds.
+  path: Assets/Audio/Dark Future/Extras/Military_LoneTrumpeteer_Loop.ogg
+  artifactKey: Guid(d72ed01aa34dc4a078b58117ac8827f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Dark Future/Extras/Military_LoneTrumpeteer_Loop.ogg using Guid(d72ed01aa34dc4a078b58117ac8827f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0a8bdf091caffdebb268ce9d60b87f') in 0.031155 seconds
+  Import took 0.038890 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Dark Future/FutureWorld_Dark_Loop_02.ogg
-  artifactKey: Guid(b15ff5a2e363844f495045993610505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_Dark_Loop_02.ogg using Guid(b15ff5a2e363844f495045993610505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76e68d63bdd966243b0c2fe2403979a') in 0.018712 seconds
-  Import took 0.027806 seconds .
+  Time since last request: 0.000276 seconds.
+  path: Assets/Audio/Dark Future/Extras/Military_DogFight_Loop.ogg
+  artifactKey: Guid(32d36c25bc878498baecca74e4fb719f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Dark Future/Extras/Military_DogFight_Loop.ogg using Guid(32d36c25bc878498baecca74e4fb719f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e939dfe4c30153c21613f553d0e93b') in 0.019602 seconds
+  Import took 0.030222 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Dark Future/FutureWorld_Darkness_Loop.ogg
-  artifactKey: Guid(ab1d6c8284aac433f950f27ea2253c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_Darkness_Loop.ogg using Guid(ab1d6c8284aac433f950f27ea2253c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d948e8cde5b676d14c9ec0378de1cc6') in 0.019029 seconds
-  Import took 0.026355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Dark Future/FutureWorld_Loading_Loop.ogg
-  artifactKey: Guid(6dc4be81296344087a45172d7ba5e06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_Loading_Loop.ogg using Guid(6dc4be81296344087a45172d7ba5e06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464d5cf34195192999adcb41a31cab3b') in 0.019840 seconds
-  Import took 0.028984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Dark Future/FutureWorld_DarkCave_Loop.ogg
-  artifactKey: Guid(46ec4ed652af74f7d9a680ac07e9f8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_DarkCave_Loop.ogg using Guid(46ec4ed652af74f7d9a680ac07e9f8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a75fc0a186091df653f1b8b15609d9e') in 0.021383 seconds
-  Import took 0.027791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Dark Future/FutureWorld_Resolution_Loop.ogg
-  artifactKey: Guid(e39f69181b3274f06aa80dbe740aaa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark Future/FutureWorld_Resolution_Loop.ogg using Guid(e39f69181b3274f06aa80dbe740aaa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f73523b829e18b21f744c65a15c739') in 0.016616 seconds
-  Import took 0.026483 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002842 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2586 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.2 MB.
-System memory in use after: 124.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3168.
-Total: 2.329900 ms (FindLiveObjects: 0.334800 ms CreateObjectMapping: 0.124400 ms MarkObjects: 1.828200 ms  DeleteObjects: 0.041000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002751 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.270 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2586 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.2 MB.
-System memory in use after: 124.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3171.
-Total: 2.663500 ms (FindLiveObjects: 0.328600 ms CreateObjectMapping: 0.153600 ms MarkObjects: 2.117900 ms  DeleteObjects: 0.062400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 717.904428 seconds.
-  path: Assets/Tribal Jungle Music Free Pack
-  artifactKey: Guid(332909b78f344474c8610f37e754394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack using Guid(332909b78f344474c8610f37e754394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9f23af5c5bd5b9e43c3200cac2cc65') in 0.016913 seconds
-  Import took 0.027842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.155170 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/Loop 1 Primal Combat.ogg
-  artifactKey: Guid(1ee86059c0d67d04ebc9087435bd0588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/Loop 1 Primal Combat.ogg using Guid(1ee86059c0d67d04ebc9087435bd0588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28dac2726903dcb6ae6c1d527374a027') in 0.071233 seconds
-  Import took 0.079192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000708 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/Primal Lands 32_48_Tempo_112.ogg
-  artifactKey: Guid(695c0373c6909b24dbb8e6e736883879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/Primal Lands 32_48_Tempo_112.ogg using Guid(695c0373c6909b24dbb8e6e736883879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40793645ba4380cd6d6e1b71a216ec10') in 0.013563 seconds
-  Import took 0.019911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/Loop 1 Primal Combat.wav
-  artifactKey: Guid(796cbfa19ecdd5743967e74a315b1dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/Loop 1 Primal Combat.wav using Guid(796cbfa19ecdd5743967e74a315b1dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc63d69a952accda02fe2502b4d4759') in 0.012181 seconds
-  Import took 0.017877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/Lost in the Jungle no ambience.wav
-  artifactKey: Guid(a9506d4d17c896842917ca10ba97cf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/Lost in the Jungle no ambience.wav using Guid(a9506d4d17c896842917ca10ba97cf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0f07a2c7e22aed4fcb44bf5496bed9') in 0.017206 seconds
-  Import took 0.025815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/Primal Lands 32_48_Tempo_112.wav
-  artifactKey: Guid(d0556c80254380b43ac63059bc8efd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/Primal Lands 32_48_Tempo_112.wav using Guid(d0556c80254380b43ac63059bc8efd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4e7342b2775635ee535e63d57af9ad') in 0.016600 seconds
-  Import took 0.026810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/Lost in the Jungle.ogg
-  artifactKey: Guid(a1719d9c1adbd1245a143230a84bcd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/Lost in the Jungle.ogg using Guid(a1719d9c1adbd1245a143230a84bcd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b19fed36b338362cbb50053344ff38d') in 0.024824 seconds
-  Import took 0.032604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/The Jungle God Awakens.wav
-  artifactKey: Guid(61e20d4aeca36f445b5a2c9ff4721090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/The Jungle God Awakens.wav using Guid(61e20d4aeca36f445b5a2c9ff4721090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd545b030569a13fb94756ed5bd8e7703') in 0.018879 seconds
-  Import took 0.027970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/Tribal Victory.wav
-  artifactKey: Guid(5ef196c91cf74f24286b073df78757cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/Tribal Victory.wav using Guid(5ef196c91cf74f24286b073df78757cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e709111b9fd2576456f965cdb6eb81ef') in 0.023934 seconds
-  Import took 0.034378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/Lost in the Jungle no ambience.ogg
-  artifactKey: Guid(e8fa356cf0ca610408ebfc714bf2e174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/Lost in the Jungle no ambience.ogg using Guid(e8fa356cf0ca610408ebfc714bf2e174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa243b164029d5085692d7b6c1b654f') in 0.021857 seconds
-  Import took 0.031722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/Primal.wav
-  artifactKey: Guid(34c01df663368814eaecdda77d08b814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/Primal.wav using Guid(34c01df663368814eaecdda77d08b814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cd4b174581a205225aaec0a0bcb725') in 0.022001 seconds
-  Import took 0.030796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/Tribal Victory.ogg
-  artifactKey: Guid(1daf7ddc1b3698b41947dcfa7e554a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/Tribal Victory.ogg using Guid(1daf7ddc1b3698b41947dcfa7e554a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb6a296a9521e90fcd0999f847ce1b0') in 0.022659 seconds
-  Import took 0.031005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000496 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/Primal.ogg
-  artifactKey: Guid(b1cc15c6f30890848a2bb3c64252d2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/Primal.ogg using Guid(b1cc15c6f30890848a2bb3c64252d2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1db92982898a2ae8b0727d8bd5e4859') in 0.021670 seconds
-  Import took 0.030275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/The Jungle God Awakens.ogg
-  artifactKey: Guid(1919d88101d3baf4aa037b8496dfc8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/The Jungle God Awakens.ogg using Guid(1919d88101d3baf4aa037b8496dfc8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10d2edf29f22570636e22cbf99417be') in 0.019982 seconds
-  Import took 0.030080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000620 seconds.
-  path: Assets/Tribal Jungle Music Free Pack/Lost in the Jungle.wav
-  artifactKey: Guid(6e0ee3bc9610a4a4c86637466b5e6591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tribal Jungle Music Free Pack/Lost in the Jungle.wav using Guid(6e0ee3bc9610a4a4c86637466b5e6591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682e301713d515492e3b602b65c2a9b3') in 0.024525 seconds
-  Import took 0.034550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 105.375086 seconds.
-  path: Assets/Scenes/Level 3.unity
-  artifactKey: Guid(71c36617d1ef7be458dff8bbbc2b3785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 3.unity using Guid(71c36617d1ef7be458dff8bbbc2b3785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05060921e4fa68f5de1f5f8b72578a5e') in 0.012112 seconds
-  Import took 0.019974 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002515 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.981 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2586 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.2 MB.
-System memory in use after: 124.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3175.
-Total: 3.901600 ms (FindLiveObjects: 0.434500 ms CreateObjectMapping: 0.186800 ms MarkObjects: 3.249900 ms  DeleteObjects: 0.028200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 390.470432 seconds.
-  path: Assets/Audio
-  artifactKey: Guid(735cf9bd07acf7e49a0c01cf6eadc79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio using Guid(735cf9bd07acf7e49a0c01cf6eadc79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d8662d0c0cc49388980af61952ea71') in 0.016584 seconds
-  Import took 0.023844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.146523 seconds.
-  path: Assets/Audio/Desert Sirens
-  artifactKey: Guid(d34d86b44944c7e46923fa6e4d225f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens using Guid(d34d86b44944c7e46923fa6e4d225f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a809d987073e97d0ef74db6d511b09') in 0.012021 seconds
-  Import took 0.020184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.100938 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Bridge 1 + 2.wav
-  artifactKey: Guid(2c334acf1cef775418ff1de5352f4a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Bridge 1 + 2.wav using Guid(2c334acf1cef775418ff1de5352f4a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831868a746f79407f66ee306d5d2e0df') in 0.064089 seconds
-  Import took 0.070847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Intro Part 1.wav
-  artifactKey: Guid(70cf68d9d356ebe4e9531e0c24ac100b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Intro Part 1.wav using Guid(70cf68d9d356ebe4e9531e0c24ac100b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c7fb7da490888e8c9b232ac3f47f2c') in 0.012777 seconds
-  Import took 0.020221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section B Full.wav
-  artifactKey: Guid(f4cb0961d3acdd24fae7d8e6d58b5c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section B Full.wav using Guid(f4cb0961d3acdd24fae7d8e6d58b5c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c72082c367517490822ad99f2de311') in 0.013127 seconds
-  Import took 0.018421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section B + C.wav
-  artifactKey: Guid(7f82999a7f6eafd43a07a1b3e92835aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section B + C.wav using Guid(7f82999a7f6eafd43a07a1b3e92835aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f515cbe80bea1dd35e68d159e040abd') in 0.012874 seconds
-  Import took 0.017458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section C Loop 2.wav
-  artifactKey: Guid(438f8680b1887854f8111b854116fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section C Loop 2.wav using Guid(438f8680b1887854f8111b854116fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e529b0205c868638e8a60e744540c5') in 0.014776 seconds
-  Import took 0.021033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Intro Full.wav
-  artifactKey: Guid(e361a16d02d487c4ab75dc0193d268b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Intro Full.wav using Guid(e361a16d02d487c4ab75dc0193d268b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dd492c3ecdf8646c8d876785549d91') in 0.023103 seconds
-  Import took 0.031161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000628 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section A Full.wav
-  artifactKey: Guid(3c44ccad76e64fe499d9e80de672828f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section A Full.wav using Guid(3c44ccad76e64fe499d9e80de672828f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10726cc9270ababfc7420de29bc44089') in 0.021695 seconds
-  Import took 0.030111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens.wav
-  artifactKey: Guid(60729e8b4047b2647a4f790fd47a89d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens.wav using Guid(60729e8b4047b2647a4f790fd47a89d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f18a1f45c7bb1aff94c76ad0c67b7f') in 0.017551 seconds
-  Import took 0.024952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000588 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Intro Lead.wav
-  artifactKey: Guid(c545c4c2f9b2eab4ebcbfc28fbad2447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Intro Lead.wav using Guid(c545c4c2f9b2eab4ebcbfc28fbad2447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c36f8ab63bae488de185f96bc2cbaa9') in 0.020876 seconds
-  Import took 0.031251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section A Loop 1.wav
-  artifactKey: Guid(a029852aa320d7c44adf7a6a7cdc9f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section A Loop 1.wav using Guid(a029852aa320d7c44adf7a6a7cdc9f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d491ed0fc870c6291843cbf14f187b') in 0.020597 seconds
-  Import took 0.029081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section D Loop 1.wav
-  artifactKey: Guid(5cc481f320ac64c40bec842d9cda98d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section D Loop 1.wav using Guid(5cc481f320ac64c40bec842d9cda98d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bac739187bceda84aabe0d71c7461a') in 0.016950 seconds
-  Import took 0.026176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Outro.wav
-  artifactKey: Guid(5017cb000c414584c804e54c8220c27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Outro.wav using Guid(5017cb000c414584c804e54c8220c27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a390d1fcb1f005846d1fd3728f667c55') in 0.018820 seconds
-  Import took 0.027403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000539 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Intro Part 2.wav
-  artifactKey: Guid(84808528001684b48a4aeefc00233f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Intro Part 2.wav using Guid(84808528001684b48a4aeefc00233f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd2ffb3c1b47d2323657cbaf7832bc8') in 0.022379 seconds
-  Import took 0.031036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section C Loop 1.wav
-  artifactKey: Guid(167a8933136ce0643979bcdc12076521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section C Loop 1.wav using Guid(167a8933136ce0643979bcdc12076521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde7231830ce960794174f987d63c302') in 0.020774 seconds
-  Import took 0.028990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section A Loop 2.wav
-  artifactKey: Guid(bc9414549724a804e935f8057e82e32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section A Loop 2.wav using Guid(bc9414549724a804e935f8057e82e32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4909eecfe27ae0004cb441688b1add') in 0.020489 seconds
-  Import took 0.030859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Bridge 2.wav
-  artifactKey: Guid(1c0d9fc7aed2ac248b3fa841de4ad618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Bridge 2.wav using Guid(1c0d9fc7aed2ac248b3fa841de4ad618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0265c516a8d0f42a395881ad13a994a7') in 0.020556 seconds
-  Import took 0.030176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Intro Part 3.wav
-  artifactKey: Guid(bd65bc5b18c58d045b6d0652873cf2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Intro Part 3.wav using Guid(bd65bc5b18c58d045b6d0652873cf2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f5c3dff1c014cf0980183c6752df6c') in 0.017280 seconds
-  Import took 0.028350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section B Loop.wav
-  artifactKey: Guid(ca969bd9c629abb40a57ca2b113514df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section B Loop.wav using Guid(ca969bd9c629abb40a57ca2b113514df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fa1444ef6631e16d794d947f8c6638') in 0.020237 seconds
-  Import took 0.029468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section D Loop 2.wav
-  artifactKey: Guid(ea1ff27c2a7593843ace84961413328a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section D Loop 2.wav using Guid(ea1ff27c2a7593843ace84961413328a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89244ba975d450565438063be0a7b74f') in 0.023330 seconds
-  Import took 0.032445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section C.wav
-  artifactKey: Guid(29b2075f462fbe245a2a90eb14308de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section C.wav using Guid(29b2075f462fbe245a2a90eb14308de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e973e7d5811ddf738b3a03279cb57e8') in 0.019149 seconds
-  Import took 0.030363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Bridge 3.wav
-  artifactKey: Guid(ba6d4fd44acd8c84d9fe875fb656243c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Bridge 3.wav using Guid(ba6d4fd44acd8c84d9fe875fb656243c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ae39b823b101e82d3f61a728450384') in 0.020253 seconds
-  Import took 0.028793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Bridge 1.wav
-  artifactKey: Guid(31bdbbf1d8e7f7f439b3c9dc0543b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Bridge 1.wav using Guid(31bdbbf1d8e7f7f439b3c9dc0543b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edce45a07a6a02e212197eb76ca5dbf') in 0.019459 seconds
-  Import took 0.031375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Outro Loop.wav
-  artifactKey: Guid(446b02dea4e21084eac72256e3146e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Outro Loop.wav using Guid(446b02dea4e21084eac72256e3146e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411e672584a8e5ac9f4f79061cfde72e') in 0.019793 seconds
-  Import took 0.027671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section D Full.wav
-  artifactKey: Guid(a95233c510edd074582c594e16db9cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section D Full.wav using Guid(a95233c510edd074582c594e16db9cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddcf0deb4fac2b27350b00d0fbe2423') in 0.018809 seconds
-  Import took 0.028169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Audio/Desert Sirens/Desert Sirens Section D Loop 1 + 2.wav
-  artifactKey: Guid(d7f6d6f16cfd20d4cacac1dad52669a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Desert Sirens/Desert Sirens Section D Loop 1 + 2.wav using Guid(d7f6d6f16cfd20d4cacac1dad52669a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ec8aca54b127bec1321480fdca1687') in 0.020092 seconds
-  Import took 0.029628 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002695 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.167 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2586 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.3 MB.
-System memory in use after: 124.5 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3179.
-Total: 3.238300 ms (FindLiveObjects: 0.356300 ms CreateObjectMapping: 0.115700 ms MarkObjects: 2.718300 ms  DeleteObjects: 0.046900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 218.020723 seconds.
-  path: Assets/Audio/The Great Sand Sea
-  artifactKey: Guid(645db6c57b4600545a66d0bcaec18824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea using Guid(645db6c57b4600545a66d0bcaec18824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1047a15994b2f403bbf2448a27dcd7') in 0.018093 seconds
-  Import took 0.025809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102709 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Intro 1.wav
-  artifactKey: Guid(4edb2f10553815241819d891a45f5fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Intro 1.wav using Guid(4edb2f10553815241819d891a45f5fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d896599cc681a562c9fb8edc7c640f') in 0.060557 seconds
-  Import took 0.068775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea.wav
-  artifactKey: Guid(2aaf04583d5c6d540acf39c77214afd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea.wav using Guid(2aaf04583d5c6d540acf39c77214afd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae006270ac881ed519f1a2275d4e2404') in 0.016140 seconds
-  Import took 0.022218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Section A Loop 2.wav
-  artifactKey: Guid(1d63726bbe6ceb640835690597e2b37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Section A Loop 2.wav using Guid(1d63726bbe6ceb640835690597e2b37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0d34c3ac617ec3f32a9a2425aa1a81') in 0.022879 seconds
-  Import took 0.030429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Section C Loop 1.wav
-  artifactKey: Guid(aa14a51f8af7be74289e3f0d2e9592ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Section C Loop 1.wav using Guid(aa14a51f8af7be74289e3f0d2e9592ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4cadc8059e1fc3dcaf7fc146f5bacd') in 0.020844 seconds
-  Import took 0.031227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Outro.wav
-  artifactKey: Guid(7ae224f8b75eeac478b3737d2bb0f842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Outro.wav using Guid(7ae224f8b75eeac478b3737d2bb0f842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610d8740efdeaf790e9e042974c7d817') in 0.019484 seconds
-  Import took 0.029918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Intro 4.wav
-  artifactKey: Guid(3f8c631a6c1a02d4b9961d982856ec6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Intro 4.wav using Guid(3f8c631a6c1a02d4b9961d982856ec6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486df2e7bd6f020aa04dd436b3409dd3') in 0.019859 seconds
-  Import took 0.029572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Section A Loop 1.wav
-  artifactKey: Guid(3c0eab70707c6664ebe15369ab8108ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Section A Loop 1.wav using Guid(3c0eab70707c6664ebe15369ab8108ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f5db1fdcda7e1bbcc4c65d70268e2c') in 0.019279 seconds
-  Import took 0.027421 seconds .
+  Time since last request: 0.000634 seconds.
+  path: Assets/Audio/Dark Future/Extras/Spooky_60sSciFi_Loop.ogg
+  artifactKey: Guid(c2302d99885f7455c9d159baaef753c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Dark Future/Extras/Spooky_60sSciFi_Loop.ogg using Guid(c2302d99885f7455c9d159baaef753c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8431c8df13948f7467815c4ccfe70d91') in 0.016525 seconds
+  Import took 0.026713 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000659 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Section B.wav
-  artifactKey: Guid(2964c0174cf69164a853f54563fe291c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Section B.wav using Guid(2964c0174cf69164a853f54563fe291c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d133dd7a37ba1c3ca14bfc85a51918') in 0.023905 seconds
-  Import took 0.031427 seconds .
+  path: Assets/Audio/Dark Future/Extras/Military_Preperation_Loop.ogg
+  artifactKey: Guid(59056f5a0de7d475aafd3a2a7a12b08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Dark Future/Extras/Military_Preperation_Loop.ogg using Guid(59056f5a0de7d475aafd3a2a7a12b08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c590d4d66c85209df5633fac73eb9d78') in 0.019151 seconds
+  Import took 0.026225 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Section D.wav
-  artifactKey: Guid(e945f1e6871e18447b578e22262a7141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Section D.wav using Guid(e945f1e6871e18447b578e22262a7141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54fcaa54e5fad0f91d1c226eb36da41') in 0.018366 seconds
-  Import took 0.028554 seconds .
+  Time since last request: 0.000364 seconds.
+  path: Assets/Audio/Dark Future/Extras/Jazz_BossaNovaTropics_Loop.ogg
+  artifactKey: Guid(1161b5933458749fb9458a2dffcb8ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Dark Future/Extras/Jazz_BossaNovaTropics_Loop.ogg using Guid(1161b5933458749fb9458a2dffcb8ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1e6e9ae63deb4e6f2757cc622f3bab') in 0.018745 seconds
+  Import took 0.027217 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Section C Loop 3.wav
-  artifactKey: Guid(e5271aa4feef5d24ea8da6bad1183958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Section C Loop 3.wav using Guid(e5271aa4feef5d24ea8da6bad1183958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a8b46777a24582e5f3444e859c5921') in 0.020699 seconds
-  Import took 0.029494 seconds .
+  Time since last request: 43.772551 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(b27d502aaa9d3af4fac616bbc15c493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(b27d502aaa9d3af4fac616bbc15c493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820d6930f4bb535431dc6393793ad6c4') in 0.005335 seconds
+  Import took 0.012801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Section A full.wav
-  artifactKey: Guid(6b6d57c997f16274fafd893d483340c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Section A full.wav using Guid(6b6d57c997f16274fafd893d483340c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950bb9409d4ba1aa53dc18a216234f62') in 0.022792 seconds
-  Import took 0.029490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Section C Full.wav
-  artifactKey: Guid(34cb8295b39767f4a9fe89c539d87a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Section C Full.wav using Guid(34cb8295b39767f4a9fe89c539d87a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be36f50f740f8d19a7fa4f4553054982') in 0.018868 seconds
-  Import took 0.028227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Intro 2.wav
-  artifactKey: Guid(12ac6908dc7973141abb30497954cac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Intro 2.wav using Guid(12ac6908dc7973141abb30497954cac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13111053e62826e2a5c5dff749fef2b') in 0.016326 seconds
-  Import took 0.024413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Section C Loop 2.wav
-  artifactKey: Guid(9264793197294134ea29478b50329e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Section C Loop 2.wav using Guid(9264793197294134ea29478b50329e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593be40d0ed1cb22445945fe557ee260') in 0.017947 seconds
-  Import took 0.027549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Audio/The Great Sand Sea/The Great Sand Sea Intro 3.wav
-  artifactKey: Guid(befb67580a21a07458f5032f013e9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/The Great Sand Sea/The Great Sand Sea Intro 3.wav using Guid(befb67580a21a07458f5032f013e9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ec6bcce8bdfd0d8283536c58130b49') in 0.021655 seconds
-  Import took 0.029766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.263690 seconds.
-  path: Assets/Scenes/Level 2.unity
-  artifactKey: Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 2.unity using Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865ba795496cd836762c78a20fecf1de') in 0.012054 seconds
-  Import took 0.020654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.695728 seconds.
-  path: Assets/Scenes/Levels.unity
-  artifactKey: Guid(5e7835c5c7a22ca4ebc6c1532ff2dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Levels.unity using Guid(5e7835c5c7a22ca4ebc6c1532ff2dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aca07c72237e8f636ffdcf1fb766554') in 0.010842 seconds
-  Import took 0.021642 seconds .
+  Time since last request: 11.088971 seconds.
+  path: Assets/Scenes/Level 3.unity
+  artifactKey: Guid(71c36617d1ef7be458dff8bbbc2b3785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 3.unity using Guid(71c36617d1ef7be458dff8bbbc2b3785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4180fb144e7fc4b311f50fd6ab0323') in 0.009530 seconds
+  Import took 0.016647 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006730 seconds.
+Registered in 0.002371 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.864 seconds
+- Completed reload, in  0.995 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2586 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.3 MB.
-System memory in use after: 124.5 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3183.
-Total: 4.763000 ms (FindLiveObjects: 0.699700 ms CreateObjectMapping: 0.601000 ms MarkObjects: 3.398200 ms  DeleteObjects: 0.062100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002884 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2586 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3162.
+Total: 2.950000 ms (FindLiveObjects: 0.393600 ms CreateObjectMapping: 0.156900 ms MarkObjects: 2.372000 ms  DeleteObjects: 0.026100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.588955 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(8b0fdd5b7f85b004ebb1c35727b4350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a02a293ec5977119225fe232463acc') in 0.016368 seconds
+  Import took 0.025168 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002854 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.165 seconds
+- Completed reload, in  1.142 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2586 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.3 MB.
-System memory in use after: 124.5 MB.
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3186.
-Total: 2.916000 ms (FindLiveObjects: 0.422200 ms CreateObjectMapping: 0.167300 ms MarkObjects: 2.301300 ms  DeleteObjects: 0.023600 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3165.
+Total: 3.667100 ms (FindLiveObjects: 0.775500 ms CreateObjectMapping: 0.334300 ms MarkObjects: 2.526500 ms  DeleteObjects: 0.029300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2586 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3168.
+Total: 3.234600 ms (FindLiveObjects: 0.614200 ms CreateObjectMapping: 0.262900 ms MarkObjects: 2.324900 ms  DeleteObjects: 0.029900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

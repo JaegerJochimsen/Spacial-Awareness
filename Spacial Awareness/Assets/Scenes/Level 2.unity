@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.80728984, g: 0.25126022, b: 0.3044948, a: 1}
+  m_IndirectSpecularColor: {r: 1.5190254, g: 0.3712508, b: 0.32184383, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7824,8 +7824,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRange: 4
-  attackZone: 10
-  warningZone: 15
+  attackZone: 15
+  warningZone: 25
   nestNumber: 2
 --- !u!65 &777231514
 BoxCollider:
@@ -10393,8 +10393,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRange: 4
-  attackZone: 10
-  warningZone: 15
+  attackZone: 15
+  warningZone: 25
   nestNumber: 2
 --- !u!65 &1451356983
 BoxCollider:
@@ -10715,8 +10715,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRange: 4
-  attackZone: 10
-  warningZone: 15
+  attackZone: 15
+  warningZone: 25
   nestNumber: 2
 --- !u!65 &1625780987
 BoxCollider:
