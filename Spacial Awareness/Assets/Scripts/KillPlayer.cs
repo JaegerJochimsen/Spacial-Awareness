@@ -7,7 +7,7 @@ public class KillPlayer : MonoBehaviour
     // Oxigen/Health Level
     public int maxHealth = 100;
     public float currentHealth;
-
+    public GameObject player;
     public HealthBar healthBar;
     public float healthDecayCoef;
     // End health Variables
@@ -28,7 +28,7 @@ public class KillPlayer : MonoBehaviour
     void Update()
     {
         // Change health over time
-        TakeDamage(healthDecayCoef * Time.deltaTime);
+        //TakeDamage(healthDecayCoef * Time.deltaTime);
 
         // Kill the player when health is 0
         float health = healthBar.getHealth();
@@ -57,7 +57,18 @@ public class KillPlayer : MonoBehaviour
      */
     public void TakeDamage(float damage)
     {
-        currentHealth -= damage;
+        MovePlayer playerBod = player.GetComponent<MovePlayer>();
+
+        // if we're shielding, negate damage and consume charge
+        if (playerBod.shielding) 
+        { 
+            playerBod.ReduceShieldCharge(1);
+            return;
+        }
+        else
+        {
+            currentHealth -= damage;
+        }
 
         healthBar.SetHealth((int)currentHealth);
     }

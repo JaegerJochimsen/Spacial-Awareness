@@ -94,11 +94,7 @@ public class CrawlerAI : MonoBehaviour
         MovePlayer playerBod = player.GetComponent<MovePlayer>();
         KillPlayer health = player.GetComponent<KillPlayer>();
 
-        // if we are shielding then negate damage
-        if (!playerBod.shielding)
-        {
-            health.TakeDamage(1f);
-        }
+        health.TakeDamage(1f);
 
         // -1 is so Player goes away from enemy instead of towards
         //playerBody.AddForce(knockback_dir * 3, ForceMode.Impulse);

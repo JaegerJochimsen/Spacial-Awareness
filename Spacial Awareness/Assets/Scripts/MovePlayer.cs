@@ -41,6 +41,7 @@ public class MovePlayer : MonoBehaviour
     public float dashSpeed;
     public float dashDelay;
     bool dashing = false;
+    bool hasDashed = false;
     // End Dash vars
 
     [Header("JetPack Variables")]
@@ -54,6 +55,7 @@ public class MovePlayer : MonoBehaviour
     // Shield variables
     public GameObject ForceField;
     public bool shielding = false;
+    public float shieldCharge = 3f;
     float t = 0f;
     private Vector3 shrunkSize = new Vector3(0.01f, 0.01f, 0.01f);
     private Vector3 fullSize = new Vector3(0.5f, 0.5f, 0.5f);
@@ -72,6 +74,8 @@ public class MovePlayer : MonoBehaviour
 
         // Jetpack particle system
         JetParticles = GetComponentInChildren<ParticleSystem>();
+
+        shieldCharge = 3f;
     }
 
     // Update is called once per frame
@@ -121,11 +125,9 @@ public class MovePlayer : MonoBehaviour
     {
         if (isOnLava)
         {
-            // if we are shielding then negate damage
-            if (!shielding)
-            {
-                GetComponent<KillPlayer>().TakeDamage(lavaDamage);
-            }
+            // TakeDamage() handles the particulars of damage taking/negation due to shielding
+            GetComponent<KillPlayer>().TakeDamage(lavaDamage);
+
             // knock player into the air when they touch the lava
             Vector3 knockUp = new Vector3(0f, lavaKnock, 0f);
             body.AddForce(knockUp, ForceMode.Impulse);
@@ -175,7 +177,8 @@ public class MovePlayer : MonoBehaviour
     }
 
     /* Dash()
-     * :description: Dash forward and slightly up with a 3 second cool down
+     * :description: Dash forward and slightly up; activates with same conditions as double jumped (i.e. has not already dashed
+     *               and is off the ground)
      * :param: n/a
      * :dependency: n/a
      * 
@@ -185,22 +188,10 @@ public class MovePlayer : MonoBehaviour
 
     void Dash()
     {
-        
-        // If we are currently cooling down then cool down, don't dash
-        if (onCoolDown) 
-        {
-            // add to time since last use
-            dashLastUse += Time.deltaTime;
-            if (dashLastUse > dashCoolDown) 
-            {
-                dashLastUse = 0;
-                onCoolDown = false;
-            }
-        }
 
         // We need to check the y rotation and set it to 270 or 90 so the player doesn'y
         // go off the playing area
-        if (Input.GetKeyDown("k") && !onCoolDown)
+        if (Input.GetKeyDown("k") && !isGrounded && !hasDashed)
         {
             Vector3 rot = transform.position;
 
@@ -219,9 +210,11 @@ public class MovePlayer : MonoBehaviour
 
             // start coroutine that will enact the dash and then delay until dash completes
             StartCoroutine(DashWait(dashDelay));
-            onCoolDown = true;
+            hasDashed = true;
             dashing = true;
-        } 
+        }
+        // reset once we hit the ground
+        if (isGrounded) { hasDashed = false; }
     }
 
 
@@ -241,8 +234,8 @@ public class MovePlayer : MonoBehaviour
     void Shield()
     {
 
-        // toggle shield on/off 
-        if (Input.GetKeyDown("q"))
+        // toggle shield on/off if we have charge left
+        if (Input.GetKeyDown("q") && (shieldCharge > 0f))
         {
             // alternate between on and off
             shielding ^= true;
@@ -251,8 +244,10 @@ public class MovePlayer : MonoBehaviour
             t = 0f;
 
         }
+        // if we are out of shield charges, then we cannot shield
+        if(shieldCharge <= 0f && shielding) { shielding = false; t = 0f; }
 
-        // if we want to shrink and we are still bigger than our minimum size continue to shrink
+        // if we want to grow and we are still smaller than our max size continue to grow
         if (shielding && (ForceField.transform.localScale.x < fullSize.x))
         {
             ForceField.transform.localScale *= Mathf.Lerp(1f, 3f, t);
@@ -265,21 +260,35 @@ public class MovePlayer : MonoBehaviour
             ForceField.transform.localScale = fullSize;
         }
 
-        // if we want to shrink
+        // if we want to shrink or we have run out of shield charges
         if (!shielding)
         {
-            // if we still have room to grow, i.e. we are smaller than our full size
+            // if we still have room to shrink, i.e. we are bigger than our small size
             if (ForceField.transform.localScale.x > shrunkSize.x)
             {
                 ForceField.transform.localScale /= Mathf.Lerp(1f, 3f, t);
                 t += shieldShrinkSpeed * Time.deltaTime;
             }
-            // also, if we have accidentally grown too much or we are ESSENTIALLY done growing, grow back to our usual size
+            // also, if we have accidentally shrunk too much or we are ESSENTIALLY done shrinking, shrink back to our shrunk size
             if ((Mathf.Approximately(ForceField.transform.localScale.x, shrunkSize.x)))
             {
                 ForceField.transform.localScale = shrunkSize;
             }
         }
+    }
+
+    /* ReduceShieldCharge():
+     * :description: and auxillary function to reduce the charge on the shield when the player takes damage (or would have if they weren't shielding)
+     * 
+     * :param: int reduction: a reduction factor
+     * :dependency: n/a
+     * 
+     * :calls: n/a
+     * :called by: KillPlayer.TakeDamage()
+     */
+    public void ReduceShieldCharge(int reduction)
+    {
+        shieldCharge -= reduction*Time.deltaTime*50;
     }
 
     /* MoveAndLook():
