@@ -14,7 +14,7 @@ public class MovePlayer : MonoBehaviour
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
     bool hasInput = false;
-    bool doubleJumped = false;
+    public bool doubleJumped = false;
     // End movement variables
 
     [Header("Animation Variables")]
@@ -26,7 +26,7 @@ public class MovePlayer : MonoBehaviour
     [Header("Groundcheck/Lavacheck Variables")]
     // Ground-check variables
     public Transform groundCheck;
-    float groundDistance = 0.8f;
+    float groundDistance = 0.5f;
     public LayerMask groundMask;
     public LayerMask lavaMask;
     bool isGrounded = true;
@@ -35,9 +35,6 @@ public class MovePlayer : MonoBehaviour
 
     [Header("Dash Variables")]
     // Dash vars
-    private bool onCoolDown = false;
-    private int dashCoolDown = 3;
-    private float dashLastUse = 0f;
     public float dashSpeed;
     public float dashDelay;
     bool dashing = false;
@@ -108,13 +105,12 @@ public class MovePlayer : MonoBehaviour
 
             // handle logic for using jetpack and apply force + play particle effects
             JetPack();
-
-            // jump if press space and we have something to jump from
+            // jump if press space and we have something to jump from; if the time since we left the ground is less than 
+            // the coyoteTime threshold, then go ahead and jump and update prevGroundTime
             if (Input.GetKeyDown("space") && isGrounded)
             {
                 Jump();
             }
-
         }
 
         Dash();
