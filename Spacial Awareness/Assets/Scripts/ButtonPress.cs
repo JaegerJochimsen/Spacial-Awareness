@@ -14,7 +14,7 @@ public class ButtonPress : MonoBehaviour
     {
         if (pressable)
         {
-            FindObjectOfType<SlideAway>().slideThreshold -= 1;
+            FindObjectOfType<retract>().slideThreshold -= 1.5f;
             this.GetComponent<MeshRenderer>().material = pressedMat;
             pressable = false;
         }
