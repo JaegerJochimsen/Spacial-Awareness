@@ -25,4 +25,9 @@ public class level2speech : MonoBehaviour
             Debug.Log("I AM OUT!");
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        myText.text = "";
+    }
 }

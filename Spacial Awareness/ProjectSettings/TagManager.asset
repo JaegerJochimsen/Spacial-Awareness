@@ -13,6 +13,7 @@ TagManager:
   - Jetpack
   - obj
   - destroy
+  - IGotOut
   layers:
   - Default
   - TransparentFX
