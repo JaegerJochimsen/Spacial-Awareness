@@ -30,11 +30,9 @@ public class RockCrawlers : MonoBehaviour
 
     void OnCollisionEnter(Collision col)
     {
-        Debug.Log("Here\n");
 
         if (col.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Here\n");
             Damage();
         }
     }
