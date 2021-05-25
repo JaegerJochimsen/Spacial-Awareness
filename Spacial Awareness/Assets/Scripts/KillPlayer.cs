@@ -59,8 +59,8 @@ public class KillPlayer : MonoBehaviour
     {
         MovePlayer playerBod = player.GetComponent<MovePlayer>();
 
-        // if we're shielding, negate damage and consume charge
-        if (playerBod.shielding) 
+        // if we're shielding, negate damage and consume charge (disregard if the damage we are taking is due to jet-pack usage)
+        if (playerBod.shielding && !playerBod.flying) 
         { 
             playerBod.ReduceShieldCharge(1);
             return;

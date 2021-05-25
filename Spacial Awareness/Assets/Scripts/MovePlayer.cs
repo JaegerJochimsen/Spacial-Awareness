@@ -45,7 +45,7 @@ public class MovePlayer : MonoBehaviour
     // JetPack variables
     public ParticleSystem JetParticles;
     float jetForce = 2f;
-    bool flying = false;
+    public bool flying = false;
     // End JetPack variables
 
     [Header("Shield Variables")]
