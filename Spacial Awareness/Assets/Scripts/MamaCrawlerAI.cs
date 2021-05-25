@@ -16,7 +16,7 @@ public class MamaCrawlerAI : MonoBehaviour
     private float speedChange;
 
     public float speed;
-    public Collider head;
+    private Collider head;
 
 
     // Start is called before the first frame update
