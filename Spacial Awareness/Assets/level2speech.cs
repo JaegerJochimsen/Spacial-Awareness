@@ -32,7 +32,7 @@ public class level2speech : MonoBehaviour
         }
         else if (col.gameObject.CompareTag("MoreLava"))
         {
-            myText.text = "More Lava?! Hopefully thats an oxygen fillup on the other side";
+            myText.text = "Let's get the battery from the chasm and head up to the portal!";
         }
     }
 
