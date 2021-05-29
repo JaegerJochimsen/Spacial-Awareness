@@ -24,7 +24,6 @@ public class MoveScene : MonoBehaviour
 
             if (in_level)
             {
-                Debug.Log("123");
                 score_script.setHighScore();
             }
 

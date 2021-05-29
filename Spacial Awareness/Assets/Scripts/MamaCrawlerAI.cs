@@ -31,10 +31,6 @@ public class MamaCrawlerAI : MonoBehaviour
 
     void FixedUpdate()
     {
-     
-        // Still not perfect
-        Vector3 target = new Vector3(transform.position.x, player.transform.position.y, player.transform.position.z);
-        transform.LookAt(target);
 
         playerPos = GameObject.Find("Stylized Astronaut").transform.position;
 
@@ -42,15 +38,15 @@ public class MamaCrawlerAI : MonoBehaviour
         {
             Kill();
         }
-        
+
         Vector3 CrawlerPos = transform.position;
         CrawlerPos -= playerPos;
+        CrawlerPos.z = 0;
 
-        Set_Speed();
-
-        // Zero out all the momentum for the enemy
         body.velocity = Vector3.zero;
         body.angularVelocity = Vector3.zero;
+
+        Set_Speed();
 
         body.AddForce(CrawlerPos * speed * -1f * speedChange, ForceMode.Impulse);
     }
@@ -87,11 +83,11 @@ public class MamaCrawlerAI : MonoBehaviour
     {
         if (player.transform.position.y >= 270)
         {
-            speedChange = 1.3f;
+            speedChange = 2f;
         }
         else if (player.transform.position.y >= 145)
         {
-            speedChange = 1.15f;
+            speedChange = 1.7f;
         }
         else
         {
