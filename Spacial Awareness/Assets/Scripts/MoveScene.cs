@@ -17,12 +17,14 @@ public class MoveScene : MonoBehaviour
             // Save high score if needed
             HighScore score_script = GameObject.Find("Canvas/Score_prefab").GetComponent<HighScore>();
 
+           
             // Check we are in a level; ie not in the menu or ending scene
             bool in_level = score_script.highScoreKey == "L1" || score_script.highScoreKey == "L2" ||
                             score_script.highScoreKey == "L3";
 
             if (in_level)
             {
+                Debug.Log("123");
                 score_script.setHighScore();
             }
 

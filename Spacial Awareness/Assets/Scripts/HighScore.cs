@@ -46,9 +46,16 @@ public class HighScore : MonoBehaviour
 
     public void setHighScore()
     {
+        // If there is no highscore it will default to zero and
+        // the cond will never trigger
+        if (highScore == 0)
+        {
+            highScore = Mathf.Infinity;
+        }
+
         if (score < highScore)
         {
-            Debug.Log("here");
+            
             score = Mathf.Round(score * 100.0f) / 100.0f;
             PlayerPrefs.SetFloat(highScoreKey, score);
             PlayerPrefs.Save();
