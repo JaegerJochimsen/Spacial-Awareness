@@ -48,6 +48,10 @@ public class MovePlayer : MonoBehaviour
     public bool flying = false;
     // End JetPack variables
 
+    // Shield health bar variables
+    public HealthBar shieldBar;
+    int shieldHits = 0;
+
     [Header("Shield Variables")]
     // Shield variables
     public GameObject ForceField;
@@ -282,9 +286,11 @@ public class MovePlayer : MonoBehaviour
      * :calls: n/a
      * :called by: KillPlayer.TakeDamage()
      */
+
     public void ReduceShieldCharge(int reduction)
     {
         shieldCharge -= reduction*Time.deltaTime*50;
+        shieldBar.SetHealth(shieldCharge);
     }
 
     /* MoveAndLook():

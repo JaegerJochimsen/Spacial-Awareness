@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class KillPlayer : MonoBehaviour
 {
+
     // Oxigen/Health Level
     public int maxHealth = 100;
     public float currentHealth;
@@ -58,6 +60,7 @@ public class KillPlayer : MonoBehaviour
     public void TakeDamage(float damage)
     {
         MovePlayer playerBod = player.GetComponent<MovePlayer>();
+
 
         // if we're shielding, negate damage and consume charge (disregard if the damage we are taking is due to jet-pack usage)
         if (playerBod.shielding && !playerBod.flying) 
