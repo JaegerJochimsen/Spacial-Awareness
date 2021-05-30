@@ -9,6 +9,7 @@ public class FlashImage : MonoBehaviour
     public bool wantFlashOut = false;
     Image _image = null;
     Coroutine _currentFlashRoutine = null;
+    public Color32 color = new Color32(0, 0, 0, 0);
 
     private void Awake()
     {
@@ -59,7 +60,8 @@ public class FlashImage : MonoBehaviour
             }
 
             // ensure alpha is set to 0
-            _image.color = new Color32(0, 0, 0, 0); // color32 allows for alpha value
+            _image.color = color; 
+            //_image.color = new Color32(0, 0, 0, 0); // color32 allows for alpha value
         }
     }
 }

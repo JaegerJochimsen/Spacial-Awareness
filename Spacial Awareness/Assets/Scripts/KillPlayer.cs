@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class KillPlayer : MonoBehaviour
 {
+    //vars for flash when hit
+    [SerializeField] FlashImage _flashImage = null;
+
 
     // Oxigen/Health Level
     public int maxHealth = 100;
@@ -37,6 +40,7 @@ public class KillPlayer : MonoBehaviour
         if (health < 1f)
         {
             // Call the EndGame method to end the game when health is out
+
             FindObjectOfType<GameManager>().EndGame();
         }
 
@@ -49,22 +53,22 @@ public class KillPlayer : MonoBehaviour
         //}
     }
 
-        /* TakeDamage():
-     * :description: apply damage to player O2 level. Update O2/Health bar.
-     * :param: float damage: the amount to reduce player's health by.
-     * :dependency: n/a
-     * 
-     * :calls: n/a
-     * :called by: Update(), JetPack().
-     */
+    /* TakeDamage():
+ * :description: apply damage to player O2 level. Update O2/Health bar.
+ * :param: float damage: the amount to reduce player's health by.
+ * :dependency: n/a
+ * 
+ * :calls: n/a
+ * :called by: Update(), JetPack().
+ */
     public void TakeDamage(float damage)
     {
         MovePlayer playerBod = player.GetComponent<MovePlayer>();
 
 
         // if we're shielding, negate damage and consume charge (disregard if the damage we are taking is due to jet-pack usage)
-        if (playerBod.shielding && !playerBod.flying) 
-        { 
+        if (playerBod.shielding && !playerBod.flying)
+        {
             playerBod.ReduceShieldCharge(1);
             return;
         }
@@ -73,6 +77,9 @@ public class KillPlayer : MonoBehaviour
             currentHealth -= damage;
         }
 
+        if (!playerBod.flying) {
+        _flashImage.StartFlash(.25f, 1f, Color.red);
+        }
         healthBar.SetHealth((int)currentHealth);
     }
 }
