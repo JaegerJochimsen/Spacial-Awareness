@@ -19,11 +19,10 @@ public class KillPlayer : MonoBehaviour
     // End health Variables
     //private float timeStart = 0;
 
-    public PostProcessVolume postFXVol; // assign this to your post processing volume in the inspector
-    public float init_saturation; // placeholder to cache the default settings so you can return to them
-
-    // Used to kill the player if he falls off the world
-    //MovePlayer player = GameObject.Find("Stylized Astronaut").GetComponent<MovePlayer>();
+    [Header("PostProcessingVars")]
+    public PostProcessVolume postFXVol; 
+    public float init_saturation;
+    // End Post Process Vars
 
     // Start is called before the first frame update
     void Start()
@@ -31,8 +30,7 @@ public class KillPlayer : MonoBehaviour
         // Health start
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
-
-        //postFXVol.profile.com
+        SetColorGrading(init_saturation);
     }
 
     // Update is called once per frame
@@ -50,15 +48,7 @@ public class KillPlayer : MonoBehaviour
             FindObjectOfType<GameManager>().EndGame();
         }
 
-        // Update player visual
-        SetColorGrading(currentHealth);
-        // We don't need this code because the player can't fall off the map
 
-        // Check for if the player fell off the map and call EndGame if he has
-        //if (player.body.position.y < -1f)
-        //{
-        //  FindObjectOfType<GameManager>().EndGame();
-        //}
     }
 
     /* TakeDamage():
@@ -68,6 +58,8 @@ public class KillPlayer : MonoBehaviour
  * 
  * :calls: n/a
  * :called by: Update(), JetPack().
+ * 
+ * :Credit: Jared Knofczynski
  */
     public void TakeDamage(float damage)
     {
@@ -87,17 +79,29 @@ public class KillPlayer : MonoBehaviour
 
         if (!playerBod.flying) {
         _flashImage.StartFlash(.25f, 1f, Color.red);
+
+        // Update player visual based on O2 levels (want value to be -100 when player health is 0)
+        // Also we don't want to wash out the visuals if we use the jet pack, only when we take other damage
+        SetColorGrading(currentHealth - 100f + init_saturation);
         }
 
         // Update player health
         healthBar.SetHealth((int)currentHealth);
     }
 
+    /* SetColorGrading():
+     * :description: set's the post processing saturation based on player O2 levels.
+     * :param: the saturation level as a float [-100,100]
+     * 
+     * :calls: N/a
+     * :called by: Update()
+     */
     void SetColorGrading(float saturation)
-    { // simple function to set the film grain intensity; call this from your Update loop or wherever you'd like
-        if (postFXVol.TryGetComponent<ColorGrading>(out var colGrad))
+    { 
+        if (postFXVol.profile.TryGetSettings(out ColorGrading colGrad))
         {
             colGrad.saturation.value = saturation;
         }
     }
 }
+
