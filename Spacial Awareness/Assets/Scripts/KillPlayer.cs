@@ -32,7 +32,7 @@ public class KillPlayer : MonoBehaviour
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
 
-        postFXVol.profile.com
+        //postFXVol.profile.com
     }
 
     // Update is called once per frame
