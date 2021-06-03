@@ -77,7 +77,7 @@ public class KillPlayer : MonoBehaviour
             currentHealth -= damage;
         }
 
-        if (!playerBod.flying) {
+        if (!playerBod.flying && damage > 0) {
         _flashImage.StartFlash(.25f, 1f, Color.red);
 
         // Update player visual based on O2 levels (want value to be -100 when player health is 0)
