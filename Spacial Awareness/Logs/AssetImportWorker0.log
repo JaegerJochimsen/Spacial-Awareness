@@ -1,0 +1,366 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1023; Version 2009; 64bit' Language: 'en' Physical Memory: 16301 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jdpau/OneDrive/Desktop/Spacial-Awareness/Spacial Awareness
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59765
+Successfully changed project path to: C:/Users/jdpau/OneDrive/Desktop/Spacial-Awareness/Spacial Awareness
+C:/Users/jdpau/OneDrive/Desktop/Spacial-Awareness/Spacial Awareness
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 68.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jdpau/OneDrive/Desktop/Spacial-Awareness/Spacial Awareness/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6054 MB
+    Driver:   27.21.14.6192
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003966 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 76.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.281 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3196.
+Total: 3.472800 ms (FindLiveObjects: 0.738100 ms CreateObjectMapping: 0.409000 ms MarkObjects: 2.153900 ms  DeleteObjects: 0.170700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/LavaPlant/Meshes/Rocks_01b.fbx
+  artifactKey: Guid(becde446aff1afd47be2f32209a3be58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/Rocks_01b.fbx using Guid(becde446aff1afd47be2f32209a3be58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3c18c519c8074d5fd96536d2f8c81a') in 0.243732 seconds
+  Import took 0.251204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Fruit_01c.fbx
+  artifactKey: Guid(41d8439ab560bf14b9db4ffc0e0ca637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Fruit_01c.fbx using Guid(41d8439ab560bf14b9db4ffc0e0ca637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86a73823ec19e16cf916f28e514f2ce') in 0.039603 seconds
+  Import took 0.047938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Clif_01c.fbx
+  artifactKey: Guid(c97fe58f64015a4419356d82019eb336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Clif_01c.fbx using Guid(c97fe58f64015a4419356d82019eb336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6328a45625bf284b326509425a9a6d') in 0.047329 seconds
+  Import took 0.057117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000772 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Clif_01b.fbx
+  artifactKey: Guid(38a508839fd74d74eb171c31a4a7e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Clif_01b.fbx using Guid(38a508839fd74d74eb171c31a4a7e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab98e7b9d8e0f865aaf12db9dac5411') in 0.040444 seconds
+  Import took 0.050912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/LavaPlant/Meshes/Rocks_01a.fbx
+  artifactKey: Guid(58560f56c694fde478ac5ff42c1d4dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/Rocks_01a.fbx using Guid(58560f56c694fde478ac5ff42c1d4dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5377df1d0f558804831bbf924f11b609') in 0.047574 seconds
+  Import took 0.057459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Plant_01c.fbx
+  artifactKey: Guid(64eead7f0ab7dc141bea9578a4156bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Plant_01c.fbx using Guid(64eead7f0ab7dc141bea9578a4156bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1277cf902f004a07e588684b95a64f') in 0.029246 seconds
+  Import took 0.043410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Level1Props/Gameella/Texture/New_Sci_fi_barrel_MetallicSmoothness.png
+  artifactKey: Guid(3166c0e642c531e44a65b2f6243697c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Gameella/Texture/New_Sci_fi_barrel_MetallicSmoothness.png using Guid(3166c0e642c531e44a65b2f6243697c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53834b804581d4bc65808d615522c7b5') in 0.073733 seconds
+  Import took 0.080294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Puddle_01a.fbx
+  artifactKey: Guid(1cec3a7cbba29d540beedae4edb3958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Puddle_01a.fbx using Guid(1cec3a7cbba29d540beedae4edb3958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc9c16f0cb564100c8253bfee133653') in 0.042122 seconds
+  Import took 0.051515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Materials/Button1.1.mat
+  artifactKey: Guid(bc6a24d49bc6c134c83db6b027128995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Button1.1.mat using Guid(bc6a24d49bc6c134c83db6b027128995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8905f096a22a2692ed617652df4c0c28') in 0.028843 seconds
+  Import took 0.036891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Rocket/SpatialAwareness-Level2Landscape.blend
+  artifactKey: Guid(be3890ad946067f4e93819c4e6a405c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocket/SpatialAwareness-Level2Landscape.blend using Guid(be3890ad946067f4e93819c4e6a405c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5417a6ee62aebea9b84babbe736b6b') in 0.156162 seconds
+  Import took 0.162207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Fruit_01b.fbx
+  artifactKey: Guid(e095e57bf6dd14e49be2112e23c5b791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Fruit_01b.fbx using Guid(e095e57bf6dd14e49be2112e23c5b791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a27456058e87a680d77a2d73465b362') in 0.030752 seconds
+  Import took 0.039852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Plant_01a.fbx
+  artifactKey: Guid(837a7eab4e2359e4ea384db3da30638c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Plant_01a.fbx using Guid(837a7eab4e2359e4ea384db3da30638c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf332112b22d26149b4b57fae50a4991') in 0.047240 seconds
+  Import took 0.054518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Clif_01d.fbx
+  artifactKey: Guid(12c4255785e41df419d9053801061cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Clif_01d.fbx using Guid(12c4255785e41df419d9053801061cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a311981cdbc84f452e5e6aa6a0b0bcd') in 0.031505 seconds
+  Import took 0.041841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Rocket/SpatialAwareness--TutorialRocket.blend
+  artifactKey: Guid(6946e84f7db051a4bbfbb84d02fbee5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocket/SpatialAwareness--TutorialRocket.blend using Guid(6946e84f7db051a4bbfbb84d02fbee5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb547692b0ab58a8dfca8b34fa519c0') in 0.100176 seconds
+  Import took 0.106206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/LavaPlant/Meshes/Rocks_01c.fbx
+  artifactKey: Guid(c9f229390f373e048a5ebc1aaea6568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/Rocks_01c.fbx using Guid(c9f229390f373e048a5ebc1aaea6568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a06ecc1ecc403ed14ce9cb51a22f5ec') in 0.042545 seconds
+  Import took 0.048756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Fruit_01d.fbx
+  artifactKey: Guid(bfea2b6d47be7034db145216216729ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Fruit_01d.fbx using Guid(bfea2b6d47be7034db145216216729ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343163c90721011461fabb2a69b27fad') in 0.042762 seconds
+  Import took 0.051240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/LavaPlant/Meshes/Rocks_01d.fbx
+  artifactKey: Guid(9e20ab261cbee2040be9c0334a35053f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/Rocks_01d.fbx using Guid(9e20ab261cbee2040be9c0334a35053f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c00d543d689ee987f2a200febae397d') in 0.042699 seconds
+  Import took 0.052761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Puddle_01b.fbx
+  artifactKey: Guid(6a00f3128e8a1a5418263ff039783611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Puddle_01b.fbx using Guid(6a00f3128e8a1a5418263ff039783611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80da5e11691e137163d30a48e66007be') in 0.039957 seconds
+  Import took 0.046096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Level1Props/Gameella/Texture/Used_Sci fi barrel_MetallicSmoothness.png
+  artifactKey: Guid(b3513414a8f73b4419fbc613d3fe7186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/Gameella/Texture/Used_Sci fi barrel_MetallicSmoothness.png using Guid(b3513414a8f73b4419fbc613d3fe7186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4641a8f12b3a998d10e5cb0c05e03c6') in 0.020580 seconds
+  Import took 0.030082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Plant_01e.fbx
+  artifactKey: Guid(3a8e1caeca5040147a1bf0356632d82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Plant_01e.fbx using Guid(3a8e1caeca5040147a1bf0356632d82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558e2508f4319a24235a0aafa9da211b') in 0.032808 seconds
+  Import took 0.045204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Plant_01b.fbx
+  artifactKey: Guid(f31cbe69df46fe4479954bfa8907357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Plant_01b.fbx using Guid(f31cbe69df46fe4479954bfa8907357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd752b8bfde0a4570b7367a8323da80cb') in 0.033600 seconds
+  Import took 0.048762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Puddle_01c.fbx
+  artifactKey: Guid(9e79408fc5f6ec04caa4ce46f3d5baa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Puddle_01c.fbx using Guid(9e79408fc5f6ec04caa4ce46f3d5baa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2b0e3ca4de8d97d824acab81d1abf7') in 0.041995 seconds
+  Import took 0.050398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Fruit.fbx
+  artifactKey: Guid(abcae684faccb174897c79956dbed09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Fruit.fbx using Guid(abcae684faccb174897c79956dbed09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7406fe3bb554b4b3e3532a04dcaa6b9') in 0.030030 seconds
+  Import took 0.039860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Plant_01d.fbx
+  artifactKey: Guid(5f382bd364971194d97219e1795a1c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Plant_01d.fbx using Guid(5f382bd364971194d97219e1795a1c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b249c77a3cdda2404be8af4af56cbcf') in 0.048019 seconds
+  Import took 0.058669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Rocket/SpatialAwareness--Level2Rocket.blend
+  artifactKey: Guid(a4958263a554279459c1bb9d0ea92626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocket/SpatialAwareness--Level2Rocket.blend using Guid(a4958263a554279459c1bb9d0ea92626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6768ec9561050d5c1c324ef749389e4c') in 0.095566 seconds
+  Import took 0.103074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Clif_01a.fbx
+  artifactKey: Guid(e609ceaa00522c94081187a1b02c2340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Clif_01a.fbx using Guid(e609ceaa00522c94081187a1b02c2340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db770c87c983d3245344bc284d7650b') in 0.044055 seconds
+  Import took 0.050752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Level1Props/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Textures/CrateMetallicSmoothness.png
+  artifactKey: Guid(86028f18a9cbbaa4493f68c66e7cf960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1Props/SlashAssetStash/SciFiCrateLowPolyFree[URP]/Textures/CrateMetallicSmoothness.png using Guid(86028f18a9cbbaa4493f68c66e7cf960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf1e98b857a87a6e4f804ee87644243') in 0.091744 seconds
+  Import took 0.099593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/LavaPlant/Meshes/EA_Fruit_01a.fbx
+  artifactKey: Guid(8adffc712aae50a4994e4a779e59a2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LavaPlant/Meshes/EA_Fruit_01a.fbx using Guid(8adffc712aae50a4994e4a779e59a2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d4c876bd4aa42c537b29be2f021778') in 0.038553 seconds
+  Import took 0.046052 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002632 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.4 MB.
+System memory in use after: 127.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3244.
+Total: 3.339400 ms (FindLiveObjects: 0.605800 ms CreateObjectMapping: 0.253800 ms MarkObjects: 2.438300 ms  DeleteObjects: 0.040100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.519 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 127.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3247.
+Total: 10.671500 ms (FindLiveObjects: 0.397600 ms CreateObjectMapping: 0.233600 ms MarkObjects: 9.985700 ms  DeleteObjects: 0.052100 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.8 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3247.
+Total: 4.125400 ms (FindLiveObjects: 0.700300 ms CreateObjectMapping: 0.356100 ms MarkObjects: 3.040100 ms  DeleteObjects: 0.026000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
