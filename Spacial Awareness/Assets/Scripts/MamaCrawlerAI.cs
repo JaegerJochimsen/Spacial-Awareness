@@ -72,10 +72,10 @@ public class MamaCrawlerAI : MonoBehaviour
     // Call the interface for doing damage to the player from KillPlayer.cs 
     void Kill()
     {
-        
-        KillPlayer health = player.GetComponent<KillPlayer>();
-        health.TakeDamage(100000000f);
-        
+
+        // KillPlayer health = player.GetComponent<KillPlayer>();
+        //health.TakeDamage(410f);
+        FindObjectOfType<GameManager>().EndGame();
     }
 
     // Change the speed of the crawler based on the postion of the player
